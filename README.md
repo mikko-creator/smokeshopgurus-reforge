@@ -27,10 +27,11 @@ Both exist because the first link was shared before the second was made, and a
 link that has been shared should not stop working. They are verified identical:
 byte-for-byte against `dist/` and pixel-for-pixel at 1440 and 390.
 
-Both repositories are public. [](https://github.com/mikko-creator/smokeshopgurus-preview)
-carries nothing but the built site, which is the smaller thing to hand to someone
-who only needs to look at the work; this one carries the sources, the tooling, the
-audit trail and the change log as well.
+Both repositories are public.
+[`smokeshopgurus-preview`](https://github.com/mikko-creator/smokeshopgurus-preview)
+carries nothing but the built site, which is the smaller thing to hand to someone who
+only needs to look at the work; this one carries the sources, the tooling, the audit
+trail and the change log as well.
 
 Re-publish the preview after a rebuild:
 
