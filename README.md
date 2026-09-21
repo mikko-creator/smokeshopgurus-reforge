@@ -18,16 +18,26 @@ node tools/serve.mjs          # http://127.0.0.1:8788
 builtins only — no package manager, no dependencies, and it resolves bare paths to
 `index.html` the way a real host will.
 
-**Hosted preview.** A `gh-pages` branch is built and pushed, holding `dist/` at its
-root. GitHub Pages is not serving it yet: Pages on a **private** repository requires a
-paid plan, and turning it on means making this repository **public** — which puts the
-client's copy, product photography and legal text on the open internet. That is a
-decision for the owner, not a build step.
+**Hosted preview:** https://mikko-creator.github.io/smokeshopgurus-preview/
 
-If it is turned on, the preview already carries a `robots.txt` that disallows
-everything. This is a copy of a live store, and an indexable duplicate would compete
-with the client's own site in search. `dist/robots.txt` — the one that actually ships
-— is the real one and allows crawling as it should.
+That link is served from a **separate public repository**,
+[`smokeshopgurus-preview`](https://github.com/mikko-creator/smokeshopgurus-preview),
+which holds nothing but the built site. **This** repository — the sources, the build
+tooling, the audit trail and the change log — stays private, so the public surface is
+the work itself and not everything that went into it.
+
+Re-publish the preview after a rebuild:
+
+```bash
+node tools/build.mjs
+# then copy dist/ into a clone of smokeshopgurus-preview, keeping its
+# robots.txt and .nojekyll, and push
+```
+
+The preview carries a `robots.txt` that disallows everything: it is a copy of a live
+store, and an indexable duplicate would compete with the client's own site in search.
+`dist/robots.txt` — the one that actually ships — is the real one and allows crawling
+as it should.
 
 ---
 
