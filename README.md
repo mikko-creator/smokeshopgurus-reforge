@@ -4,11 +4,30 @@ A reconstruction of `smokeshopgurus.com` as 141 static pages with no Shopify run
 plus a commissioned redesign: gun-metal skeuomorphism, glass, and a drifting smoke
 field.
 
-**Live preview:** see the Pages link in the repository's About panel.
+## Preview it
 
-> The preview serves a `robots.txt` that disallows everything. It is a copy of a
-> live store, and an indexable duplicate would compete with the client's own site
-> in search. The `robots.txt` in `dist/` — the one that ships — is the real one.
+**From a clone — no build, nothing to install:**
+
+```bash
+git clone https://github.com/mikko-creator/smokeshopgurus-reforge.git
+cd smokeshopgurus-reforge
+node tools/serve.mjs          # http://127.0.0.1:8788
+```
+
+`dist/` is committed, so that serves the real thing immediately. The server is Node
+builtins only — no package manager, no dependencies, and it resolves bare paths to
+`index.html` the way a real host will.
+
+**Hosted preview.** A `gh-pages` branch is built and pushed, holding `dist/` at its
+root. GitHub Pages is not serving it yet: Pages on a **private** repository requires a
+paid plan, and turning it on means making this repository **public** — which puts the
+client's copy, product photography and legal text on the open internet. That is a
+decision for the owner, not a build step.
+
+If it is turned on, the preview already carries a `robots.txt` that disallows
+everything. This is a copy of a live store, and an indexable duplicate would compete
+with the client's own site in search. `dist/robots.txt` — the one that actually ships
+— is the real one and allows crawling as it should.
 
 ---
 
