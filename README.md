@@ -18,13 +18,19 @@ node tools/serve.mjs          # http://127.0.0.1:8788
 builtins only — no package manager, no dependencies, and it resolves bare paths to
 `index.html` the way a real host will.
 
-**Hosted preview:** https://mikko-creator.github.io/smokeshopgurus-preview/
+**Hosted preview** — the same build, served from two URLs:
 
-That link is served from a **separate public repository**,
-[`smokeshopgurus-preview`](https://github.com/mikko-creator/smokeshopgurus-preview),
-which holds nothing but the built site. **This** repository — the sources, the build
-tooling, the audit trail and the change log — stays private, so the public surface is
-the work itself and not everything that went into it.
+- https://mikko-creator.github.io/smokeshopgurus-reforge/ — from this repo's `gh-pages` branch
+- https://mikko-creator.github.io/smokeshopgurus-preview/ — from a repo holding only the built site
+
+Both exist because the first link was shared before the second was made, and a
+link that has been shared should not stop working. They are verified identical:
+byte-for-byte against `dist/` and pixel-for-pixel at 1440 and 390.
+
+Both repositories are public. [](https://github.com/mikko-creator/smokeshopgurus-preview)
+carries nothing but the built site, which is the smaller thing to hand to someone
+who only needs to look at the work; this one carries the sources, the tooling, the
+audit trail and the change log as well.
 
 Re-publish the preview after a rebuild:
 
