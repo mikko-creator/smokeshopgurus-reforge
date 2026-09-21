@@ -1,0 +1,5414 @@
+{
+  "schema": "site-reforge/seo-report@1",
+  "generated": "2026-09-21T16:11:10.963Z",
+  "origin": "https://smokeshopgurus.com",
+  "buildDir": "dist",
+  "siteUrl": "https://smokeshopgurus.com",
+  "mode": "standing (clone served elsewhere)",
+  "limits": {
+    "titleMax": 60,
+    "titleMin": 15,
+    "descMax": 160,
+    "descMin": 50
+  },
+  "pages": 150,
+  "emitted": {
+    "wrote": [
+      {
+        "file": "robots.txt",
+        "from": "source robots.txt, Sitemap: lines dropped",
+        "droppedRules": [
+          "Allow: /",
+          "Allow: /products/account",
+          "Allow: /products/orders",
+          "Allow: /products/checkout",
+          "Allow: /*/products/account",
+          "Allow: /*/products/orders",
+          "Allow: /*/products/checkout",
+          "Allow: /collections/account",
+          "Allow: /collections/orders",
+          "Allow: /collections/checkout",
+          "Allow: /*/collections/account",
+          "Allow: /*/collections/orders",
+          "Allow: /*/collections/checkout",
+          "Allow: /pages/checkout",
+          "Allow: /*/pages/checkout",
+          "Allow: /blogs/*account",
+          "Allow: /blogs/*orders",
+          "Allow: /blogs/*checkout",
+          "Allow: /*/blogs/*account",
+          "Allow: /*/blogs/*orders",
+          "Allow: /*/blogs/*checkout",
+          "Disallow: /admin",
+          "Disallow: /*/cart/",
+          "Disallow: /checkout",
+          "Disallow: /*/checkout",
+          "Disallow: /checkouts/",
+          "Disallow: /*/checkouts/",
+          "Disallow: /orders",
+          "Disallow: /*/orders",
+          "Allow: /account/login",
+          "Allow: /*/account/login",
+          "Disallow: /account",
+          "Disallow: /*/account",
+          "Disallow: /64110264431",
+          "Disallow: /cdn/wpm/*.js",
+          "Disallow: /services",
+          "Disallow: /sf_*",
+          "Disallow: /cart.js",
+          "Disallow: /*/cart.js",
+          "Disallow: /recommendations/products",
+          "Disallow: /*/recommendations/products",
+          "Disallow: /collections/*sort_by*",
+          "Disallow: /*/collections/*sort_by*",
+          "Disallow: /collections/*+*",
+          "Disallow: /collections/*%2B*",
+          "Disallow: /collections/*%2b*",
+          "Disallow: /*/collections/*+*",
+          "Disallow: /*/collections/*%2B*",
+          "Disallow: /*/collections/*%2b*",
+          "Disallow: /collections/*filter*&*filter*",
+          "Disallow: /*/collections/*filter*&*filter*",
+          "Disallow: /blogs/*+*",
+          "Disallow: /blogs/*%2B*",
+          "Disallow: /blogs/*%2b*",
+          "Disallow: /*/blogs/*+*",
+          "Disallow: /*/blogs/*%2B*",
+          "Disallow: /*/blogs/*%2b*",
+          "Disallow: /*?*ls=*&ls=*",
+          "Disallow: /*?*ls%3*ls%3*",
+          "Disallow: /*?*oseid=*",
+          "Disallow: /*?*preview_theme_id=*",
+          "Disallow: /*?*preview_script_id=*",
+          "Allow: /*/products/",
+          "Allow: /*/collections/",
+          "Allow: /*/pages/",
+          "Allow: /*/blogs/",
+          "Allow: /pages/checkout",
+          "Allow: /*/pages/checkout",
+          "Allow: /blogs/*checkout",
+          "Allow: /*/blogs/*checkout",
+          "Disallow: /checkout",
+          "Disallow: /*/checkout",
+          "Disallow: /checkouts/",
+          "Disallow: /*/checkouts/",
+          "Disallow: /orders",
+          "Disallow: /*/orders",
+          "Disallow: /services",
+          "Disallow: /sf_*",
+          "Disallow: /64110264431",
+          "Disallow: /cdn/wpm/*.js"
+        ]
+      },
+      {
+        "file": "robots.txt",
+        "from": "rule dropped, path not served here: Allow: / · Allow: /products/account · Allow: /products/orders · Allow: /products/checkout · Allow: /*/products/account · Allow: /*/products/orders · Allow: /*/products/checkout · Allow: /collections/account · Allow: /collections/orders · Allow: /collections/checkout · Allow: /*/collections/account · Allow: /*/collections/orders · Allow: /*/collections/checkout · Allow: /pages/checkout · Allow: /*/pages/checkout · Allow: /blogs/*account · Allow: /blogs/*orders · Allow: /blogs/*checkout · Allow: /*/blogs/*account · Allow: /*/blogs/*orders · Allow: /*/blogs/*checkout · Disallow: /admin · Disallow: /*/cart/ · Disallow: /checkout · Disallow: /*/checkout · Disallow: /checkouts/ · Disallow: /*/checkouts/ · Disallow: /orders · Disallow: /*/orders · Allow: /account/login · Allow: /*/account/login · Disallow: /account · Disallow: /*/account · Disallow: /64110264431 · Disallow: /cdn/wpm/*.js · Disallow: /services · Disallow: /sf_* · Disallow: /cart.js · Disallow: /*/cart.js · Disallow: /recommendations/products · Disallow: /*/recommendations/products · Disallow: /collections/*sort_by* · Disallow: /*/collections/*sort_by* · Disallow: /collections/*+* · Disallow: /collections/*%2B* · Disallow: /collections/*%2b* · Disallow: /*/collections/*+* · Disallow: /*/collections/*%2B* · Disallow: /*/collections/*%2b* · Disallow: /collections/*filter*&*filter* · Disallow: /*/collections/*filter*&*filter* · Disallow: /blogs/*+* · Disallow: /blogs/*%2B* · Disallow: /blogs/*%2b* · Disallow: /*/blogs/*+* · Disallow: /*/blogs/*%2B* · Disallow: /*/blogs/*%2b* · Disallow: /*?*ls=*&ls=* · Disallow: /*?*ls%3*ls%3* · Disallow: /*?*oseid=* · Disallow: /*?*preview_theme_id=* · Disallow: /*?*preview_script_id=* · Allow: /*/products/ · Allow: /*/collections/ · Allow: /*/pages/ · Allow: /*/blogs/ · Allow: /pages/checkout · Allow: /*/pages/checkout · Allow: /blogs/*checkout · Allow: /*/blogs/*checkout · Disallow: /checkout · Disallow: /*/checkout · Disallow: /checkouts/ · Disallow: /*/checkouts/ · Disallow: /orders · Disallow: /*/orders · Disallow: /services · Disallow: /sf_* · Disallow: /64110264431 · Disallow: /cdn/wpm/*.js"
+      },
+      {
+        "file": "sitemap.xml",
+        "from": "141 pages the build actually serves"
+      },
+      {
+        "file": "llms.txt",
+        "from": "141 pages"
+      }
+    ],
+    "skipped": [],
+    "pages": 141
+  },
+  "externalLinks": null,
+  "repaired": {
+    "pagesTouched": 141,
+    "fieldsWritten": 2245
+  },
+  "counts": {
+    "source": {
+      "blocker": 151,
+      "major": 300,
+      "minor": 300
+    },
+    "migration": {
+      "minor": 1
+    },
+    "byCode": {
+      "title-missing": 150,
+      "description-missing": 150,
+      "h1-missing": 1,
+      "schema-missing": 150,
+      "og-title-missing": 150,
+      "alt-missing": 150,
+      "redirects-absent": 1
+    }
+  },
+  "findings": {
+    "source": [
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "blocker",
+        "code": "h1-missing",
+        "page": "https://smokeshopgurus.com/",
+        "field": "h1",
+        "detail": "no H1 on the page"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/",
+        "field": "alt",
+        "detail": "4 of 27 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/blogs/news",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/blogs/news",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/blogs/news",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/blogs/news",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/blogs/news",
+        "field": "alt",
+        "detail": "1 of 2 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/accessories",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/accessories",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/accessories",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/accessories",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/accessories",
+        "field": "alt",
+        "detail": "2 of 32 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/accessories?page=1",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/accessories?page=1",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/accessories?page=1",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/accessories?page=1",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/accessories?page=1",
+        "field": "alt",
+        "detail": "2 of 32 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/accessories?page=2",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/accessories?page=2",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/accessories?page=2",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/accessories?page=2",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/accessories?page=2",
+        "field": "alt",
+        "detail": "2 of 18 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/all",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/all",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/all",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/all",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/all",
+        "field": "alt",
+        "detail": "2 of 27 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=1",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=1",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=1",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=1",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=1",
+        "field": "alt",
+        "detail": "2 of 27 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=2",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=2",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=2",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=2",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=2",
+        "field": "alt",
+        "detail": "2 of 25 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=3",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=3",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=3",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=3",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=3",
+        "field": "alt",
+        "detail": "2 of 33 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=4",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=4",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=4",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=4",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=4",
+        "field": "alt",
+        "detail": "2 of 23 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=5",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=5",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=5",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=5",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/all?page=5",
+        "field": "alt",
+        "detail": "2 of 5 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/best-seller",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/best-seller",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/best-seller",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/best-seller",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/best-seller",
+        "field": "alt",
+        "detail": "2 of 10 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/blunt-cone-wraps",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/blunt-cone-wraps",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/blunt-cone-wraps",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/blunt-cone-wraps",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/blunt-cone-wraps",
+        "field": "alt",
+        "detail": "2 of 5 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/blunt-wraps",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/blunt-wraps",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/blunt-wraps",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/blunt-wraps",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/blunt-wraps",
+        "field": "alt",
+        "detail": "2 of 5 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/blunt-wraps-1",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/blunt-wraps-1",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/blunt-wraps-1",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/blunt-wraps-1",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/blunt-wraps-1",
+        "field": "alt",
+        "detail": "2 of 5 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/bud-lighters",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/bud-lighters",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/bud-lighters",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/bud-lighters",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/bud-lighters",
+        "field": "alt",
+        "detail": "2 of 8 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/buds-grinders",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/buds-grinders",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/buds-grinders",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/buds-grinders",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/buds-grinders",
+        "field": "alt",
+        "detail": "2 of 8 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/bulk-lighters",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/bulk-lighters",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/bulk-lighters",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/bulk-lighters",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/bulk-lighters",
+        "field": "alt",
+        "detail": "2 of 12 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/bulk-pre-rolled-cones",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/bulk-pre-rolled-cones",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/bulk-pre-rolled-cones",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/bulk-pre-rolled-cones",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/bulk-pre-rolled-cones",
+        "field": "alt",
+        "detail": "2 of 14 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-dog-calming-treats",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-dog-calming-treats",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-dog-calming-treats",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-dog-calming-treats",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-dog-calming-treats",
+        "field": "alt",
+        "detail": "2 of 6 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-edibles",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-edibles",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-edibles",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-edibles",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-edibles",
+        "field": "alt",
+        "detail": "2 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-edibles-1",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-edibles-1",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-edibles-1",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-edibles-1",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-edibles-1",
+        "field": "alt",
+        "detail": "2 of 6 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-pet-treats",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-pet-treats",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-pet-treats",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-pet-treats",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/cbd-pet-treats",
+        "field": "alt",
+        "detail": "2 of 6 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/cone-rolling-supplies",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/cone-rolling-supplies",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/cone-rolling-supplies",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/cone-rolling-supplies",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/cone-rolling-supplies",
+        "field": "alt",
+        "detail": "2 of 16 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/disposable-vape-devices",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/disposable-vape-devices",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/disposable-vape-devices",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/disposable-vape-devices",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/disposable-vape-devices",
+        "field": "alt",
+        "detail": "2 of 6 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/disposable-vape-pens",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/disposable-vape-pens",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/disposable-vape-pens",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/disposable-vape-pens",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/disposable-vape-pens",
+        "field": "alt",
+        "detail": "2 of 6 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/functional-mushroom-products",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/functional-mushroom-products",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/functional-mushroom-products",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/functional-mushroom-products",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/functional-mushroom-products",
+        "field": "alt",
+        "detail": "2 of 6 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/functional-mushroom-products-copy",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/functional-mushroom-products-copy",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/functional-mushroom-products-copy",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/functional-mushroom-products-copy",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/functional-mushroom-products-copy",
+        "field": "alt",
+        "detail": "2 of 6 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-bangers",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-bangers",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-bangers",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-bangers",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-bangers",
+        "field": "alt",
+        "detail": "2 of 6 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-bongs",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-bongs",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-bongs",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-bongs",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-bongs",
+        "field": "alt",
+        "detail": "2 of 9 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-bongs-pipes",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-bongs-pipes",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-bongs-pipes",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-bongs-pipes",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-bongs-pipes",
+        "field": "alt",
+        "detail": "2 of 17 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-smoking-pipes",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-smoking-pipes",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-smoking-pipes",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-smoking-pipes",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/glass-smoking-pipes",
+        "field": "alt",
+        "detail": "2 of 6 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-rolling-papers",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-rolling-papers",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-rolling-papers",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-rolling-papers",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-rolling-papers",
+        "field": "alt",
+        "detail": "2 of 23 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-rolling-papers?page=1",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-rolling-papers?page=1",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-rolling-papers?page=1",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-rolling-papers?page=1",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-rolling-papers?page=1",
+        "field": "alt",
+        "detail": "2 of 23 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-rolling-papers?page=2",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-rolling-papers?page=2",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-rolling-papers?page=2",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-rolling-papers?page=2",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-rolling-papers?page=2",
+        "field": "alt",
+        "detail": "2 of 6 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-vape-pen",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-vape-pen",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-vape-pen",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-vape-pen",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/hemp-vape-pen",
+        "field": "alt",
+        "detail": "2 of 6 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/herb-storage-containers",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/herb-storage-containers",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/herb-storage-containers",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/herb-storage-containers",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/herb-storage-containers",
+        "field": "alt",
+        "detail": "2 of 10 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/king-size-cones",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/king-size-cones",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/king-size-cones",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/king-size-cones",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/king-size-cones",
+        "field": "alt",
+        "detail": "2 of 6 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/king-size-rolling-papers",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/king-size-rolling-papers",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/king-size-rolling-papers",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/king-size-rolling-papers",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/king-size-rolling-papers",
+        "field": "alt",
+        "detail": "2 of 9 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/kratom",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/kratom",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/kratom",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/kratom",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/kratom",
+        "field": "alt",
+        "detail": "2 of 3 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/mushroom-products",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/mushroom-products",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/mushroom-products",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/mushroom-products",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/mushroom-products",
+        "field": "alt",
+        "detail": "2 of 6 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/natural-leaf-blunts",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/natural-leaf-blunts",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/natural-leaf-blunts",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/natural-leaf-blunts",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/natural-leaf-blunts",
+        "field": "alt",
+        "detail": "2 of 5 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/nicotine-disposable-vape",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/nicotine-disposable-vape",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/nicotine-disposable-vape",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/nicotine-disposable-vape",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/nicotine-disposable-vape",
+        "field": "alt",
+        "detail": "2 of 6 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/odor-proof-bags",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/odor-proof-bags",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/odor-proof-bags",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/odor-proof-bags",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/odor-proof-bags",
+        "field": "alt",
+        "detail": "2 of 6 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/pre-roll-blunts",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/pre-roll-blunts",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/pre-roll-blunts",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/pre-roll-blunts",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/pre-roll-blunts",
+        "field": "alt",
+        "detail": "2 of 5 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/pre-rolled-cones",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/pre-rolled-cones",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/pre-rolled-cones",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/pre-rolled-cones",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/pre-rolled-cones",
+        "field": "alt",
+        "detail": "2 of 15 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/rolling-papers",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/rolling-papers",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/rolling-papers",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/rolling-papers",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/rolling-papers",
+        "field": "alt",
+        "detail": "2 of 11 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/skunk-bags",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/skunk-bags",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/skunk-bags",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/skunk-bags",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/skunk-bags",
+        "field": "alt",
+        "detail": "2 of 9 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/slow-burn-cones",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/slow-burn-cones",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/slow-burn-cones",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/slow-burn-cones",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/slow-burn-cones",
+        "field": "alt",
+        "detail": "2 of 5 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/smell-proof-stash-bags",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/smell-proof-stash-bags",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/smell-proof-stash-bags",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/smell-proof-stash-bags",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/smell-proof-stash-bags",
+        "field": "alt",
+        "detail": "2 of 6 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/smoking-accessories",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/smoking-accessories",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/smoking-accessories",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/smoking-accessories",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/smoking-accessories",
+        "field": "alt",
+        "detail": "2 of 23 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/smoking-accessories?page=1",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/smoking-accessories?page=1",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/smoking-accessories?page=1",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/smoking-accessories?page=1",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/smoking-accessories?page=1",
+        "field": "alt",
+        "detail": "2 of 23 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/smoking-accessories?page=2",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/smoking-accessories?page=2",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/smoking-accessories?page=2",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/smoking-accessories?page=2",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/smoking-accessories?page=2",
+        "field": "alt",
+        "detail": "2 of 9 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/tinctures",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/tinctures",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/tinctures",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/tinctures",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/tinctures",
+        "field": "alt",
+        "detail": "2 of 3 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/tobacco-smoking-accessories",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/tobacco-smoking-accessories",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/tobacco-smoking-accessories",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/tobacco-smoking-accessories",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/tobacco-smoking-accessories",
+        "field": "alt",
+        "detail": "2 of 21 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/topicals",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/topicals",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/topicals",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/topicals",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/topicals",
+        "field": "alt",
+        "detail": "2 of 3 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/torch-lighters",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/torch-lighters",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/torch-lighters",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/torch-lighters",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/torch-lighters",
+        "field": "alt",
+        "detail": "2 of 9 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/upsell",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/upsell",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/upsell",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/upsell",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/upsell",
+        "field": "alt",
+        "detail": "2 of 6 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/collections/wax-pens",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/collections/wax-pens",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/collections/wax-pens",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/collections/wax-pens",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/collections/wax-pens",
+        "field": "alt",
+        "detail": "2 of 13 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/pages/about",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/pages/about",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/pages/about",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/pages/about",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/pages/about",
+        "field": "alt",
+        "detail": "1 of 2 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/pages/contact",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/pages/contact",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/pages/contact",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/pages/contact",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/pages/contact",
+        "field": "alt",
+        "detail": "1 of 2 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/pages/data-sharing-opt-out",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/pages/data-sharing-opt-out",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/pages/data-sharing-opt-out",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/pages/data-sharing-opt-out",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/pages/data-sharing-opt-out",
+        "field": "alt",
+        "detail": "1 of 2 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/pages/faqs",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/pages/faqs",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/pages/faqs",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/pages/faqs",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/pages/faqs",
+        "field": "alt",
+        "detail": "1 of 2 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/pages/page-wishlist",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/pages/page-wishlist",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/pages/page-wishlist",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/pages/page-wishlist",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/pages/page-wishlist",
+        "field": "alt",
+        "detail": "1 of 2 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/pages/privacy-policy",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/pages/privacy-policy",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/pages/privacy-policy",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/pages/privacy-policy",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/pages/privacy-policy",
+        "field": "alt",
+        "detail": "1 of 2 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/pages/return-policy",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/pages/return-policy",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/pages/return-policy",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/pages/return-policy",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/pages/return-policy",
+        "field": "alt",
+        "detail": "1 of 2 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/pages/shipping-return-policy",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/pages/shipping-return-policy",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/pages/shipping-return-policy",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/pages/shipping-return-policy",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/pages/shipping-return-policy",
+        "field": "alt",
+        "detail": "1 of 2 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/pages/term-and-services",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/pages/term-and-services",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/pages/term-and-services",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/pages/term-and-services",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/pages/term-and-services",
+        "field": "alt",
+        "detail": "1 of 2 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-10-bubble-beaker",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-10-bubble-beaker",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-10-bubble-beaker",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-10-bubble-beaker",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-10-bubble-beaker",
+        "field": "alt",
+        "detail": "1 of 14 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-12-double-matrix",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-12-double-matrix",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-12-double-matrix",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-12-double-matrix",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-12-double-matrix",
+        "field": "alt",
+        "detail": "1 of 14 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-5-torch",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-5-torch",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-5-torch",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-5-torch",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-5-torch",
+        "field": "alt",
+        "detail": "2 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-6-torch",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-6-torch",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-6-torch",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-6-torch",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-6-torch",
+        "field": "alt",
+        "detail": "2 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-8-interstellar-box-rig-lavender-uv",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-8-interstellar-box-rig-lavender-uv",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-8-interstellar-box-rig-lavender-uv",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-8-interstellar-box-rig-lavender-uv",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-8-interstellar-box-rig-lavender-uv",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-8-nectar",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-8-nectar",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-8-nectar",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-8-nectar",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-8-nectar",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-glitter-glycerin-triangle-pipe",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-glitter-glycerin-triangle-pipe",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-glitter-glycerin-triangle-pipe",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-glitter-glycerin-triangle-pipe",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-glitter-glycerin-triangle-pipe",
+        "field": "alt",
+        "detail": "1 of 20 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-black",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-black",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-black",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-black",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-black",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-blue",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-blue",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-blue",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-blue",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-blue",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-green",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-green",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-green",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-green",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-green",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-purple",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-purple",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-purple",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-purple",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-purple",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-red",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-red",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-red",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-red",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-red",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-the-honeycomb-16-beaker",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-the-honeycomb-16-beaker",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-the-honeycomb-16-beaker",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-the-honeycomb-16-beaker",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/aleaf-the-honeycomb-16-beaker",
+        "field": "alt",
+        "detail": "1 of 14 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/bic-assorted-lighters-50pk",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/bic-assorted-lighters-50pk",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/bic-assorted-lighters-50pk",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/bic-assorted-lighters-50pk",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/bic-assorted-lighters-50pk",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/bic-assorted-lighters-50pk-3pk",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/bic-assorted-lighters-50pk-3pk",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/bic-assorted-lighters-50pk-3pk",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/bic-assorted-lighters-50pk-3pk",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/bic-assorted-lighters-50pk-3pk",
+        "field": "alt",
+        "detail": "2 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/bic-assorted-mini-lighters-50pk",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/bic-assorted-mini-lighters-50pk",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/bic-assorted-mini-lighters-50pk",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/bic-assorted-mini-lighters-50pk",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/bic-assorted-mini-lighters-50pk",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/blazy-susan-bulk-cones-pink-98mm",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/blazy-susan-bulk-cones-pink-98mm",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/blazy-susan-bulk-cones-pink-98mm",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/blazy-susan-bulk-cones-pink-98mm",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/blazy-susan-bulk-cones-pink-98mm",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/blazy-susan-bulk-cones-purple-98mm",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/blazy-susan-bulk-cones-purple-98mm",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/blazy-susan-bulk-cones-purple-98mm",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/blazy-susan-bulk-cones-purple-98mm",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/blazy-susan-bulk-cones-purple-98mm",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/blazy-susan-king-size-slim-purple-papers-50ct-box",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/blazy-susan-king-size-slim-purple-papers-50ct-box",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/blazy-susan-king-size-slim-purple-papers-50ct-box",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/blazy-susan-king-size-slim-purple-papers-50ct-box",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/blazy-susan-king-size-slim-purple-papers-50ct-box",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/cartisan-atom-510-battery-24pk-box",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/cartisan-atom-510-battery-24pk-box",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/cartisan-atom-510-battery-24pk-box",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/cartisan-atom-510-battery-24pk-box",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/cartisan-atom-510-battery-24pk-box",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/cartisan-pro-pen-neo-900-panther",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/cartisan-pro-pen-neo-900-panther",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/cartisan-pro-pen-neo-900-panther",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/cartisan-pro-pen-neo-900-panther",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/cartisan-pro-pen-neo-900-panther",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-original-cones-1",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-original-cones-1",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-original-cones-1",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-original-cones-1",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-original-cones-1",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-original-papers",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-original-papers",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-original-papers",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-original-papers",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-original-papers",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-pink-cones",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-pink-cones",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-pink-cones",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-pink-cones",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-pink-cones",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-ultra-thin-cones-6ct-30pk-case",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-ultra-thin-cones-6ct-30pk-case",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-ultra-thin-cones-6ct-30pk-case",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-ultra-thin-cones-6ct-30pk-case",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-ultra-thin-cones-6ct-30pk-case",
+        "field": "alt",
+        "detail": "2 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-ultra-thin-parpers-25ct-box-1",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-ultra-thin-parpers-25ct-box-1",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-ultra-thin-parpers-25ct-box-1",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-ultra-thin-parpers-25ct-box-1",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/elements-1-1-4-ultra-thin-parpers-25ct-box-1",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-size-original-cones",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-size-original-cones",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-size-original-cones",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-size-original-cones",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-size-original-cones",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-size-original-papers",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-size-original-papers",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-size-original-papers",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-size-original-papers",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-size-original-papers",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-size-pink-cones",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-size-pink-cones",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-size-pink-cones",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-size-pink-cones",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-size-pink-cones",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-slim-original-papers",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-slim-original-papers",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-slim-original-papers",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-slim-original-papers",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-slim-original-papers",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-wide-original-papers",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-wide-original-papers",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-wide-original-papers",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-wide-original-papers",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-wide-original-papers",
+        "field": "alt",
+        "detail": "2 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-wide-original-papers-1",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-wide-original-papers-1",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-wide-original-papers-1",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-wide-original-papers-1",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/elements-king-wide-original-papers-1",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/fasta-vape",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/fasta-vape",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/fasta-vape",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/fasta-vape",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/fasta-vape",
+        "field": "alt",
+        "detail": "1 of 62 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/import-glass-flat-rimmed-banger-w-terp-pearls-14mm-1",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/import-glass-flat-rimmed-banger-w-terp-pearls-14mm-1",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/import-glass-flat-rimmed-banger-w-terp-pearls-14mm-1",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/import-glass-flat-rimmed-banger-w-terp-pearls-14mm-1",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/import-glass-flat-rimmed-banger-w-terp-pearls-14mm-1",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/import-glass-thick-flat-rimmed-banger-10mm-90",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/import-glass-thick-flat-rimmed-banger-10mm-90",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/import-glass-thick-flat-rimmed-banger-10mm-90",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/import-glass-thick-flat-rimmed-banger-10mm-90",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/import-glass-thick-flat-rimmed-banger-10mm-90",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/import-glass-thick-flat-rimmed-banger-14mm-90",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/import-glass-thick-flat-rimmed-banger-14mm-90",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/import-glass-thick-flat-rimmed-banger-14mm-90",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/import-glass-thick-flat-rimmed-banger-14mm-90",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/import-glass-thick-flat-rimmed-banger-14mm-90",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/inex-munchy-bowl",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/inex-munchy-bowl",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/inex-munchy-bowl",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/inex-munchy-bowl",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/inex-munchy-bowl",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/inex-stardust-beaker",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/inex-stardust-beaker",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/inex-stardust-beaker",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/inex-stardust-beaker",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/inex-stardust-beaker",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/inex-steamroller",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/inex-steamroller",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/inex-steamroller",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/inex-steamroller",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/inex-steamroller",
+        "field": "alt",
+        "detail": "1 of 8 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/infused-edibles-1000mg-gummies",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/infused-edibles-1000mg-gummies",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/infused-edibles-1000mg-gummies",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/infused-edibles-1000mg-gummies",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/infused-edibles-1000mg-gummies",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/jolly-cannabis-dog-treats-cbd-cbg-berry-butter",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/jolly-cannabis-dog-treats-cbd-cbg-berry-butter",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/jolly-cannabis-dog-treats-cbd-cbg-berry-butter",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/jolly-cannabis-dog-treats-cbd-cbg-berry-butter",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/jolly-cannabis-dog-treats-cbd-cbg-berry-butter",
+        "field": "alt",
+        "detail": "1 of 11 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/jolly-cannabis-dog-treats-cbd-cbn-jam-butter",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/jolly-cannabis-dog-treats-cbd-cbn-jam-butter",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/jolly-cannabis-dog-treats-cbd-cbn-jam-butter",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/jolly-cannabis-dog-treats-cbd-cbn-jam-butter",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/jolly-cannabis-dog-treats-cbd-cbn-jam-butter",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/king-palm-1g-mini-2pk-20ct-box-watermelon-wave",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/king-palm-1g-mini-2pk-20ct-box-watermelon-wave",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/king-palm-1g-mini-2pk-20ct-box-watermelon-wave",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/king-palm-1g-mini-2pk-20ct-box-watermelon-wave",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/king-palm-1g-mini-2pk-20ct-box-watermelon-wave",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/king-palm-1g-natural-mini-2pk-20ct-box",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/king-palm-1g-natural-mini-2pk-20ct-box",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/king-palm-1g-natural-mini-2pk-20ct-box",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/king-palm-1g-natural-mini-2pk-20ct-box",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/king-palm-1g-natural-mini-2pk-20ct-box",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-bear-510-battery-5pk-aqua",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-bear-510-battery-5pk-aqua",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-bear-510-battery-5pk-aqua",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-bear-510-battery-5pk-aqua",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-bear-510-battery-5pk-aqua",
+        "field": "alt",
+        "detail": "1 of 44 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-mini-unicorn",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-mini-unicorn",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-mini-unicorn",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-mini-unicorn",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-mini-unicorn",
+        "field": "alt",
+        "detail": "1 of 47 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-python",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-python",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-python",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-python",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-python",
+        "field": "alt",
+        "detail": "1 of 26 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-seahorse-pro-plus",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-seahorse-pro-plus",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-seahorse-pro-plus",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-seahorse-pro-plus",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-seahorse-pro-plus",
+        "field": "alt",
+        "detail": "2 of 26 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-swordfish",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-swordfish",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-swordfish",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-swordfish",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/lookah-swordfish",
+        "field": "alt",
+        "detail": "2 of 20 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/maven-alpha-box",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/maven-alpha-box",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/maven-alpha-box",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/maven-alpha-box",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/maven-alpha-box",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/maven-alpha-mini-box",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/maven-alpha-mini-box",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/maven-alpha-mini-box",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/maven-alpha-mini-box",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/maven-alpha-mini-box",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/maven-cannon-blue-green-purple-box",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/maven-cannon-blue-green-purple-box",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/maven-cannon-blue-green-purple-box",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/maven-cannon-blue-green-purple-box",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/maven-cannon-blue-green-purple-box",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/maven-cannon-yellow-red-black-box",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/maven-cannon-yellow-red-black-box",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/maven-cannon-yellow-red-black-box",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/maven-cannon-yellow-red-black-box",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/maven-cannon-yellow-red-black-box",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/mmelt-magic-mushroom-chocolate-bar-milk-chocolate-candy",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/mmelt-magic-mushroom-chocolate-bar-milk-chocolate-candy",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/mmelt-magic-mushroom-chocolate-bar-milk-chocolate-candy",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/mmelt-magic-mushroom-chocolate-bar-milk-chocolate-candy",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/mmelt-magic-mushroom-chocolate-bar-milk-chocolate-candy",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/nerdy-puff-pulse-x-30k",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/nerdy-puff-pulse-x-30k",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/nerdy-puff-pulse-x-30k",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/nerdy-puff-pulse-x-30k",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/nerdy-puff-pulse-x-30k",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-booster-panther",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-booster-panther",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-booster-panther",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-booster-panther",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-booster-panther",
+        "field": "alt",
+        "detail": "1 of 11 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-brink",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-brink",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-brink",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-brink",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-brink",
+        "field": "alt",
+        "detail": "1 of 8 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-duplax-2",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-duplax-2",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-duplax-2",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-duplax-2",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-duplax-2",
+        "field": "alt",
+        "detail": "1 of 8 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-electro-barrel-e-rig",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-electro-barrel-e-rig",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-electro-barrel-e-rig",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-electro-barrel-e-rig",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/ooze-electro-barrel-e-rig",
+        "field": "alt",
+        "detail": "1 of 11 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/pop-cones-1-1-4-unbleached-cones-6ct-24pk-case-whld-grape",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/pop-cones-1-1-4-unbleached-cones-6ct-24pk-case-whld-grape",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/pop-cones-1-1-4-unbleached-cones-6ct-24pk-case-whld-grape",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/pop-cones-1-1-4-unbleached-cones-6ct-24pk-case-whld-grape",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/pop-cones-1-1-4-unbleached-cones-6ct-24pk-case-whld-grape",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/raw-1-1-4-classic-papers-24ct-box",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/raw-1-1-4-classic-papers-24ct-box",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/raw-1-1-4-classic-papers-24ct-box",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/raw-1-1-4-classic-papers-24ct-box",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/raw-1-1-4-classic-papers-24ct-box",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/raw-classic-98-special-1400ct",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/raw-classic-98-special-1400ct",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/raw-classic-98-special-1400ct",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/raw-classic-98-special-1400ct",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/raw-classic-98-special-1400ct",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/raw-classic-king-1400ct",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/raw-classic-king-1400ct",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/raw-classic-king-1400ct",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/raw-classic-king-1400ct",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/raw-classic-king-1400ct",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/raw-king-size-classic-bulk-cones-1400ct-1",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/raw-king-size-classic-bulk-cones-1400ct-1",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/raw-king-size-classic-bulk-cones-1400ct-1",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/raw-king-size-classic-bulk-cones-1400ct-1",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/raw-king-size-classic-bulk-cones-1400ct-1",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/shrum-xum-magic-tabs",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/shrum-xum-magic-tabs",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/shrum-xum-magic-tabs",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/shrum-xum-magic-tabs",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/shrum-xum-magic-tabs",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-coffin-5-black",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-coffin-5-black",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-coffin-5-black",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-coffin-5-black",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-coffin-5-black",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-coffin-7-grey",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-coffin-7-grey",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-coffin-7-grey",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-coffin-7-grey",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-coffin-7-grey",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-element-backpack-midnight-navy",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-element-backpack-midnight-navy",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-element-backpack-midnight-navy",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-element-backpack-midnight-navy",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-element-backpack-midnight-navy",
+        "field": "alt",
+        "detail": "2 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-element-backpack-midnight-navy-1",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-element-backpack-midnight-navy-1",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-element-backpack-midnight-navy-1",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-element-backpack-midnight-navy-1",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-element-backpack-midnight-navy-1",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-mini-backpack-atomic-white",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-mini-backpack-atomic-white",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-mini-backpack-atomic-white",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-mini-backpack-atomic-white",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-mini-backpack-atomic-white",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-nomad-backpack-charcoal",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-nomad-backpack-charcoal",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-nomad-backpack-charcoal",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-nomad-backpack-charcoal",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-nomad-backpack-charcoal",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-sidekick-small-black-leather",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-sidekick-small-black-leather",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-sidekick-small-black-leather",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-sidekick-small-black-leather",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/skunk-sidekick-small-black-leather",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/tre-house-magic-mushroom-chocolate-bar-fruity-cereal",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/tre-house-magic-mushroom-chocolate-bar-fruity-cereal",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/tre-house-magic-mushroom-chocolate-bar-fruity-cereal",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/tre-house-magic-mushroom-chocolate-bar-fruity-cereal",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/tre-house-magic-mushroom-chocolate-bar-fruity-cereal",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-ari-knife-kit-9pk",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-ari-knife-kit-9pk",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-ari-knife-kit-9pk",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-ari-knife-kit-9pk",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-ari-knife-kit-9pk",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-deck-510-battery-9pk",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-deck-510-battery-9pk",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-deck-510-battery-9pk",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-deck-510-battery-9pk",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-deck-510-battery-9pk",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-510-battery-9ct-box",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-510-battery-9ct-box",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-510-battery-9ct-box",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-510-battery-9ct-box",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-510-battery-9ct-box",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-knife-9pk",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-knife-9pk",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-knife-9pk",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-knife-9pk",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-knife-9pk",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-pro-510-battery-9ct-box",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-pro-510-battery-9ct-box",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-pro-510-battery-9ct-box",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-pro-510-battery-9ct-box",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-pro-510-battery-9ct-box",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-pro-digit-510-battery-15ct-box",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-pro-digit-510-battery-15ct-box",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-pro-digit-510-battery-15ct-box",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-pro-digit-510-battery-15ct-box",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-kodo-pro-digit-510-battery-15ct-box",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-tryp-mushroom-510-battery-9pk",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-tryp-mushroom-510-battery-9pk",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-tryp-mushroom-510-battery-9pk",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-tryp-mushroom-510-battery-9pk",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/wulf-tryp-mushroom-510-battery-9pk",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/zig-zag-1-1-4-ultra-thin-cones-6ct-24pk-case",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/zig-zag-1-1-4-ultra-thin-cones-6ct-24pk-case",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/zig-zag-1-1-4-ultra-thin-cones-6ct-24pk-case",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/zig-zag-1-1-4-ultra-thin-cones-6ct-24pk-case",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/zig-zag-1-1-4-ultra-thin-cones-6ct-24pk-case",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      },
+      {
+        "severity": "blocker",
+        "code": "title-missing",
+        "page": "https://smokeshopgurus.com/products/zig-zag-1-1-4-ultra-thin-parpers-24ct-box",
+        "field": "title",
+        "detail": "no <title>"
+      },
+      {
+        "severity": "major",
+        "code": "description-missing",
+        "page": "https://smokeshopgurus.com/products/zig-zag-1-1-4-ultra-thin-parpers-24ct-box",
+        "field": "description",
+        "detail": "no meta description"
+      },
+      {
+        "severity": "minor",
+        "code": "schema-missing",
+        "page": "https://smokeshopgurus.com/products/zig-zag-1-1-4-ultra-thin-parpers-24ct-box",
+        "field": "jsonLd",
+        "detail": "no structured data"
+      },
+      {
+        "severity": "minor",
+        "code": "og-title-missing",
+        "page": "https://smokeshopgurus.com/products/zig-zag-1-1-4-ultra-thin-parpers-24ct-box",
+        "field": "og:title",
+        "detail": "no og:title"
+      },
+      {
+        "severity": "major",
+        "code": "alt-missing",
+        "page": "https://smokeshopgurus.com/products/zig-zag-1-1-4-ultra-thin-parpers-24ct-box",
+        "field": "alt",
+        "detail": "1 of 4 images have no alt"
+      }
+    ],
+    "migration": [
+      {
+        "severity": "minor",
+        "code": "redirects-absent",
+        "page": "-",
+        "field": "redirects",
+        "detail": "no redirect map — not needed unless this build replaces the original at its own domain (--migrating)"
+      }
+    ]
+  },
+  "note": "APPLIED. This run wrote into the build: 2245 field(s) on 141 page(s), each recorded in audit/seo-changes.json with its source. SOURCE findings are the live site's own defects and repairing them is an improvement, not a preservation. MIGRATION findings are damage the rebuild created and did not exist on the source."
+}

@@ -1,0 +1,151 @@
+{
+  "schema": "site-reforge/project@1",
+  "name": "smokeshopgurus-com",
+  "targetUrl": "https://smokeshopgurus.com/",
+  "origin": "https://smokeshopgurus.com",
+  "createdAt": "2026-09-21T03:30:48.114Z",
+  "updatedAt": "2026-09-21T16:16:56.897Z",
+  "config": {
+    "maxPages": 300,
+    "concurrency": 4,
+    "includeSubdomains": false,
+    "breakpoints": [
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "pixelDiffThreshold": 0.02,
+    "contentRecallFloor": 0.95,
+    "requestDelayMs": 150,
+    "requestHeaders": {}
+  },
+  "tooling": {
+    "browser": "unknown",
+    "imageGen": "unknown",
+    "detectedAt": null
+  },
+  "stages": {
+    "intake": {
+      "status": "done",
+      "at": "2026-09-21T03:30:48.115Z",
+      "note": "workspace created"
+    },
+    "crawl": {
+      "status": "done",
+      "at": "2026-09-21T03:32:15.598Z",
+      "note": "152 pages, 1 failed"
+    },
+    "extract": {
+      "status": "done",
+      "at": "2026-09-21T03:33:35.883Z",
+      "note": "150 pages extracted"
+    },
+    "assets": {
+      "status": "done",
+      "at": "2026-09-21T04:37:15.595Z",
+      "note": "3592/3592 assets on disk"
+    },
+    "capture": {
+      "status": "done",
+      "at": "2026-09-21T03:42:33.440Z",
+      "note": "captures merged"
+    },
+    "tokens": {
+      "status": "done",
+      "at": "2026-09-21T03:42:40.567Z",
+      "note": "computed (browser capture)"
+    },
+    "motion": {
+      "status": "done",
+      "at": "2026-09-21T03:43:37.075Z",
+      "note": "18 keyframes, 1246 animated elements"
+    },
+    "presets": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "ux": {
+      "status": "partial",
+      "at": "2026-09-21T03:46:37.770Z",
+      "note": "474 rows, 474 UNSET"
+    },
+    "brand": {
+      "status": "partial",
+      "at": "2026-09-21T03:42:40.567Z",
+      "note": "tokens emitted; brand-system.md still owed"
+    },
+    "implement": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "clone": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "cloneVerify": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "responsive": {
+      "status": "done",
+      "at": "2026-09-21T16:16:07.536Z",
+      "note": "24 sweeps at 1024/1440/390/768"
+    },
+    "seo": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "performance": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "decontaminate": {
+      "status": "fail",
+      "at": "2026-09-21T16:16:51.467Z",
+      "note": "CONTAMINATED (1 traces)"
+    },
+    "parity": {
+      "status": "fail",
+      "at": "2026-09-21T16:16:08.301Z",
+      "note": "DRIFT — 144 findings"
+    },
+    "fabrication": {
+      "status": "done",
+      "at": "2026-09-21T16:16:08.999Z",
+      "note": "SOURCED — 0 findings"
+    },
+    "pixeldiff": {
+      "status": "fail",
+      "at": "2026-09-21T04:57:55.220Z",
+      "note": "DRIFT — 24/24 pairs over threshold"
+    },
+    "sweep": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "functional": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "gate": {
+      "status": "fail",
+      "at": "2026-09-21T16:16:56.897Z",
+      "note": "NOT-READY — 23/29 passing"
+    },
+    "package": {
+      "status": "forced",
+      "at": "2026-09-21T16:16:55.798Z",
+      "note": "smokeshopgurus-com-handoff-v20260921.zip — 4265 entries, 485766493 bytes"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,4025 @@
+{
+  "schema": "site-reforge/parity-report@1",
+  "generated": "2026-09-21T16:16:08.299Z",
+  "sourcePages": 150,
+  "rebuiltFiles": 141,
+  "mappedPages": 150,
+  "missingPages": [],
+  "extraFiles": [
+    "cart/index.html",
+    "search/index.html"
+  ],
+  "recallFloor": 0.95,
+  "contentRunFloor": 12,
+  "meanRecall": 0.9538,
+  "counts": {
+    "minor": 58,
+    "major": 86
+  },
+  "verdict": "DRIFT",
+  "rows": [
+    {
+      "url": "https://smokeshopgurus.com/",
+      "file": "index.html",
+      "pageType": "home",
+      "status": "DIFFERS",
+      "recall": 0.9838,
+      "missingWords": 11,
+      "longestMissingRun": 3,
+      "sourceWords": 651,
+      "rebuiltWords": 1342,
+      "sourceH1": [],
+      "rebuiltH1": [
+        "Your Trusted Source for Quality Smoke, Vape, and CBD Products"
+      ],
+      "sourceLinks": 6,
+      "rebuiltLinks": 125,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "8 image(s) without alt",
+          "detail": "index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/blogs/news",
+      "file": "blogs/news/index.html",
+      "pageType": "blog-index",
+      "status": "DIFFERS",
+      "recall": 0.9389,
+      "missingWords": 28,
+      "longestMissingRun": 10,
+      "sourceWords": 458,
+      "rebuiltWords": 522,
+      "sourceH1": [
+        "News"
+      ],
+      "rebuiltH1": [
+        "News"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 89,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.9% (floor 95%)",
+          "detail": "missing words: log nicotine explore more mushroom papers glass check out pet cones wraps skunk bags accessories choosing selection results in a full page refresh opens window"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/accessories",
+      "file": "collections/accessories/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9819,
+      "missingWords": 12,
+      "longestMissingRun": 2,
+      "sourceWords": 622,
+      "rebuiltWords": 1667,
+      "sourceH1": [
+        "Accessories"
+      ],
+      "rebuiltH1": [
+        "Accessories"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 160,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/accessories/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/accessories?page=1",
+      "file": "collections/accessories/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9819,
+      "missingWords": 12,
+      "longestMissingRun": 2,
+      "sourceWords": 622,
+      "rebuiltWords": 1667,
+      "sourceH1": [
+        "Accessories"
+      ],
+      "rebuiltH1": [
+        "Accessories"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 160,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/accessories/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/accessories?page=2",
+      "file": "collections/accessories/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9849,
+      "missingWords": 9,
+      "longestMissingRun": 1,
+      "sourceWords": 562,
+      "rebuiltWords": 1667,
+      "sourceH1": [
+        "Accessories"
+      ],
+      "rebuiltH1": [
+        "Accessories"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 160,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/accessories/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/all",
+      "file": "collections/all/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9862,
+      "missingWords": 8,
+      "longestMissingRun": 1,
+      "sourceWords": 539,
+      "rebuiltWords": 2852,
+      "sourceH1": [
+        "Products"
+      ],
+      "rebuiltH1": [
+        "Products"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 254,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/all/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/all?page=1",
+      "file": "collections/all/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9862,
+      "missingWords": 8,
+      "longestMissingRun": 1,
+      "sourceWords": 539,
+      "rebuiltWords": 2852,
+      "sourceH1": [
+        "Products"
+      ],
+      "rebuiltH1": [
+        "Products"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 254,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/all/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/all?page=2",
+      "file": "collections/all/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9902,
+      "missingWords": 6,
+      "longestMissingRun": 1,
+      "sourceWords": 559,
+      "rebuiltWords": 2852,
+      "sourceH1": [
+        "Products"
+      ],
+      "rebuiltH1": [
+        "Products"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 254,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/all/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/all?page=3",
+      "file": "collections/all/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9853,
+      "missingWords": 9,
+      "longestMissingRun": 2,
+      "sourceWords": 571,
+      "rebuiltWords": 2852,
+      "sourceH1": [
+        "Products"
+      ],
+      "rebuiltH1": [
+        "Products"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 254,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/all/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/all?page=4",
+      "file": "collections/all/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9868,
+      "missingWords": 8,
+      "longestMissingRun": 1,
+      "sourceWords": 565,
+      "rebuiltWords": 2852,
+      "sourceH1": [
+        "Products"
+      ],
+      "rebuiltH1": [
+        "Products"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 254,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/all/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/all?page=5",
+      "file": "collections/all/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.972,
+      "missingWords": 6,
+      "longestMissingRun": 1,
+      "sourceWords": 203,
+      "rebuiltWords": 2852,
+      "sourceH1": [
+        "Products"
+      ],
+      "rebuiltH1": [
+        "Products"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 254,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/all/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/best-seller",
+      "file": "collections/best-seller/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9868,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 287,
+      "rebuiltWords": 858,
+      "sourceH1": [
+        "Best seller"
+      ],
+      "rebuiltH1": [
+        "Best seller"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/best-seller/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/blunt-cone-wraps",
+      "file": "collections/blunt-cone-wraps/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9861,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 278,
+      "rebuiltWords": 820,
+      "sourceH1": [
+        "Blunt Cone Wraps"
+      ],
+      "rebuiltH1": [
+        "Blunt Cone Wraps"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 94,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/blunt-cone-wraps/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/blunt-wraps",
+      "file": "collections/blunt-wraps/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9828,
+      "missingWords": 8,
+      "longestMissingRun": 1,
+      "sourceWords": 449,
+      "rebuiltWords": 985,
+      "sourceH1": [
+        "Pre-Rolled Cones & Blunt Wraps"
+      ],
+      "rebuiltH1": [
+        "Pre-Rolled Cones & Blunt Wraps"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 94,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/blunt-wraps/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/blunt-wraps-1",
+      "file": "collections/blunt-wraps-1/index.html",
+      "pageType": "article",
+      "status": "DIFFERS",
+      "recall": 0.9859,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 276,
+      "rebuiltWords": 817,
+      "sourceH1": [
+        "Blunt Wraps"
+      ],
+      "rebuiltH1": [
+        "Blunt Wraps"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 94,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/blunt-wraps-1/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/bud-lighters",
+      "file": "collections/bud-lighters/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9875,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 308,
+      "rebuiltWords": 867,
+      "sourceH1": [
+        "Bud Lighters"
+      ],
+      "rebuiltH1": [
+        "Bud Lighters"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 100,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/bud-lighters/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/buds-grinders",
+      "file": "collections/buds-grinders/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9877,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 312,
+      "rebuiltWords": 871,
+      "sourceH1": [
+        "Buds Grinders"
+      ],
+      "rebuiltH1": [
+        "Buds Grinders"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 100,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/buds-grinders/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/bulk-lighters",
+      "file": "collections/bulk-lighters/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.99,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 382,
+      "rebuiltWords": 965,
+      "sourceH1": [
+        "Bulk Lighters"
+      ],
+      "rebuiltH1": [
+        "Bulk Lighters"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 108,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/bulk-lighters/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/bulk-pre-rolled-cones",
+      "file": "collections/bulk-pre-rolled-cones/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9923,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 475,
+      "rebuiltWords": 1072,
+      "sourceH1": [
+        "Bulk Pre Rolled Cones"
+      ],
+      "rebuiltH1": [
+        "Bulk Pre Rolled Cones"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 112,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/bulk-pre-rolled-cones/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/cbd-dog-calming-treats",
+      "file": "collections/cbd-dog-calming-treats/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9865,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 285,
+      "rebuiltWords": 828,
+      "sourceH1": [
+        "CBD Dog Calming Treats"
+      ],
+      "rebuiltH1": [
+        "CBD Dog Calming Treats"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 94,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/cbd-dog-calming-treats/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/cbd-edibles",
+      "file": "collections/cbd-edibles/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.989,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 351,
+      "rebuiltWords": 886,
+      "sourceH1": [
+        "CBD Edibles"
+      ],
+      "rebuiltH1": [
+        "CBD Edibles"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 92,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/cbd-edibles/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/cbd-edibles-1",
+      "file": "collections/cbd-edibles-1/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9859,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 273,
+      "rebuiltWords": 814,
+      "sourceH1": [
+        "CBD edibles"
+      ],
+      "rebuiltH1": [
+        "CBD edibles"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 94,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/cbd-edibles-1/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/cbd-pet-treats",
+      "file": "collections/cbd-pet-treats/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9899,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 381,
+      "rebuiltWords": 923,
+      "sourceH1": [
+        "CBD Pet Treats"
+      ],
+      "rebuiltH1": [
+        "CBD Pet Treats"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 94,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/cbd-pet-treats/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/cone-rolling-supplies",
+      "file": "collections/cone-rolling-supplies/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9931,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 538,
+      "rebuiltWords": 1146,
+      "sourceH1": [
+        "Cone Rolling Supplies"
+      ],
+      "rebuiltH1": [
+        "Cone Rolling Supplies"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 116,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/cone-rolling-supplies/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/disposable-vape-devices",
+      "file": "collections/disposable-vape-devices/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9734,
+      "missingWords": 7,
+      "longestMissingRun": 1,
+      "sourceWords": 250,
+      "rebuiltWords": 792,
+      "sourceH1": [
+        "Disposable Vape Devices"
+      ],
+      "rebuiltH1": [
+        "Disposable Vape Devices"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 94,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/disposable-vape-devices/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/disposable-vape-pens",
+      "file": "collections/disposable-vape-pens/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9735,
+      "missingWords": 7,
+      "longestMissingRun": 1,
+      "sourceWords": 253,
+      "rebuiltWords": 795,
+      "sourceH1": [
+        "Disposable Vape Pens"
+      ],
+      "rebuiltH1": [
+        "Disposable Vape Pens"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 94,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/disposable-vape-pens/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/functional-mushroom-products",
+      "file": "collections/functional-mushroom-products/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9735,
+      "missingWords": 8,
+      "longestMissingRun": 2,
+      "sourceWords": 293,
+      "rebuiltWords": 837,
+      "sourceH1": [
+        "Functional Mushroom Products"
+      ],
+      "rebuiltH1": [
+        "Functional Mushroom Products"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 96,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/functional-mushroom-products/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/functional-mushroom-products-copy",
+      "file": "collections/functional-mushroom-products-copy/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9733,
+      "missingWords": 8,
+      "longestMissingRun": 2,
+      "sourceWords": 290,
+      "rebuiltWords": 834,
+      "sourceH1": [
+        "Mushroom Wellness Products"
+      ],
+      "rebuiltH1": [
+        "Mushroom Wellness Products"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 96,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/functional-mushroom-products-copy/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/glass-bangers",
+      "file": "collections/glass-bangers/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.987,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 297,
+      "rebuiltWords": 844,
+      "sourceH1": [
+        "Glass Bangers"
+      ],
+      "rebuiltH1": [
+        "Glass Bangers"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 96,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/glass-bangers/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/glass-bongs",
+      "file": "collections/glass-bongs/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9728,
+      "missingWords": 8,
+      "longestMissingRun": 1,
+      "sourceWords": 284,
+      "rebuiltWords": 837,
+      "sourceH1": [
+        "Glass Bongs"
+      ],
+      "rebuiltH1": [
+        "Glass Bongs"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 98,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/glass-bongs/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/glass-bongs-pipes",
+      "file": "collections/glass-bongs-pipes/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9843,
+      "missingWords": 8,
+      "longestMissingRun": 1,
+      "sourceWords": 488,
+      "rebuiltWords": 1071,
+      "sourceH1": [
+        "Bongs & Pipes"
+      ],
+      "rebuiltH1": [
+        "Bongs & Pipes"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 108,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/glass-bongs-pipes/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/glass-smoking-pipes",
+      "file": "collections/glass-smoking-pipes/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9698,
+      "missingWords": 8,
+      "longestMissingRun": 1,
+      "sourceWords": 259,
+      "rebuiltWords": 801,
+      "sourceH1": [
+        "Glass Smoking Pipes"
+      ],
+      "rebuiltH1": [
+        "Glass Smoking Pipes"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 94,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/glass-smoking-pipes/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/hemp-rolling-papers",
+      "file": "collections/hemp-rolling-papers/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9934,
+      "missingWords": 5,
+      "longestMissingRun": 2,
+      "sourceWords": 692,
+      "rebuiltWords": 1430,
+      "sourceH1": [
+        "Hemp Rolling Papers"
+      ],
+      "rebuiltH1": [
+        "Hemp Rolling Papers"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 136,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/hemp-rolling-papers/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/hemp-rolling-papers?page=1",
+      "file": "collections/hemp-rolling-papers/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9934,
+      "missingWords": 5,
+      "longestMissingRun": 2,
+      "sourceWords": 692,
+      "rebuiltWords": 1430,
+      "sourceH1": [
+        "Hemp Rolling Papers"
+      ],
+      "rebuiltH1": [
+        "Hemp Rolling Papers"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 136,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/hemp-rolling-papers/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/hemp-rolling-papers?page=2",
+      "file": "collections/hemp-rolling-papers/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9871,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 302,
+      "rebuiltWords": 1430,
+      "sourceH1": [
+        "Hemp Rolling Papers"
+      ],
+      "rebuiltH1": [
+        "Hemp Rolling Papers"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 136,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/hemp-rolling-papers/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/hemp-vape-pen",
+      "file": "collections/hemp-vape-pen/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9731,
+      "missingWords": 7,
+      "longestMissingRun": 1,
+      "sourceWords": 249,
+      "rebuiltWords": 791,
+      "sourceH1": [
+        "Hemp Vape Pen"
+      ],
+      "rebuiltH1": [
+        "Hemp Vape Pen"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 94,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/hemp-vape-pen/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/herb-storage-containers",
+      "file": "collections/herb-storage-containers/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9893,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 356,
+      "rebuiltWords": 928,
+      "sourceH1": [
+        "Herb Storage Containers"
+      ],
+      "rebuiltH1": [
+        "Herb Storage Containers"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/herb-storage-containers/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/king-size-cones",
+      "file": "collections/king-size-cones/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9865,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 282,
+      "rebuiltWords": 830,
+      "sourceH1": [
+        "King Size Cones"
+      ],
+      "rebuiltH1": [
+        "King Size Cones"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 96,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/king-size-cones/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/king-size-rolling-papers",
+      "file": "collections/king-size-rolling-papers/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9893,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 360,
+      "rebuiltWords": 927,
+      "sourceH1": [
+        "King Size Rolling Papers"
+      ],
+      "rebuiltH1": [
+        "King Size Rolling Papers"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 102,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/king-size-rolling-papers/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/kratom",
+      "file": "collections/kratom/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9487,
+      "missingWords": 28,
+      "longestMissingRun": 5,
+      "sourceWords": 542,
+      "rebuiltWords": 679,
+      "sourceH1": [
+        "Kratom"
+      ],
+      "rebuiltH1": [
+        "Kratom"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 90,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.9% (floor 95%)",
+          "detail": "missing words: log nicotine explore more mushroom papers glass check sort remove all pet cones wraps skunk bags accessories choosing selection results a full page refresh opens"
+        },
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/kratom/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/mushroom-products",
+      "file": "collections/mushroom-products/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9806,
+      "missingWords": 8,
+      "longestMissingRun": 2,
+      "sourceWords": 401,
+      "rebuiltWords": 944,
+      "sourceH1": [
+        "Mushroom Products"
+      ],
+      "rebuiltH1": [
+        "Mushroom Products"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 96,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/mushroom-products/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/natural-leaf-blunts",
+      "file": "collections/natural-leaf-blunts/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9861,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 282,
+      "rebuiltWords": 824,
+      "sourceH1": [
+        "Natural Leaf Blunts"
+      ],
+      "rebuiltH1": [
+        "Natural Leaf Blunts"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 94,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/natural-leaf-blunts/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/nicotine-disposable-vape",
+      "file": "collections/nicotine-disposable-vape/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9796,
+      "missingWords": 7,
+      "longestMissingRun": 1,
+      "sourceWords": 333,
+      "rebuiltWords": 875,
+      "sourceH1": [
+        "Nicotine Disposable Vape"
+      ],
+      "rebuiltH1": [
+        "Nicotine Disposable Vape"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 94,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/nicotine-disposable-vape/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/odor-proof-bags",
+      "file": "collections/odor-proof-bags/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9862,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 279,
+      "rebuiltWords": 827,
+      "sourceH1": [
+        "Odor Proof Bags"
+      ],
+      "rebuiltH1": [
+        "Odor Proof Bags"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 96,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/odor-proof-bags/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/pre-roll-blunts",
+      "file": "collections/pre-roll-blunts/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.986,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 276,
+      "rebuiltWords": 818,
+      "sourceH1": [
+        "Pre Roll Blunts"
+      ],
+      "rebuiltH1": [
+        "Pre Roll Blunts"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 94,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/pre-roll-blunts/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/pre-rolled-cones",
+      "file": "collections/pre-rolled-cones/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9912,
+      "missingWords": 6,
+      "longestMissingRun": 1,
+      "sourceWords": 641,
+      "rebuiltWords": 1235,
+      "sourceH1": [
+        "Pre Rolled Cones"
+      ],
+      "rebuiltH1": [
+        "Pre Rolled Cones"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 114,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/pre-rolled-cones/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/rolling-papers",
+      "file": "collections/rolling-papers/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9874,
+      "missingWords": 8,
+      "longestMissingRun": 2,
+      "sourceWords": 603,
+      "rebuiltWords": 1172,
+      "sourceH1": [
+        "Rolling Papers"
+      ],
+      "rebuiltH1": [
+        "Rolling Papers"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 106,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/rolling-papers/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/skunk-bags",
+      "file": "collections/skunk-bags/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9827,
+      "missingWords": 9,
+      "longestMissingRun": 2,
+      "sourceWords": 497,
+      "rebuiltWords": 1055,
+      "sourceH1": [
+        "Skunk Bags"
+      ],
+      "rebuiltH1": [
+        "Skunk Bags"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 102,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/skunk-bags/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/slow-burn-cones",
+      "file": "collections/slow-burn-cones/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9858,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 273,
+      "rebuiltWords": 815,
+      "sourceH1": [
+        "Slow Burn Cones"
+      ],
+      "rebuiltH1": [
+        "Slow Burn Cones"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 94,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/slow-burn-cones/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/smell-proof-stash-bags",
+      "file": "collections/smell-proof-stash-bags/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9859,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 273,
+      "rebuiltWords": 822,
+      "sourceH1": [
+        "Smell Proof Stash Bags"
+      ],
+      "rebuiltH1": [
+        "Smell Proof Stash Bags"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 96,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/smell-proof-stash-bags/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/smoking-accessories",
+      "file": "collections/smoking-accessories/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9928,
+      "missingWords": 5,
+      "longestMissingRun": 2,
+      "sourceWords": 655,
+      "rebuiltWords": 1442,
+      "sourceH1": [
+        "Smoking Accessories"
+      ],
+      "rebuiltH1": [
+        "Smoking Accessories"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 142,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/smoking-accessories/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/smoking-accessories?page=1",
+      "file": "collections/smoking-accessories/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9928,
+      "missingWords": 5,
+      "longestMissingRun": 2,
+      "sourceWords": 655,
+      "rebuiltWords": 1442,
+      "sourceH1": [
+        "Smoking Accessories"
+      ],
+      "rebuiltH1": [
+        "Smoking Accessories"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 142,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/smoking-accessories/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/smoking-accessories?page=2",
+      "file": "collections/smoking-accessories/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9854,
+      "missingWords": 5,
+      "longestMissingRun": 2,
+      "sourceWords": 325,
+      "rebuiltWords": 1442,
+      "sourceH1": [
+        "Smoking Accessories"
+      ],
+      "rebuiltH1": [
+        "Smoking Accessories"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 142,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/smoking-accessories/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/tinctures",
+      "file": "collections/tinctures/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9487,
+      "missingWords": 28,
+      "longestMissingRun": 5,
+      "sourceWords": 542,
+      "rebuiltWords": 679,
+      "sourceH1": [
+        "Tinctures"
+      ],
+      "rebuiltH1": [
+        "Tinctures"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 90,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.9% (floor 95%)",
+          "detail": "missing words: log nicotine explore more mushroom papers glass check sort remove all pet cones wraps skunk bags accessories choosing selection results a full page refresh opens"
+        },
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/tinctures/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/tobacco-smoking-accessories",
+      "file": "collections/tobacco-smoking-accessories/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9936,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 593,
+      "rebuiltWords": 1231,
+      "sourceH1": [
+        "Tobacco Smoking Accessories"
+      ],
+      "rebuiltH1": [
+        "Tobacco Smoking Accessories"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 126,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/tobacco-smoking-accessories/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/topicals",
+      "file": "collections/topicals/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9487,
+      "missingWords": 28,
+      "longestMissingRun": 5,
+      "sourceWords": 542,
+      "rebuiltWords": 679,
+      "sourceH1": [
+        "Topicals"
+      ],
+      "rebuiltH1": [
+        "Topicals"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 90,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.9% (floor 95%)",
+          "detail": "missing words: log nicotine explore more mushroom papers glass check sort remove all pet cones wraps skunk bags accessories choosing selection results a full page refresh opens"
+        },
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/topicals/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/torch-lighters",
+      "file": "collections/torch-lighters/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9882,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 325,
+      "rebuiltWords": 890,
+      "sourceH1": [
+        "Torch Lighters"
+      ],
+      "rebuiltH1": [
+        "Torch Lighters"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 102,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/torch-lighters/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/upsell",
+      "file": "collections/upsell/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.982,
+      "missingWords": 4,
+      "longestMissingRun": 1,
+      "sourceWords": 214,
+      "rebuiltWords": 760,
+      "sourceH1": [
+        "upsell"
+      ],
+      "rebuiltH1": [
+        "upsell"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 96,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/upsell/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/wax-pens",
+      "file": "collections/wax-pens/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9719,
+      "missingWords": 9,
+      "longestMissingRun": 1,
+      "sourceWords": 304,
+      "rebuiltWords": 861,
+      "sourceH1": [
+        "Wax Pens"
+      ],
+      "rebuiltH1": [
+        "Wax Pens"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 100,
+      "findings": [
+        {
+          "severity": "minor",
+          "code": "alt-missing",
+          "title": "1 image(s) without alt",
+          "detail": "collections/wax-pens/index.html"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/pages/about",
+      "file": "pages/about/index.html",
+      "pageType": "about",
+      "status": "DIFFERS",
+      "recall": 0.9484,
+      "missingWords": 30,
+      "longestMissingRun": 10,
+      "sourceWords": 576,
+      "rebuiltWords": 632,
+      "sourceH1": [
+        "About"
+      ],
+      "rebuiltH1": [
+        "About"
+      ],
+      "sourceLinks": 6,
+      "rebuiltLinks": 89,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.8% (floor 95%)",
+          "detail": "missing words: log nicotine explore more mushroom papers glass check out company our pet cones wraps skunk bags accessories choosing selection results in a full page refresh"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/pages/contact",
+      "file": "pages/contact/index.html",
+      "pageType": "contact",
+      "status": "DIFFERS",
+      "recall": 0.903,
+      "missingWords": 52,
+      "longestMissingRun": 7,
+      "sourceWords": 533,
+      "rebuiltWords": 594,
+      "sourceH1": [
+        "Contact"
+      ],
+      "rebuiltH1": [
+        "Contact"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 91,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 90.3% (floor 95%)",
+          "detail": "missing words: log nicotine explore more mushroom papers glass check out thank visiting inquiries related questions please let filling we'll get back within 2 business days form"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/pages/data-sharing-opt-out",
+      "file": "pages/data-sharing-opt-out/index.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 0.9568,
+      "missingWords": 28,
+      "longestMissingRun": 10,
+      "sourceWords": 644,
+      "rebuiltWords": 704,
+      "sourceH1": [
+        "Your Privacy Choices"
+      ],
+      "rebuiltH1": [
+        "Your Privacy Choices"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://smokeshopgurus.com/pages/faqs",
+      "file": "pages/faqs/index.html",
+      "pageType": "faq",
+      "status": "OK",
+      "recall": 0.952,
+      "missingWords": 22,
+      "longestMissingRun": 4,
+      "sourceWords": 458,
+      "rebuiltWords": 750,
+      "sourceH1": [
+        "FAQS"
+      ],
+      "rebuiltH1": [
+        "FAQS"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 91,
+      "findings": []
+    },
+    {
+      "url": "https://smokeshopgurus.com/pages/page-wishlist",
+      "file": "pages/page-wishlist/index.html",
+      "pageType": "page",
+      "status": "DIFFERS",
+      "recall": 0.9389,
+      "missingWords": 28,
+      "longestMissingRun": 10,
+      "sourceWords": 458,
+      "rebuiltWords": 516,
+      "sourceH1": [
+        "Wishlist"
+      ],
+      "rebuiltH1": [
+        "Wishlist"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 89,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.9% (floor 95%)",
+          "detail": "missing words: log nicotine explore more mushroom papers glass check out pet cones wraps skunk bags accessories choosing selection results in a full page refresh opens window"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/pages/privacy-policy",
+      "file": "pages/privacy-policy/index.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 389,
+      "rebuiltWords": 392,
+      "sourceH1": [
+        "Privacy Policy"
+      ],
+      "rebuiltH1": [
+        "Privacy Policy"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://smokeshopgurus.com/pages/return-policy",
+      "file": "pages/return-policy/index.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 257,
+      "rebuiltWords": 260,
+      "sourceH1": [
+        "Return Policy"
+      ],
+      "rebuiltH1": [
+        "Return Policy"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://smokeshopgurus.com/pages/shipping-return-policy",
+      "file": "pages/shipping-return-policy/index.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 495,
+      "rebuiltWords": 500,
+      "sourceH1": [
+        "Shipping & Return Policy"
+      ],
+      "rebuiltH1": [
+        "Shipping & Return Policy"
+      ],
+      "sourceLinks": 6,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://smokeshopgurus.com/pages/term-and-services",
+      "file": "pages/term-and-services/index.html",
+      "pageType": "page",
+      "status": "OK",
+      "recall": 1,
+      "missingWords": 0,
+      "longestMissingRun": 0,
+      "sourceWords": 3539,
+      "rebuiltWords": 3543,
+      "sourceH1": [
+        "Terms & Conditions"
+      ],
+      "rebuiltH1": [
+        "Terms & Conditions"
+      ],
+      "sourceLinks": 12,
+      "rebuiltLinks": 89,
+      "findings": []
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/aleaf-10-bubble-beaker",
+      "file": "products/aleaf-10-bubble-beaker/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9404,
+      "missingWords": 19,
+      "longestMissingRun": 5,
+      "sourceWords": 314,
+      "rebuiltWords": 960,
+      "sourceH1": [
+        "aLeaf (10\" Bubble Beaker)"
+      ],
+      "rebuiltH1": [
+        "aLeaf (10\" Bubble Beaker)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.0% (floor 95%)",
+          "detail": "missing words: 1 4 low stock left color sold out decrease quantity quot increase full description bubble beaker"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/aleaf-12-double-matrix",
+      "file": "products/aleaf-12-double-matrix/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9396,
+      "missingWords": 20,
+      "longestMissingRun": 5,
+      "sourceWords": 327,
+      "rebuiltWords": 973,
+      "sourceH1": [
+        "aLeaf (12\" Double Matrix)"
+      ],
+      "rebuiltH1": [
+        "aLeaf (12\" Double Matrix)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.0% (floor 95%)",
+          "detail": "missing words: 1 4 low stock left color sold out decrease quantity quot increase full description 12 double matrix"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/aleaf-5-torch",
+      "file": "products/aleaf-5-torch/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9248,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 260,
+      "rebuiltWords": 887,
+      "sourceH1": [
+        "aLeaf (5\" Torch)"
+      ],
+      "rebuiltH1": [
+        "aLeaf (5\" Torch)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 108,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.5% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity quot increase full description aleaf 5"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/aleaf-6-torch",
+      "file": "products/aleaf-6-torch/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9342,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 297,
+      "rebuiltWords": 924,
+      "sourceH1": [
+        "aLeaf (6\" Torch)"
+      ],
+      "rebuiltH1": [
+        "aLeaf (6\" Torch)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 108,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.4% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity quot increase full description aleaf 6"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/aleaf-8-interstellar-box-rig-lavender-uv",
+      "file": "products/aleaf-8-interstellar-box-rig-lavender-uv/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9263,
+      "missingWords": 23,
+      "longestMissingRun": 4,
+      "sourceWords": 301,
+      "rebuiltWords": 920,
+      "sourceH1": [
+        "aLeaf (8\" Interstellar Box Rig Lavender UV)"
+      ],
+      "rebuiltH1": [
+        "aLeaf (8\" Interstellar Box Rig Lavender UV)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 103,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.6% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity quot increase full description lavender uv interstellar box rig"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/aleaf-8-nectar",
+      "file": "products/aleaf-8-nectar/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9375,
+      "missingWords": 17,
+      "longestMissingRun": 4,
+      "sourceWords": 263,
+      "rebuiltWords": 891,
+      "sourceH1": [
+        "aLeaf ($8 Nectar)"
+      ],
+      "rebuiltH1": [
+        "aLeaf ($8 Nectar)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.8% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase full description nectar"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/aleaf-glitter-glycerin-triangle-pipe",
+      "file": "products/aleaf-glitter-glycerin-triangle-pipe/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9449,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 360,
+      "rebuiltWords": 1020,
+      "sourceH1": [
+        "aLeaf (Glitter Glycerin Triangle Pipe)"
+      ],
+      "rebuiltH1": [
+        "aLeaf (Glitter Glycerin Triangle Pipe)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.5% (floor 95%)",
+          "detail": "missing words: 1 6 stock left color sold out decrease quantity increase full description low or glitter glycerin triangle pipe"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-black",
+      "file": "products/aleaf-grinder-63mm-black/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9288,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 271,
+      "rebuiltWords": 890,
+      "sourceH1": [
+        "aLeaf (Grinder 63mm Black)"
+      ],
+      "rebuiltH1": [
+        "aLeaf (Grinder 63mm Black)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.9% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase full description 63mm aleaf black grinder"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-blue",
+      "file": "products/aleaf-grinder-63mm-blue/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.942,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 337,
+      "rebuiltWords": 956,
+      "sourceH1": [
+        "aLeaf (Grinder 63mm Blue)"
+      ],
+      "rebuiltH1": [
+        "aLeaf (Grinder 63mm Blue)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.2% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase full description aleaf grinder 63mm blue"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-green",
+      "file": "products/aleaf-grinder-63mm-green/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9296,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 280,
+      "rebuiltWords": 899,
+      "sourceH1": [
+        "aLeaf (Grinder 63mm Green)"
+      ],
+      "rebuiltH1": [
+        "aLeaf (Grinder 63mm Green)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.0% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase full description green grinder aleaf 63mm"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-purple",
+      "file": "products/aleaf-grinder-63mm-purple/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9336,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 296,
+      "rebuiltWords": 913,
+      "sourceH1": [
+        "aLeaf (Grinder 63mm Purple)"
+      ],
+      "rebuiltH1": [
+        "aLeaf (Grinder 63mm Purple)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.4% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase full description grinder aleaf 63mm purple"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/aleaf-grinder-63mm-red",
+      "file": "products/aleaf-grinder-63mm-red/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9296,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 279,
+      "rebuiltWords": 896,
+      "sourceH1": [
+        "aLeaf (Grinder 63mm Red)"
+      ],
+      "rebuiltH1": [
+        "aLeaf (Grinder 63mm Red)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.0% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase full description red grinder aleaf 63mm"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/aleaf-the-honeycomb-16-beaker",
+      "file": "products/aleaf-the-honeycomb-16-beaker/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9421,
+      "missingWords": 19,
+      "longestMissingRun": 5,
+      "sourceWords": 324,
+      "rebuiltWords": 969,
+      "sourceH1": [
+        "aLeaf (The Honeycomb 16\" Beaker)"
+      ],
+      "rebuiltH1": [
+        "aLeaf (The Honeycomb 16\" Beaker)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 103,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.2% (floor 95%)",
+          "detail": "missing words: 1 4 low stock left color sold out decrease quantity quot increase full description 16 honeycomb"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/bic-assorted-lighters-50pk",
+      "file": "products/bic-assorted-lighters-50pk/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9367,
+      "missingWords": 19,
+      "longestMissingRun": 3,
+      "sourceWords": 291,
+      "rebuiltWords": 913,
+      "sourceH1": [
+        "Bic (Assorted Lighters 50pk)"
+      ],
+      "rebuiltH1": [
+        "Bic (Assorted Lighters 50pk)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 106,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.7% (floor 95%)",
+          "detail": "missing words: open media 1 modal low left decrease quantity increase 50pk full description assorted stock bic"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/bic-assorted-lighters-50pk-3pk",
+      "file": "products/bic-assorted-lighters-50pk-3pk/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9029,
+      "missingWords": 53,
+      "longestMissingRun": 10,
+      "sourceWords": 550,
+      "rebuiltWords": 711,
+      "sourceH1": [
+        "Bic (Assorted Lighters 50pk + 3pk)"
+      ],
+      "rebuiltH1": [
+        "Bic (Assorted Lighters 50pk + 3pk)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 107,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 90.3% (floor 95%)",
+          "detail": "missing words: log nicotine explore mushroom papers glass check open media 1 modal low stock left decrease quantity increase bic assorted 50pk 3pk view full description available"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/bic-assorted-mini-lighters-50pk",
+      "file": "products/bic-assorted-mini-lighters-50pk/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.924,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 260,
+      "rebuiltWords": 881,
+      "sourceH1": [
+        "Bic (Assorted Mini Lighters 50pk)"
+      ],
+      "rebuiltH1": [
+        "Bic (Assorted Mini Lighters 50pk)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 106,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.4% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase 50pk full description assorted bic mini"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/blazy-susan-bulk-cones-pink-98mm",
+      "file": "products/blazy-susan-bulk-cones-pink-98mm/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9417,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 333,
+      "rebuiltWords": 964,
+      "sourceH1": [
+        "Blazy Susan (Bulk Cones Pink 98mm)"
+      ],
+      "rebuiltH1": [
+        "Blazy Susan (Bulk Cones Pink 98mm)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 107,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.2% (floor 95%)",
+          "detail": "missing words: open media 1 modal low left decrease quantity increase full description stock pink 98mm blazy susan"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/blazy-susan-bulk-cones-purple-98mm",
+      "file": "products/blazy-susan-bulk-cones-purple-98mm/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9342,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 296,
+      "rebuiltWords": 929,
+      "sourceH1": [
+        "Blazy Susan (Bulk Cones Purple 98mm)"
+      ],
+      "rebuiltH1": [
+        "Blazy Susan (Bulk Cones Purple 98mm)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 108,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.4% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase full description 98mm blazy susan purple"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/blazy-susan-king-size-slim-purple-papers-50ct-box",
+      "file": "products/blazy-susan-king-size-slim-purple-papers-50ct-box/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9214,
+      "missingWords": 22,
+      "longestMissingRun": 4,
+      "sourceWords": 276,
+      "rebuiltWords": 900,
+      "sourceH1": [
+        "Blazy Susan (King Size Slim Purple Papers 50ct Box)"
+      ],
+      "rebuiltH1": [
+        "Blazy Susan (King Size Slim Purple Papers 50ct Box)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 106,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.1% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase full description 50ct box slim blazy susan purple"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/cartisan-atom-510-battery-24pk-box",
+      "file": "products/cartisan-atom-510-battery-24pk-box/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9231,
+      "missingWords": 22,
+      "longestMissingRun": 3,
+      "sourceWords": 279,
+      "rebuiltWords": 897,
+      "sourceH1": [
+        "Cartisan (Atom 510 Battery 24pk Box)"
+      ],
+      "rebuiltH1": [
+        "Cartisan (Atom 510 Battery 24pk Box)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.3% (floor 95%)",
+          "detail": "missing words: open media 1 modal low left decrease quantity increase 24pk full description stock box atom 510 cartisan battery"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/cartisan-pro-pen-neo-900-panther",
+      "file": "products/cartisan-pro-pen-neo-900-panther/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.934,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 295,
+      "rebuiltWords": 915,
+      "sourceH1": [
+        "Cartisan (Pro Pen Neo 900 Panther)"
+      ],
+      "rebuiltH1": [
+        "Cartisan (Pro Pen Neo 900 Panther)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 106,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.4% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase full description 900 pro neo cartisan"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/elements-1-1-4-original-cones-1",
+      "file": "products/elements-1-1-4-original-cones-1/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9348,
+      "missingWords": 21,
+      "longestMissingRun": 3,
+      "sourceWords": 308,
+      "rebuiltWords": 939,
+      "sourceH1": [
+        "Elements (1 1/4 Original Cones)"
+      ],
+      "rebuiltH1": [
+        "Elements (1 1/4 Original Cones)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 106,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.5% (floor 95%)",
+          "detail": "missing words: open media modal low left decrease quantity increase full description 1 original stock 4 elements"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/elements-1-1-4-original-papers",
+      "file": "products/elements-1-1-4-original-papers/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9266,
+      "missingWords": 21,
+      "longestMissingRun": 3,
+      "sourceWords": 275,
+      "rebuiltWords": 898,
+      "sourceH1": [
+        "Elements (1 1/4 Original Papers)"
+      ],
+      "rebuiltH1": [
+        "Elements (1 1/4 Original Papers)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.7% (floor 95%)",
+          "detail": "missing words: open media modal low stock left decrease quantity increase full description 1 original 4 elements"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/elements-1-1-4-pink-cones",
+      "file": "products/elements-1-1-4-pink-cones/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9327,
+      "missingWords": 21,
+      "longestMissingRun": 3,
+      "sourceWords": 296,
+      "rebuiltWords": 929,
+      "sourceH1": [
+        "Elements (1 1/4 Pink Cones)"
+      ],
+      "rebuiltH1": [
+        "Elements (1 1/4 Pink Cones)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 107,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.3% (floor 95%)",
+          "detail": "missing words: open media modal low stock left decrease quantity increase full description 1 elements 4 pink"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/elements-1-1-4-ultra-thin-cones-6ct-30pk-case",
+      "file": "products/elements-1-1-4-ultra-thin-cones-6ct-30pk-case/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9149,
+      "missingWords": 53,
+      "longestMissingRun": 10,
+      "sourceWords": 617,
+      "rebuiltWords": 789,
+      "sourceH1": [
+        "Elements (1 1/4 Ultra Thin Cones 6ct 30pk Case)"
+      ],
+      "rebuiltH1": [
+        "Elements (1 1/4 Ultra Thin Cones 6ct 30pk Case)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 106,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 91.5% (floor 95%)",
+          "detail": "missing words: log nicotine explore mushroom glass check open media modal 1 out low stock left decrease quantity increase 4 ultra 6ct 30pk case view full elements"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/elements-1-1-4-ultra-thin-parpers-25ct-box-1",
+      "file": "products/elements-1-1-4-ultra-thin-parpers-25ct-box-1/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9158,
+      "missingWords": 25,
+      "longestMissingRun": 3,
+      "sourceWords": 290,
+      "rebuiltWords": 910,
+      "sourceH1": [
+        "Elements (1 1/4 Ultra Thin Parpers 25ct Box)"
+      ],
+      "rebuiltH1": [
+        "Elements (1 1/4 Ultra Thin Parpers 25ct Box)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 91.6% (floor 95%)",
+          "detail": "missing words: open media modal low stock left decrease quantity increase parpers 25ct full description 1 ultra thin elements box 4"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/elements-king-size-original-cones",
+      "file": "products/elements-king-size-original-cones/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.94,
+      "missingWords": 18,
+      "longestMissingRun": 4,
+      "sourceWords": 291,
+      "rebuiltWords": 925,
+      "sourceH1": [
+        "Elements (King Size Original Cones)"
+      ],
+      "rebuiltH1": [
+        "Elements (King Size Original Cones)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 107,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.0% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase full description elements original"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/elements-king-size-original-papers",
+      "file": "products/elements-king-size-original-papers/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9323,
+      "missingWords": 18,
+      "longestMissingRun": 4,
+      "sourceWords": 263,
+      "rebuiltWords": 890,
+      "sourceH1": [
+        "Elements (King Size Original Papers)"
+      ],
+      "rebuiltH1": [
+        "Elements (King Size Original Papers)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.2% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase full description original elements"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/elements-king-size-pink-cones",
+      "file": "products/elements-king-size-pink-cones/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9421,
+      "missingWords": 18,
+      "longestMissingRun": 3,
+      "sourceWords": 303,
+      "rebuiltWords": 937,
+      "sourceH1": [
+        "Elements (King Size Pink Cones)"
+      ],
+      "rebuiltH1": [
+        "Elements (King Size Pink Cones)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 107,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.2% (floor 95%)",
+          "detail": "missing words: open media 1 modal low 2 left decrease quantity increase description full elements pink stock"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/elements-king-slim-original-papers",
+      "file": "products/elements-king-slim-original-papers/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9294,
+      "missingWords": 19,
+      "longestMissingRun": 3,
+      "sourceWords": 267,
+      "rebuiltWords": 896,
+      "sourceH1": [
+        "Elements (King Slim Original Papers)"
+      ],
+      "rebuiltH1": [
+        "Elements (King Slim Original Papers)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 106,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.9% (floor 95%)",
+          "detail": "missing words: open media 1 modal stock left decrease quantity increase full description original low elements slim"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/elements-king-wide-original-papers",
+      "file": "products/elements-king-wide-original-papers/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9228,
+      "missingWords": 48,
+      "longestMissingRun": 10,
+      "sourceWords": 623,
+      "rebuiltWords": 793,
+      "sourceH1": [
+        "Elements (King Wide Original Papers)"
+      ],
+      "rebuiltH1": [
+        "Elements (King Wide Original Papers)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.3% (floor 95%)",
+          "detail": "missing words: log nicotine explore mushroom glass check open media 1 modal out low stock left decrease quantity increase original view full elements wide for details in"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/elements-king-wide-original-papers-1",
+      "file": "products/elements-king-wide-original-papers-1/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9314,
+      "missingWords": 19,
+      "longestMissingRun": 3,
+      "sourceWords": 276,
+      "rebuiltWords": 903,
+      "sourceH1": [
+        "Elements (King Wide Original Papers)"
+      ],
+      "rebuiltH1": [
+        "Elements (King Wide Original Papers)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.1% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock decrease quantity increase full description original left elements wide"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/fasta-vape",
+      "file": "products/fasta-vape/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.944,
+      "missingWords": 31,
+      "longestMissingRun": 2,
+      "sourceWords": 547,
+      "rebuiltWords": 1338,
+      "sourceH1": [
+        "Fasta"
+      ],
+      "rebuiltH1": [
+        "Fasta"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 106,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.4% (floor 95%)",
+          "detail": "missing words: 1 20 low left color or sold decrease quantity increase full description out fasta stock"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/import-glass-flat-rimmed-banger-w-terp-pearls-14mm-1",
+      "file": "products/import-glass-flat-rimmed-banger-w-terp-pearls-14mm-1/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9333,
+      "missingWords": 24,
+      "longestMissingRun": 4,
+      "sourceWords": 347,
+      "rebuiltWords": 962,
+      "sourceH1": [
+        "Import Glass (Flat Rimmed Banger W/Terp Pearls 14mm)"
+      ],
+      "rebuiltH1": [
+        "Import Glass (Flat Rimmed Banger W/Terp Pearls 14mm)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.3% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase import rimmed w full description terp flat pearls 14mm banger"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/import-glass-thick-flat-rimmed-banger-10mm-90",
+      "file": "products/import-glass-thick-flat-rimmed-banger-10mm-90/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9258,
+      "missingWords": 23,
+      "longestMissingRun": 3,
+      "sourceWords": 303,
+      "rebuiltWords": 918,
+      "sourceH1": [
+        "Import Glass (Thick Flat Rimmed Banger 10mm 90°)"
+      ],
+      "rebuiltH1": [
+        "Import Glass (Thick Flat Rimmed Banger 10mm 90°)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.6% (floor 95%)",
+          "detail": "missing words: open media 1 modal stock left decrease quantity increase rimmed full description low import 90 flat 10mm banger thick"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/import-glass-thick-flat-rimmed-banger-14mm-90",
+      "file": "products/import-glass-thick-flat-rimmed-banger-14mm-90/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9313,
+      "missingWords": 23,
+      "longestMissingRun": 4,
+      "sourceWords": 325,
+      "rebuiltWords": 940,
+      "sourceH1": [
+        "Import Glass (Thick Flat Rimmed Banger 14mm 90°)"
+      ],
+      "rebuiltH1": [
+        "Import Glass (Thick Flat Rimmed Banger 14mm 90°)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.1% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase rimmed full description import thick flat 14mm banger 90"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/inex-munchy-bowl",
+      "file": "products/inex-munchy-bowl/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9326,
+      "missingWords": 19,
+      "longestMissingRun": 4,
+      "sourceWords": 276,
+      "rebuiltWords": 901,
+      "sourceH1": [
+        "Inex (MUNCHY BOWL)"
+      ],
+      "rebuiltH1": [
+        "Inex (MUNCHY BOWL)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.3% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase full description inex munchy bowl"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/inex-stardust-beaker",
+      "file": "products/inex-stardust-beaker/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9343,
+      "missingWords": 18,
+      "longestMissingRun": 4,
+      "sourceWords": 269,
+      "rebuiltWords": 892,
+      "sourceH1": [
+        "Inex (Stardust Beaker)"
+      ],
+      "rebuiltH1": [
+        "Inex (Stardust Beaker)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 103,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.4% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase full description inex stardust"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/inex-steamroller",
+      "file": "products/inex-steamroller/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.947,
+      "missingWords": 16,
+      "longestMissingRun": 4,
+      "sourceWords": 299,
+      "rebuiltWords": 934,
+      "sourceH1": [
+        "Inex (Steamroller)"
+      ],
+      "rebuiltH1": [
+        "Inex (Steamroller)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 103,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.7% (floor 95%)",
+          "detail": "missing words: 1 2 low stock left sold out decrease quantity increase full description inex steamroller"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/infused-edibles-1000mg-gummies",
+      "file": "products/infused-edibles-1000mg-gummies/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9377,
+      "missingWords": 17,
+      "longestMissingRun": 3,
+      "sourceWords": 264,
+      "rebuiltWords": 888,
+      "sourceH1": [
+        "Infused Edibles (1000mg Gummies)"
+      ],
+      "rebuiltH1": [
+        "Infused Edibles (1000mg Gummies)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.8% (floor 95%)",
+          "detail": "missing words: open media 1 modal 68 stock decrease quantity increase full description infused 1000mg gummies"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/jolly-cannabis-dog-treats-cbd-cbg-berry-butter",
+      "file": "products/jolly-cannabis-dog-treats-cbd-cbg-berry-butter/index.html",
+      "pageType": "commerce",
+      "status": "OK",
+      "recall": 0.9536,
+      "missingWords": 14,
+      "longestMissingRun": 2,
+      "sourceWords": 297,
+      "rebuiltWords": 927,
+      "sourceH1": [
+        "Jolly Cannabis (Dog Treats CBD+CBG - Berry Butter)"
+      ],
+      "rebuiltH1": [
+        "Jolly Cannabis (Dog Treats CBD+CBG - Berry Butter)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": []
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/jolly-cannabis-dog-treats-cbd-cbn-jam-butter",
+      "file": "products/jolly-cannabis-dog-treats-cbd-cbn-jam-butter/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9394,
+      "missingWords": 18,
+      "longestMissingRun": 3,
+      "sourceWords": 292,
+      "rebuiltWords": 917,
+      "sourceH1": [
+        "Jolly Cannabis (Dog Treats CBD+CBN - Jam Butter)"
+      ],
+      "rebuiltH1": [
+        "Jolly Cannabis (Dog Treats CBD+CBN - Jam Butter)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.9% (floor 95%)",
+          "detail": "missing words: open media 1 modal stock decrease quantity increase full description cannabis jam butter cbn jolly"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/king-palm-1g-mini-2pk-20ct-box-watermelon-wave",
+      "file": "products/king-palm-1g-mini-2pk-20ct-box-watermelon-wave/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9218,
+      "missingWords": 24,
+      "longestMissingRun": 4,
+      "sourceWords": 301,
+      "rebuiltWords": 940,
+      "sourceH1": [
+        "King Palm (1g Mini 2pk 20ct Box Watermelon Wave)"
+      ],
+      "rebuiltH1": [
+        "King Palm (1g Mini 2pk 20ct Box Watermelon Wave)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 110,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.2% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase 1g 2pk 20ct box description mini full wave watermelon palm"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/king-palm-1g-natural-mini-2pk-20ct-box",
+      "file": "products/king-palm-1g-natural-mini-2pk-20ct-box/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9279,
+      "missingWords": 22,
+      "longestMissingRun": 4,
+      "sourceWords": 298,
+      "rebuiltWords": 938,
+      "sourceH1": [
+        "King Palm (1g Natural Mini 2pk 20ct Box)"
+      ],
+      "rebuiltH1": [
+        "King Palm (1g Natural Mini 2pk 20ct Box)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 110,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.8% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase 2pk 20ct box description 1g full palm mini"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/lookah-bear-510-battery-5pk-aqua",
+      "file": "products/lookah-bear-510-battery-5pk-aqua/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9371,
+      "missingWords": 27,
+      "longestMissingRun": 5,
+      "sourceWords": 424,
+      "rebuiltWords": 1128,
+      "sourceH1": [
+        "Lookah (Bear 510 Battery 5pk)"
+      ],
+      "rebuiltH1": [
+        "Lookah (Bear 510 Battery 5pk)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.7% (floor 95%)",
+          "detail": "missing words: 1 14 low stock left color or decrease quantity increase full description lookah bear 510 5pk battery"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/lookah-mini-unicorn",
+      "file": "products/lookah-mini-unicorn/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9492,
+      "missingWords": 20,
+      "longestMissingRun": 5,
+      "sourceWords": 389,
+      "rebuiltWords": 1065,
+      "sourceH1": [
+        "Lookah (Mini Unicorn)"
+      ],
+      "rebuiltH1": [
+        "Lookah (Mini Unicorn)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.9% (floor 95%)",
+          "detail": "missing words: 1 15 low stock left color or decrease quantity increase description full lookah unicorn mini"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/lookah-python",
+      "file": "products/lookah-python/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9472,
+      "missingWords": 18,
+      "longestMissingRun": 5,
+      "sourceWords": 338,
+      "rebuiltWords": 1007,
+      "sourceH1": [
+        "Lookah (Python)"
+      ],
+      "rebuiltH1": [
+        "Lookah (Python)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.7% (floor 95%)",
+          "detail": "missing words: 1 8 low stock left color or decrease quantity increase description full lookah python"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/lookah-seahorse-pro-plus",
+      "file": "products/lookah-seahorse-pro-plus/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9467,
+      "missingWords": 22,
+      "longestMissingRun": 5,
+      "sourceWords": 406,
+      "rebuiltWords": 1064,
+      "sourceH1": [
+        "Lookah (Seahorse Pro Plus)"
+      ],
+      "rebuiltH1": [
+        "Lookah (Seahorse Pro Plus)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.7% (floor 95%)",
+          "detail": "missing words: 1 8 low stock left color or decrease quantity increase full description lookah seahorse pro plus"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/lookah-swordfish",
+      "file": "products/lookah-swordfish/index.html",
+      "pageType": "commerce",
+      "status": "OK",
+      "recall": 0.9503,
+      "missingWords": 16,
+      "longestMissingRun": 5,
+      "sourceWords": 319,
+      "rebuiltWords": 974,
+      "sourceH1": [
+        "Lookah (Swordfish)"
+      ],
+      "rebuiltH1": [
+        "Lookah (Swordfish)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": []
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/maven-alpha-box",
+      "file": "products/maven-alpha-box/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9326,
+      "missingWords": 18,
+      "longestMissingRun": 3,
+      "sourceWords": 266,
+      "rebuiltWords": 894,
+      "sourceH1": [
+        "Maven (Alpha Box )"
+      ],
+      "rebuiltH1": [
+        "Maven (Alpha Box )"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 108,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.3% (floor 95%)",
+          "detail": "missing words: open media 1 modal low left decrease quantity increase full stock maven alpha box"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/maven-alpha-mini-box",
+      "file": "products/maven-alpha-mini-box/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9301,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 281,
+      "rebuiltWords": 907,
+      "sourceH1": [
+        "Maven (Alpha Mini Box)"
+      ],
+      "rebuiltH1": [
+        "Maven (Alpha Mini Box)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 108,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.0% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase description box full maven alpha mini"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/maven-cannon-blue-green-purple-box",
+      "file": "products/maven-cannon-blue-green-purple-box/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9206,
+      "missingWords": 22,
+      "longestMissingRun": 3,
+      "sourceWords": 275,
+      "rebuiltWords": 897,
+      "sourceH1": [
+        "Maven (Cannon Blue Green Purple Box)"
+      ],
+      "rebuiltH1": [
+        "Maven (Cannon Blue Green Purple Box)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 107,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.1% (floor 95%)",
+          "detail": "missing words: open media 1 modal low left decrease quantity increase full description stock box blue green purple maven cannon"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/maven-cannon-yellow-red-black-box",
+      "file": "products/maven-cannon-yellow-red-black-box/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9194,
+      "missingWords": 22,
+      "longestMissingRun": 4,
+      "sourceWords": 268,
+      "rebuiltWords": 892,
+      "sourceH1": [
+        "Maven (Cannon Yellow Red Black Box)"
+      ],
+      "rebuiltH1": [
+        "Maven (Cannon Yellow Red Black Box)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 108,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 91.9% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase full description box yellow red black maven cannon"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/mmelt-magic-mushroom-chocolate-bar-milk-chocolate-candy",
+      "file": "products/mmelt-magic-mushroom-chocolate-bar-milk-chocolate-candy/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9075,
+      "missingWords": 26,
+      "longestMissingRun": 4,
+      "sourceWords": 280,
+      "rebuiltWords": 900,
+      "sourceH1": [
+        "Mmelt (Magic Mushroom Chocolate Bar Milk Chocolate & Candy)"
+      ],
+      "rebuiltH1": [
+        "Mmelt (Magic Mushroom Chocolate Bar Milk Chocolate & Candy)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 90.7% (floor 95%)",
+          "detail": "missing words: open media 1 modal 20 low stock 9 left decrease quantity amp increase full description magic milk candy chocolate bar mmelt"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/nerdy-puff-pulse-x-30k",
+      "file": "products/nerdy-puff-pulse-x-30k/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9201,
+      "missingWords": 31,
+      "longestMissingRun": 5,
+      "sourceWords": 380,
+      "rebuiltWords": 1079,
+      "sourceH1": [
+        "Nerdy Puff (Pulse X 30k)"
+      ],
+      "rebuiltH1": [
+        "Nerdy Puff (Pulse X 30k)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 106,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.0% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left color or sold decrease quantity increase full description pulse x nerdy puff 30k out"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/ooze-booster-panther",
+      "file": "products/ooze-booster-panther/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9438,
+      "missingWords": 15,
+      "longestMissingRun": 5,
+      "sourceWords": 255,
+      "rebuiltWords": 881,
+      "sourceH1": [
+        "Ooze (Booster Panther)"
+      ],
+      "rebuiltH1": [
+        "Ooze (Booster Panther)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 103,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.4% (floor 95%)",
+          "detail": "missing words: 1 3 low stock left color decrease quantity increase description full panther booster"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/ooze-brink",
+      "file": "products/ooze-brink/index.html",
+      "pageType": "commerce",
+      "status": "OK",
+      "recall": 0.9553,
+      "missingWords": 13,
+      "longestMissingRun": 5,
+      "sourceWords": 287,
+      "rebuiltWords": 918,
+      "sourceH1": [
+        "Ooze (Brink)"
+      ],
+      "rebuiltH1": [
+        "Ooze (Brink)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 103,
+      "findings": []
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/ooze-duplax-2",
+      "file": "products/ooze-duplax-2/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9485,
+      "missingWords": 15,
+      "longestMissingRun": 5,
+      "sourceWords": 285,
+      "rebuiltWords": 909,
+      "sourceH1": [
+        "Ooze (Duplax 2)"
+      ],
+      "rebuiltH1": [
+        "Ooze (Duplax 2)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 103,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.8% (floor 95%)",
+          "detail": "missing words: 1 low stock left color decrease quantity increase duplax full description 2"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/ooze-electro-barrel-e-rig",
+      "file": "products/ooze-electro-barrel-e-rig/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9498,
+      "missingWords": 15,
+      "longestMissingRun": 2,
+      "sourceWords": 288,
+      "rebuiltWords": 914,
+      "sourceH1": [
+        "Ooze (Electro Barrel E-Rig)"
+      ],
+      "rebuiltH1": [
+        "Ooze (Electro Barrel E-Rig)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 103,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 95.0% (floor 95%)",
+          "detail": "missing words: 1 3 stock color decrease quantity increase full description out e rig electro barrel"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/pop-cones-1-1-4-unbleached-cones-6ct-24pk-case-whld-grape",
+      "file": "products/pop-cones-1-1-4-unbleached-cones-6ct-24pk-case-whld-grape/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9253,
+      "missingWords": 26,
+      "longestMissingRun": 3,
+      "sourceWords": 332,
+      "rebuiltWords": 957,
+      "sourceH1": [
+        "Pop Cones (1 1/4 Unbleached Cones 6ct 24pk Case Whld Grape)"
+      ],
+      "rebuiltH1": [
+        "Pop Cones (1 1/4 Unbleached Cones 6ct 24pk Case Whld Grape)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 106,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.5% (floor 95%)",
+          "detail": "missing words: open media modal low stock left decrease quantity increase 24pk case whld full description 6ct unbleached grape 1 4 pop"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/raw-1-1-4-classic-papers-24ct-box",
+      "file": "products/raw-1-1-4-classic-papers-24ct-box/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9305,
+      "missingWords": 23,
+      "longestMissingRun": 3,
+      "sourceWords": 323,
+      "rebuiltWords": 944,
+      "sourceH1": [
+        "Raw (1 1/4 Classic Papers 24ct Box)"
+      ],
+      "rebuiltH1": [
+        "Raw (1 1/4 Classic Papers 24ct Box)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.1% (floor 95%)",
+          "detail": "missing words: open media modal low stock left decrease quantity increase box full description 1 4 24ct raw classic"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/raw-classic-98-special-1400ct",
+      "file": "products/raw-classic-98-special-1400ct/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9309,
+      "missingWords": 21,
+      "longestMissingRun": 4,
+      "sourceWords": 294,
+      "rebuiltWords": 925,
+      "sourceH1": [
+        "Raw (Classic 98 Special 1400ct)"
+      ],
+      "rebuiltH1": [
+        "Raw (Classic 98 Special 1400ct)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 106,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.1% (floor 95%)",
+          "detail": "missing words: open media modal 1 low stock left decrease quantity increase full description 1400ct classic 98 special raw"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/raw-classic-king-1400ct",
+      "file": "products/raw-classic-king-1400ct/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9365,
+      "missingWords": 19,
+      "longestMissingRun": 4,
+      "sourceWords": 295,
+      "rebuiltWords": 920,
+      "sourceH1": [
+        "Raw (Classic King 1400ct)"
+      ],
+      "rebuiltH1": [
+        "Raw (Classic King 1400ct)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.6% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase full description 1400ct classic raw"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/raw-king-size-classic-bulk-cones-1400ct-1",
+      "file": "products/raw-king-size-classic-bulk-cones-1400ct-1/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9417,
+      "missingWords": 19,
+      "longestMissingRun": 3,
+      "sourceWords": 319,
+      "rebuiltWords": 955,
+      "sourceH1": [
+        "Raw (King Size Classic Bulk Cones 1400ct)"
+      ],
+      "rebuiltH1": [
+        "Raw (King Size Classic Bulk Cones 1400ct)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 108,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 94.2% (floor 95%)",
+          "detail": "missing words: open media 1 modal left decrease increase quantity full description 1400ct classic low stock raw"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/shrum-xum-magic-tabs",
+      "file": "products/shrum-xum-magic-tabs/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9231,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 256,
+      "rebuiltWords": 883,
+      "sourceH1": [
+        "Shrum (XUM Magic Tabs)"
+      ],
+      "rebuiltH1": [
+        "Shrum (XUM Magic Tabs)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.3% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock 4 left decrease quantity increase full description magic tabs shrum xum"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/skunk-coffin-5-black",
+      "file": "products/skunk-coffin-5-black/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9286,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 268,
+      "rebuiltWords": 899,
+      "sourceH1": [
+        "Skunk (Coffin 5\" Black)"
+      ],
+      "rebuiltH1": [
+        "Skunk (Coffin 5\" Black)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 106,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.9% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity quot increase full description coffin black"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/skunk-coffin-7-grey",
+      "file": "products/skunk-coffin-7-grey/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9265,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 262,
+      "rebuiltWords": 893,
+      "sourceH1": [
+        "Skunk (Coffin 7\" Grey)"
+      ],
+      "rebuiltH1": [
+        "Skunk (Coffin 7\" Grey)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 106,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.6% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity quot increase full description grey coffin"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/skunk-element-backpack-midnight-navy",
+      "file": "products/skunk-element-backpack-midnight-navy/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.915,
+      "missingWords": 51,
+      "longestMissingRun": 10,
+      "sourceWords": 596,
+      "rebuiltWords": 764,
+      "sourceH1": [
+        "Skunk (Element Backpack Midnight Navy)"
+      ],
+      "rebuiltH1": [
+        "Skunk (Element Backpack Midnight Navy)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 91.5% (floor 95%)",
+          "detail": "missing words: log nicotine explore mushroom papers glass check open media 1 modal out low stock left decrease quantity increase skunk element backpack midnight navy view full"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/skunk-element-backpack-midnight-navy-1",
+      "file": "products/skunk-element-backpack-midnight-navy-1/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9275,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 269,
+      "rebuiltWords": 892,
+      "sourceH1": [
+        "Skunk (Element Backpack Midnight Navy)"
+      ],
+      "rebuiltH1": [
+        "Skunk (Element Backpack Midnight Navy)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.8% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase full description midnight navy element backpack"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/skunk-mini-backpack-atomic-white",
+      "file": "products/skunk-mini-backpack-atomic-white/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9298,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 277,
+      "rebuiltWords": 900,
+      "sourceH1": [
+        "Skunk (Mini Backpack Atomic White)"
+      ],
+      "rebuiltH1": [
+        "Skunk (Mini Backpack Atomic White)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.0% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase description full backpack atomic white mini"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/skunk-nomad-backpack-charcoal",
+      "file": "products/skunk-nomad-backpack-charcoal/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9304,
+      "missingWords": 19,
+      "longestMissingRun": 4,
+      "sourceWords": 270,
+      "rebuiltWords": 894,
+      "sourceH1": [
+        "Skunk (Nomad Backpack Charcoal)"
+      ],
+      "rebuiltH1": [
+        "Skunk (Nomad Backpack Charcoal)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.0% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase full description backpack charcoal nomad"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/skunk-sidekick-small-black-leather",
+      "file": "products/skunk-sidekick-small-black-leather/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9265,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 263,
+      "rebuiltWords": 893,
+      "sourceH1": [
+        "Skunk (Sidekick Small Black Leather)"
+      ],
+      "rebuiltH1": [
+        "Skunk (Sidekick Small Black Leather)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 106,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.6% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase full description small sidekick black leather"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/tre-house-magic-mushroom-chocolate-bar-fruity-cereal",
+      "file": "products/tre-house-magic-mushroom-chocolate-bar-fruity-cereal/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.922,
+      "missingWords": 22,
+      "longestMissingRun": 3,
+      "sourceWords": 281,
+      "rebuiltWords": 904,
+      "sourceH1": [
+        "Tre House (Magic Mushroom Chocolate Bar Fruity Cereal)"
+      ],
+      "rebuiltH1": [
+        "Tre House (Magic Mushroom Chocolate Bar Fruity Cereal)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.2% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase full description bar fruity cereal magic chocolate tre house"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/wulf-ari-knife-kit-9pk",
+      "file": "products/wulf-ari-knife-kit-9pk/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9271,
+      "missingWords": 21,
+      "longestMissingRun": 4,
+      "sourceWords": 279,
+      "rebuiltWords": 898,
+      "sourceH1": [
+        "Wulf (Ari Knife Kit 9pk)"
+      ],
+      "rebuiltH1": [
+        "Wulf (Ari Knife Kit 9pk)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.7% (floor 95%)",
+          "detail": "missing words: open media modal 1 low stock left decrease quantity increase 9pk full description wulf ari knife kit"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/wulf-deck-510-battery-9pk",
+      "file": "products/wulf-deck-510-battery-9pk/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9253,
+      "missingWords": 21,
+      "longestMissingRun": 4,
+      "sourceWords": 277,
+      "rebuiltWords": 896,
+      "sourceH1": [
+        "Wulf (Deck 510 Battery 9pk)"
+      ],
+      "rebuiltH1": [
+        "Wulf (Deck 510 Battery 9pk)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.5% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase 9pk full description wulf deck 510 battery"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/wulf-kodo-510-battery-9ct-box",
+      "file": "products/wulf-kodo-510-battery-9ct-box/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9323,
+      "missingWords": 22,
+      "longestMissingRun": 3,
+      "sourceWords": 316,
+      "rebuiltWords": 934,
+      "sourceH1": [
+        "Wulf (Kodo 510 Battery 9ct Box)"
+      ],
+      "rebuiltH1": [
+        "Wulf (Kodo 510 Battery 9ct Box)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.2% (floor 95%)",
+          "detail": "missing words: open media 1 modal low left decrease quantity increase full description stock 9ct box wulf 510 kodo battery"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/wulf-kodo-knife-9pk",
+      "file": "products/wulf-kodo-knife-9pk/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9273,
+      "missingWords": 20,
+      "longestMissingRun": 4,
+      "sourceWords": 275,
+      "rebuiltWords": 894,
+      "sourceH1": [
+        "Wulf (Kodo Knife 9pk )"
+      ],
+      "rebuiltH1": [
+        "Wulf (Kodo Knife 9pk )"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.7% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase 9pk full description wulf kodo knife"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/wulf-kodo-pro-510-battery-9ct-box",
+      "file": "products/wulf-kodo-pro-510-battery-9ct-box/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9345,
+      "missingWords": 23,
+      "longestMissingRun": 2,
+      "sourceWords": 338,
+      "rebuiltWords": 955,
+      "sourceH1": [
+        "Wulf (Kodo Pro 510 Battery 9ct Box)"
+      ],
+      "rebuiltH1": [
+        "Wulf (Kodo Pro 510 Battery 9ct Box)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.4% (floor 95%)",
+          "detail": "missing words: open media modal 1 low left decrease quantity increase full description stock 9ct battery wulf kodo pro box 510"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/wulf-kodo-pro-digit-510-battery-15ct-box",
+      "file": "products/wulf-kodo-pro-digit-510-battery-15ct-box/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9308,
+      "missingWords": 24,
+      "longestMissingRun": 4,
+      "sourceWords": 338,
+      "rebuiltWords": 954,
+      "sourceH1": [
+        "Wulf (Kodo Pro Digit 510 Battery 15ct Box)"
+      ],
+      "rebuiltH1": [
+        "Wulf (Kodo Pro Digit 510 Battery 15ct Box)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 93.1% (floor 95%)",
+          "detail": "missing words: open media modal 1 low stock left decrease quantity increase 15ct full description box digit wulf kodo pro battery 510"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/wulf-tryp-mushroom-510-battery-9pk",
+      "file": "products/wulf-tryp-mushroom-510-battery-9pk/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9263,
+      "missingWords": 21,
+      "longestMissingRun": 4,
+      "sourceWords": 278,
+      "rebuiltWords": 896,
+      "sourceH1": [
+        "Wulf (TRYP Mushroom 510 Battery 9pk)"
+      ],
+      "rebuiltH1": [
+        "Wulf (TRYP Mushroom 510 Battery 9pk)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 105,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.6% (floor 95%)",
+          "detail": "missing words: open media 1 modal low stock left decrease quantity increase 9pk full description 510 wulf tryp battery"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/zig-zag-1-1-4-ultra-thin-cones-6ct-24pk-case",
+      "file": "products/zig-zag-1-1-4-ultra-thin-cones-6ct-24pk-case/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.929,
+      "missingWords": 26,
+      "longestMissingRun": 5,
+      "sourceWords": 336,
+      "rebuiltWords": 963,
+      "sourceH1": [
+        "Zig-Zag (1 1/4 Ultra Thin Cones 6ct 24pk Case)"
+      ],
+      "rebuiltH1": [
+        "Zig-Zag (1 1/4 Ultra Thin Cones 6ct 24pk Case)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 106,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 92.9% (floor 95%)",
+          "detail": "missing words: open media modal low stock left decrease quantity increase 6ct 24pk full description 1 ultra thin 4 case zig zag"
+        }
+      ]
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/zig-zag-1-1-4-ultra-thin-parpers-24ct-box",
+      "file": "products/zig-zag-1-1-4-ultra-thin-parpers-24ct-box/index.html",
+      "pageType": "commerce",
+      "status": "DIFFERS",
+      "recall": 0.9193,
+      "missingWords": 26,
+      "longestMissingRun": 5,
+      "sourceWords": 307,
+      "rebuiltWords": 926,
+      "sourceH1": [
+        "Zig Zag (1 1/4 Ultra Thin Parpers 24ct Box)"
+      ],
+      "rebuiltH1": [
+        "Zig Zag (1 1/4 Ultra Thin Parpers 24ct Box)"
+      ],
+      "sourceLinks": 5,
+      "rebuiltLinks": 104,
+      "findings": [
+        {
+          "severity": "major",
+          "code": "content-loss",
+          "title": "Body content recall 91.9% (floor 95%)",
+          "detail": "missing words: open media modal low stock left decrease quantity increase parpers full description 1 24ct box zig zag 4 ultra thin"
+        }
+      ]
+    }
+  ]
+}

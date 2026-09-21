@@ -1,0 +1,8 @@
+crawl complete in 1m9s
+  html pages   150
+  non-html     1
+  failed       1  -> audit/failures.json
+  from sitemap 139
+  robots-block 1  URLs not requested (robots.txt Disallow)
+  aliases      2  redirect URL(s) folded into the page they land on
+  next         node scripts/sr-extract.mjs --project "C:\\Users\\Dell\\smokeshopgurus-reforge"

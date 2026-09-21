@@ -1,0 +1,229 @@
+
+/* ===================================================================
+   GLASS — the fourth surface state
+   ===================================================================
+   A pane laid ON the metal, never instead of it. Glass is only for
+   surfaces that FLOAT with something behind them worth glimpsing. The
+   chassis — cards, tiles, badges, footer, inputs, the disclaimer — stays
+   opaque machined metal, and the light stages stay opaque because their
+   images use mix-blend-mode: multiply and would go black on a
+   translucent parent.
+
+   FALLBACK-FIRST. The base rule is the no-backdrop-filter surface and is
+   fully readable on its own; the blur is added inside @supports. Never
+   the other way round, so an engine that drops the filter (GPU blocklist,
+   forced colours, printing) inherits a readable pane, not a transparent
+   one.
+
+   The tint is DARK (--gm-800 at 56%), not white. Over the dark shell it
+   composites to #12171b — darker than a card — so accent text gains
+   contrast on glass rather than losing it.
+   =================================================================== */
+.glass {
+  position: relative;
+  isolation: isolate;
+  border-radius: var(--glass-r);
+  background-color: var(--glass-tint-solid);
+  background-image: var(--glass-noise), var(--glass-face);
+  box-shadow:
+    inset 0 1px 0 var(--glass-edge),
+    inset 0 -1px 0 var(--hairline-dk),
+    inset 0 0 0 1px var(--glass-inner),
+    0 0 0 1px var(--hairline),
+    0 2px 4px var(--dark-3),
+    0 20px 44px var(--dark-2);
+}
+.glass::before {
+  content: ''; position: absolute; inset: 0; z-index: -1;
+  border-radius: inherit;
+  background-image: var(--glass-glare);
+  pointer-events: none;
+}
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .glass {
+    background-color: var(--glass-tint);
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat)) brightness(var(--glass-bright));
+    backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat)) brightness(var(--glass-bright));
+  }
+}
+.glass--deep { background-color: var(--glass-tint-deep); }
+.glass--lite { --glass-blur: var(--glass-blur-lite); }
+
+/* --- masthead: the best glass moment on the site, sticky at top:0 with the
+   whole document scrolling under it.
+   Its mega panels therefore CANNOT also be glass. An element with a
+   backdrop-filter becomes a Backdrop Root, and .nav__panel is a DOM
+   descendant of <header> — it hangs below the masthead's own box, where that
+   root painted nothing, so it would blur an empty backdrop and render as a
+   flat tinted rectangle. Glass rail, machined drawer. */
+.masthead {
+  background-color: var(--glass-tint-solid);
+  background-image: var(--glass-noise), var(--glass-face);
+  box-shadow:
+    inset 0 1px 0 var(--glass-edge),
+    inset 0 -1px 0 var(--hairline-dk),
+    0 2px 18px var(--dark-2);
+}
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .masthead {
+    background-color: var(--glass-tint);
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat)) brightness(var(--glass-bright));
+    backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat)) brightness(var(--glass-bright));
+  }
+}
+/* the top rail stays the darkest opaque tone — it carries the age notice */
+.masthead__strip { background-color: var(--gm-990); background-image: none; }
+
+/* --- age gate: frosted scrim, machined panel. The contrast between a blurred
+   storefront behind and a solid plate in front is the whole point, so the
+   PANEL stays metal. */
+.agegate { background-color: var(--glass-scrim); background-image: none; }
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .agegate {
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+    backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+  }
+}
+
+/* --- lightbox backdrop. The opacity is REMOVED deliberately: opacity < 1 on
+   the same element fades the filtered result and makes the pseudo its own
+   backdrop root, so tint and blur have to be independent properties. The
+   dialog itself stays the opaque light table — its image multiplies. */
+.lightbox::backdrop {
+  background-color: var(--glass-scrim);
+  opacity: 1;
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+  backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+}
+
+/* --- cart note: paints over the masthead at the top right, so it takes the
+   LITE blur. At full strength it would sample the masthead's already-blurred
+   output and the two would compound into exactly the milky blob glass is
+   supposed to avoid. */
+.cartnote__panel {
+  --glass-blur: var(--glass-blur-lite);
+  background-color: var(--glass-tint-solid);
+  background-image: var(--glass-noise), var(--glass-face);
+  box-shadow:
+    inset 0 1px 0 var(--glass-edge),
+    inset 0 -1px 0 var(--hairline-dk),
+    0 0 0 1px var(--hairline),
+    0 18px 40px var(--dark-1);
+}
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .cartnote__panel {
+    background-color: var(--glass-tint-deep);
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+    backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+  }
+}
+/* the slide-in moves to the WRAPPER: a transform on an element carrying
+   backdrop-filter re-samples the blurred region every frame, and the sample
+   visibly lags the element edge in Chromium */
+.cartnote[data-open='true'] .cartnote__panel { animation: none; }
+.cartnote[data-open='true'] { animation: sr-cartnote 0.22s ease both; }
+@media (prefers-reduced-motion: reduce) { .cartnote[data-open='true'] { animation: none; } }
+
+/* --- sticky buy bar: the masthead argument at the opposite edge */
+.stickybuy {
+  background-color: var(--glass-tint-solid);
+  background-image: var(--glass-noise), var(--glass-face);
+  box-shadow: inset 0 1px 0 var(--glass-edge), 0 -6px 24px var(--dark-2);
+}
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .stickybuy {
+    background-color: var(--glass-tint-deep);
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+    backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+  }
+}
+
+/* --- hero eyebrow: one pill of glass sitting on the photograph, which is
+   precisely what glass is for. --glass-tint-deep because the image behind it
+   can be bright, and its label is --gm-150 rather than accent text so no
+   accent colour is ever asked to survive a bright backdrop. */
+.hero__eyebrow {
+  background-color: var(--glass-tint-deep);
+  background-image: var(--glass-face);
+  box-shadow:
+    inset 0 1px 0 var(--glass-edge),
+    inset 0 -1px 0 var(--hairline-dk),
+    0 0 0 1px var(--glass-acc-edge),
+    0 6px 18px var(--dark-2);
+}
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .hero__eyebrow {
+    -webkit-backdrop-filter: blur(var(--glass-blur-lite)) saturate(var(--glass-sat));
+    backdrop-filter: blur(var(--glass-blur-lite)) saturate(var(--glass-sat));
+  }
+}
+
+/* --- ghost button: it already declared itself transparent; glass is what it
+   was reaching for */
+.btn--ghost {
+  background-color: var(--glass-tint);
+  background-image: var(--glass-face);
+  box-shadow: inset 0 1px 0 var(--glass-edge), inset 0 0 0 1px var(--glass-inner);
+}
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .btn--ghost {
+    -webkit-backdrop-filter: blur(var(--glass-blur-lite)) saturate(var(--glass-sat));
+    backdrop-filter: blur(var(--glass-blur-lite)) saturate(var(--glass-sat));
+  }
+}
+.btn--ghost:hover { background-color: var(--glass-tint-deep); }
+
+/* --- facet panel is glass on DESKTOP ONLY. Below 768px site.css already sets
+   position:static, putting it in normal flow on the page background with
+   nothing behind it to sample — glass there is cost without effect. */
+@media (min-width: 768px) {
+  .facets__panel {
+    background-color: var(--glass-tint-deep);
+    background-image: var(--glass-noise), var(--glass-face);
+    box-shadow:
+      inset 0 1px 0 var(--glass-edge),
+      inset 0 0 0 1px var(--glass-inner),
+      0 0 0 1px var(--hairline),
+      0 18px 40px var(--dark-2);
+  }
+}
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  @media (min-width: 768px) {
+    .facets__panel {
+      -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+      backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
+    }
+  }
+}
+
+/* ===================================================================
+   EMERALD — the primary button rebuilt around the new ramp
+   ===================================================================
+   The old rule rested the button on --acc-lo (the DARKEST step) and
+   lightened on hover to --acc: 4.30:1 at rest and 2.73:1 on hover for
+   white text, both under AA. Two things are fixed here.
+
+   1. States run base -> deep -> sunk. Lightening on hover is impossible
+      with white text on emerald (a lighter fill measures 4.13 and 3.45),
+      so the button DARKENS, which raises text contrast instead of
+      lowering it. Measured: 5.62 / 7.38 / 9.36.
+   2. A 1px --acc-hi rim. WCAG 1.4.11 wants a 3:1 boundary so the control
+      is identifiable as a shape, and the fill alone only reaches 2.85:1
+      against a card. The rim measures 5.55-7.54:1 against every surface
+      the button lands on, so the boundary carries it everywhere.
+   All values from tools/contrast.mjs, not estimated.
+   =================================================================== */
+.btn--primary {
+  background-color: var(--acc);
+  box-shadow:
+    inset 0 1px 0 var(--lite-1),
+    inset 0 -1px 0 var(--hairline-dk),
+    0 0 0 1px var(--acc-hi),
+    0 1px 2px var(--dark-3),
+    0 8px 20px var(--dark-2);
+}
+.btn--primary:hover { background-color: var(--acc-deep); }
+.btn--primary:active {
+  background-color: var(--acc-lo);
+  box-shadow: var(--plate-sunk), 0 0 0 1px var(--acc-hi);
+}

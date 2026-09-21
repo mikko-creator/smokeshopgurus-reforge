@@ -1,0 +1,14 @@
+{
+  "note": "Representative pages, one per page type the extract found (home, collection, product, about, contact, faq), captured at every breakpoint in project.json.",
+  "viewports": [390, 768, 1024, 1440],
+  "height": 900,
+  "settleMs": 3000,
+  "pages": [
+    "https://smokeshopgurus.com/",
+    "https://smokeshopgurus.com/collections/glass-bongs",
+    "https://smokeshopgurus.com/products/aleaf-10-bubble-beaker",
+    "https://smokeshopgurus.com/pages/about",
+    "https://smokeshopgurus.com/pages/contact",
+    "https://smokeshopgurus.com/pages/faqs"
+  ]
+}

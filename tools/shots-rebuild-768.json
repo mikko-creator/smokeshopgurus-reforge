@@ -1,0 +1,21 @@
+{
+ "settleMs": 2600,
+ "paintMs": 1200,
+ "initScript": "try{localStorage.setItem('ssg.age.ok','1')}catch(e){}",
+ "urls": [
+  "http://127.0.0.1:8788",
+  "http://127.0.0.1:8788/collections/glass-bongs/",
+  "http://127.0.0.1:8788/products/aleaf-10-bubble-beaker/",
+  "http://127.0.0.1:8788/pages/about/",
+  "http://127.0.0.1:8788/pages/contact/",
+  "http://127.0.0.1:8788/pages/faqs/"
+ ],
+ "names": [
+  "index.768",
+  "collections-glass-bongs.768",
+  "products-aleaf-10-bubble-beaker.768",
+  "pages-about.768",
+  "pages-contact.768",
+  "pages-faqs.768"
+ ]
+}

@@ -1,0 +1,25 @@
+node_modules/
+.DS_Store
+Thumbs.db
+.tmp/
+
+# --- what deliberately stays OUT of the repo -------------------------------
+# These are kept on disk — they are the evidence and the delivery — but they are
+# far too heavy for a repo a team is meant to clone, and none of them is needed
+# to read the build or to serve the preview.
+
+# 463 MB and 9 MB. The handoff and deploy archives are rebuilt by
+# sr-package.mjs and by the zip step in the change log; committing them would
+# make every clone pay for a file that is regenerated on demand.
+*.zip
+
+# 423 MB of untouched downloads from the live site: every product photograph at
+# every Shopify ?width= variant. dist/ already carries the converted, optimised
+# copies that the site actually serves.
+/assets/
+
+# audit/ keeps its REPORTS (the json files at the top level, which the docs cite
+# and the gate reads) and drops its bulk: 39.6 MB of raw page captures, 61.8 MB
+# of screenshots, 19.7 MB of computed-style harvests. Those are the working
+# evidence for a run, not something a reviewer needs to clone.
+audit/*/

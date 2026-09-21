@@ -1,0 +1,18 @@
+{
+  "schema": "site-reforge/source-cms@1",
+  "generated": "2026-09-21T03:33:35.883Z",
+  "detected": [
+    {
+      "id": "shopify",
+      "label": "Shopify",
+      "matchedPatterns": 3,
+      "evidence": [
+        "/cdn\\.shopify\\.com/i",
+        "/Shopify\\.theme/i",
+        "/shopify-section/i"
+      ],
+      "pages": 150
+    }
+  ],
+  "note": "Every id listed here MUST be absent from dist/ before packaging. sr-decontaminate.mjs enforces it."
+}

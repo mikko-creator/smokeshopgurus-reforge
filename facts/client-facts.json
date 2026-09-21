@@ -1,0 +1,90 @@
+{
+  "schema": "site-reforge/client-facts@1",
+  "note": "Declared facts. ONLY facts recorded here or present in audit/content-inventory.json may appear as claims on the rebuild. Everything else is a fabrication and sr-fabrication.mjs fails the gate. Every value below was read off the live site's own footer, contact page or about page — nothing here was supplied from outside the capture, and nothing was invented to fill a field.",
+  "legalName": "Smoke Shop Gurus",
+  "brand": "Smoke Shop Guru",
+  "brandVariants": [
+    "Smoke Shop Guru",
+    "Smoke Shop Gurus",
+    "Smokeshop Gurus"
+  ],
+  "brandNote": "The source uses the singular in the logo and copyright line and the plural in body copy. Both are preserved as they appear rather than normalised, because picking one would be an edit to the client's name.",
+  "phone": [
+    "(505)-288-9953"
+  ],
+  "email": [
+    "hi@motagurus.com"
+  ],
+  "addresses": [
+    {
+      "street": "3762 Hawkins St NE",
+      "locality": "Albuquerque",
+      "region": "NM",
+      "postalCode": "87109",
+      "country": "US",
+      "source": "site footer, every page"
+    }
+  ],
+  "hours": "Mon - Sat ( 7:30 AM - 10:30 PM) Sun (10:00 AM - 7:00 PM)",
+  "hoursStructured": [
+    {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "07:30",
+      "closes": "22:30"
+    },
+    {
+      "days": [
+        "Sunday"
+      ],
+      "opens": "10:00",
+      "closes": "19:00"
+    }
+  ],
+  "licences": [],
+  "certifications": [],
+  "awards": [],
+  "statistics": [],
+  "testimonials": [],
+  "clients": [],
+  "guarantees": [
+    {
+      "claim": "30 days money back guarantee",
+      "source": "homepage trust badge row"
+    },
+    {
+      "claim": "FREE SHIPPING On all orders over $99.00",
+      "source": "homepage trust badge row"
+    },
+    {
+      "claim": "BEST SUPPORT Team always ready for you",
+      "source": "homepage trust badge row"
+    }
+  ],
+  "pricing": [],
+  "services": [],
+  "compliance": {
+    "ageNotice": "⚠️ Must be 21 years of age or older to purchase consumable hemp products in Alabama, California, Florida, Georgia, Hawaii, Iowa, Louisiana, Minnesota, New Jersey, New York, Oregon, Rhode Island, Tennessee, Utah, Virginia, West Virginia and Wyoming⚠️",
+    "ageNoticeSource": "site footer, every page",
+    "ageVerifier": "The source runs an age-verification gate (Shopify app: age-verifier-by-omega). The rebuild keeps an equivalent 21+ interstitial, because removing it would strip a compliance control rather than a platform artifact.",
+    "disclaimerSource": "Rendered site-wide by the source in its footer section group, above the age notice. Preserved verbatim - it is a legal disclaimer and is never reworded.",
+    "disclaimer": "All products offered by Smoke Shop Gurus are intended for legal use only. It is the responsibility of the purchaser to know and comply with all applicable local, state, and federal laws regarding the products they order. Smoke Shop Gurus is not responsible for the misuse of any products. We make every effort to provide accurate descriptions, images, and details, but we cannot guarantee that every product listing is free from errors. Prices, availability, and product details are subject to change without notice. By purchasing from us, you acknowledge and accept this disclaimer."
+  },
+  "copyright": "© 2026, Smoke Shop Guru",
+  "collectionNames": {
+    "note": "Collection names the client publishes that contain a superlative. These are the client's own category names, present in audit/content-inventory.json, not claims written for the rebuild. They are declared here because sr-fabrication captures a superlative plus the following 50 characters, so the phrase traces but the captured span does not.",
+    "names": [
+      "Best seller"
+    ],
+    "renderedContext": [
+      "Best seller Collection Best seller 7"
+    ],
+    "evidence": "grep \"Best seller\" audit/raw/collections-best-seller.html -> 3 hits; audit/raw/index.html -> 1 hit"
+  }
+}

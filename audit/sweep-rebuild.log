@@ -1,0 +1,26 @@
+  OK  rebuild.index.390  findings=29
+  OK  rebuild.index.768  findings=29
+  OK  rebuild.index.1024  findings=32
+  OK  rebuild.index.1440  findings=32
+  OK  rebuild.collections-glass-bongs.390  findings=10
+  OK  rebuild.collections-glass-bongs.768  findings=11
+  OK  rebuild.collections-glass-bongs.1024  findings=11
+  OK  rebuild.collections-glass-bongs.1440  findings=11
+  OK  rebuild.products-aleaf-10-bubble-beaker.390  findings=19
+  OK  rebuild.products-aleaf-10-bubble-beaker.768  findings=18
+  OK  rebuild.products-aleaf-10-bubble-beaker.1024  findings=23
+  OK  rebuild.products-aleaf-10-bubble-beaker.1440  findings=22
+  OK  rebuild.pages-contact.390  findings=0
+  OK  rebuild.pages-contact.768  findings=0
+  OK  rebuild.pages-contact.1024  findings=0
+  OK  rebuild.pages-contact.1440  findings=0
+  OK  rebuild.pages-about.390  findings=0
+  OK  rebuild.pages-about.768  findings=0
+  OK  rebuild.pages-about.1024  findings=0
+  OK  rebuild.pages-about.1440  findings=0
+  OK  rebuild.pages-faqs.390  findings=0
+  OK  rebuild.pages-faqs.768  findings=0
+  OK  rebuild.pages-faqs.1024  findings=0
+  OK  rebuild.pages-faqs.1440  findings=0
+
+sweep-run(rebuild): 24 ok, 0 failed

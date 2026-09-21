@@ -1,0 +1,28 @@
+<!doctype html><meta charset="utf-8"><title>glass probe</title>
+<style>
+ body{margin:0;background:#0a0d10;height:2400px;
+  background-image:repeating-linear-gradient(45deg,#1b6b4a 0 40px,#0a0d10 40px 80px)}
+ .sticky{position:sticky;top:0;height:80px;
+   background:rgba(24,30,35,.55);
+   -webkit-backdrop-filter:blur(18px) saturate(1.4);
+   backdrop-filter:blur(18px) saturate(1.4);
+   border-bottom:1px solid rgba(255,255,255,.14);color:#fff;font:16px system-ui;padding:16px}
+ .fixedpanel{position:fixed;top:120px;right:20px;width:280px;height:160px;
+   background:rgba(24,30,35,.5);
+   -webkit-backdrop-filter:blur(22px) saturate(1.5);
+   backdrop-filter:blur(22px) saturate(1.5);
+   border:1px solid rgba(255,255,255,.14);border-radius:12px;color:#fff;font:14px system-ui;padding:16px}
+ .clip{overflow-x:clip}
+</style>
+<div class="clip">
+<div class="sticky" id="s">sticky + backdrop-filter</div>
+<div class="fixedpanel" id="f">fixed + backdrop-filter</div>
+</div>
+<script>
+ var out={};
+ out.supported = CSS.supports('backdrop-filter','blur(2px)') || CSS.supports('-webkit-backdrop-filter','blur(2px)');
+ out.stickyComputed = getComputedStyle(document.getElementById('s')).backdropFilter;
+ out.fixedComputed  = getComputedStyle(document.getElementById('f')).backdropFilter;
+ out.stickyPos      = getComputedStyle(document.getElementById('s')).position;
+ document.title = JSON.stringify(out);
+</script>

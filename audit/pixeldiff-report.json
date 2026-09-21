@@ -1,0 +1,495 @@
+{
+  "schema": "site-reforge/pixeldiff-report@1",
+  "generated": "2026-09-21T04:57:55.217Z",
+  "threshold": 0.02,
+  "tolerance": 8,
+  "pairCount": 24,
+  "verdict": "DRIFT",
+  "worst": [
+    {
+      "file": "pages-about.1440.png",
+      "ratio": 0.995146,
+      "verdict": "SIZE-MISMATCH"
+    },
+    {
+      "file": "pages-faqs.1440.png",
+      "ratio": 0.994982,
+      "verdict": "SIZE-MISMATCH"
+    },
+    {
+      "file": "pages-faqs.1024.png",
+      "ratio": 0.994402,
+      "verdict": "SIZE-MISMATCH"
+    },
+    {
+      "file": "pages-faqs.768.png",
+      "ratio": 0.993245,
+      "verdict": "SIZE-MISMATCH"
+    },
+    {
+      "file": "index.1440.png",
+      "ratio": 0.992764,
+      "verdict": "SIZE-MISMATCH"
+    }
+  ],
+  "unpairedBaseline": [],
+  "unpairedRebuild": [],
+  "pairs": [
+    {
+      "file": "collections-glass-bongs.1024.png",
+      "slug": "collections-glass-bongs",
+      "width": 1024,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 2227587,
+      "compared": 2251776,
+      "ratio": 0.989258,
+      "baselineSize": [
+        1024,
+        2230
+      ],
+      "rebuildSize": [
+        1024,
+        2199
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/collections-glass-bongs.1024.png"
+    },
+    {
+      "file": "collections-glass-bongs.1440.png",
+      "slug": "collections-glass-bongs",
+      "width": 1440,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 3076563,
+      "compared": 3103200,
+      "ratio": 0.991416,
+      "baselineSize": [
+        1440,
+        2155
+      ],
+      "rebuildSize": [
+        1440,
+        2239
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/collections-glass-bongs.1440.png"
+    },
+    {
+      "file": "collections-glass-bongs.390.png",
+      "slug": "collections-glass-bongs",
+      "width": 390,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 1448016,
+      "compared": 1474980,
+      "ratio": 0.981719,
+      "baselineSize": [
+        390,
+        3782
+      ],
+      "rebuildSize": [
+        390,
+        5348
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/collections-glass-bongs.390.png"
+    },
+    {
+      "file": "collections-glass-bongs.768.png",
+      "slug": "collections-glass-bongs",
+      "width": 768,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 2302109,
+      "compared": 2323968,
+      "ratio": 0.990594,
+      "baselineSize": [
+        769,
+        3026
+      ],
+      "rebuildSize": [
+        768,
+        3191
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/collections-glass-bongs.768.png"
+    },
+    {
+      "file": "index.1024.png",
+      "slug": "index",
+      "width": 1024,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 5071352,
+      "compared": 5125120,
+      "ratio": 0.989509,
+      "baselineSize": [
+        1024,
+        5005
+      ],
+      "rebuildSize": [
+        1024,
+        5087
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/index.1024.png"
+    },
+    {
+      "file": "index.1440.png",
+      "slug": "index",
+      "width": 1440,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 7400938,
+      "compared": 7454880,
+      "ratio": 0.992764,
+      "baselineSize": [
+        1440,
+        5177
+      ],
+      "rebuildSize": [
+        1440,
+        5304
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/index.1440.png"
+    },
+    {
+      "file": "index.390.png",
+      "slug": "index",
+      "width": 390,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 2695045,
+      "compared": 2749500,
+      "ratio": 0.980195,
+      "baselineSize": [
+        390,
+        7050
+      ],
+      "rebuildSize": [
+        390,
+        15158
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/index.390.png"
+    },
+    {
+      "file": "index.768.png",
+      "slug": "index",
+      "width": 768,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 4511705,
+      "compared": 4564992,
+      "ratio": 0.988327,
+      "baselineSize": [
+        768,
+        5944
+      ],
+      "rebuildSize": [
+        768,
+        6892
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/index.768.png"
+    },
+    {
+      "file": "pages-about.1024.png",
+      "slug": "pages-about",
+      "width": 1024,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 1402285,
+      "compared": 1413120,
+      "ratio": 0.992333,
+      "baselineSize": [
+        1024,
+        1679
+      ],
+      "rebuildSize": [
+        1024,
+        1380
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/pages-about.1024.png"
+    },
+    {
+      "file": "pages-about.1440.png",
+      "slug": "pages-about",
+      "width": 1440,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 1943161,
+      "compared": 1952640,
+      "ratio": 0.995146,
+      "baselineSize": [
+        1440,
+        1561
+      ],
+      "rebuildSize": [
+        1440,
+        1356
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/pages-about.1440.png"
+    },
+    {
+      "file": "pages-about.390.png",
+      "slug": "pages-about",
+      "width": 390,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 1040020,
+      "compared": 1053780,
+      "ratio": 0.986942,
+      "baselineSize": [
+        390,
+        3077
+      ],
+      "rebuildSize": [
+        390,
+        2702
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/pages-about.390.png"
+    },
+    {
+      "file": "pages-about.768.png",
+      "slug": "pages-about",
+      "width": 768,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 1329116,
+      "compared": 1340160,
+      "ratio": 0.991759,
+      "baselineSize": [
+        768,
+        1965
+      ],
+      "rebuildSize": [
+        768,
+        1745
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/pages-about.768.png"
+    },
+    {
+      "file": "pages-contact.1024.png",
+      "slug": "pages-contact",
+      "width": 1024,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 1782397,
+      "compared": 1803264,
+      "ratio": 0.988428,
+      "baselineSize": [
+        1024,
+        2554
+      ],
+      "rebuildSize": [
+        1024,
+        1761
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/pages-contact.1024.png"
+    },
+    {
+      "file": "pages-contact.1440.png",
+      "slug": "pages-contact",
+      "width": 1440,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 2480564,
+      "compared": 2501280,
+      "ratio": 0.991718,
+      "baselineSize": [
+        1440,
+        2410
+      ],
+      "rebuildSize": [
+        1440,
+        1737
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/pages-contact.1440.png"
+    },
+    {
+      "file": "pages-contact.390.png",
+      "slug": "pages-contact",
+      "width": 390,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 1275602,
+      "compared": 1293630,
+      "ratio": 0.986064,
+      "baselineSize": [
+        390,
+        4200
+      ],
+      "rebuildSize": [
+        390,
+        3317
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/pages-contact.390.png"
+    },
+    {
+      "file": "pages-contact.768.png",
+      "slug": "pages-contact",
+      "width": 768,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 1552304,
+      "compared": 1572864,
+      "ratio": 0.986928,
+      "baselineSize": [
+        768,
+        3161
+      ],
+      "rebuildSize": [
+        768,
+        2048
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/pages-contact.768.png"
+    },
+    {
+      "file": "pages-faqs.1024.png",
+      "slug": "pages-faqs",
+      "width": 1024,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 1424556,
+      "compared": 1432576,
+      "ratio": 0.994402,
+      "baselineSize": [
+        1024,
+        1399
+      ],
+      "rebuildSize": [
+        1024,
+        1728
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/pages-faqs.1024.png"
+    },
+    {
+      "file": "pages-faqs.1440.png",
+      "slug": "pages-faqs",
+      "width": 1440,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 1854009,
+      "compared": 1863360,
+      "ratio": 0.994982,
+      "baselineSize": [
+        1440,
+        1294
+      ],
+      "rebuildSize": [
+        1440,
+        1704
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/pages-faqs.1440.png"
+    },
+    {
+      "file": "pages-faqs.390.png",
+      "slug": "pages-faqs",
+      "width": 390,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 1018987,
+      "compared": 1032330,
+      "ratio": 0.987075,
+      "baselineSize": [
+        390,
+        2647
+      ],
+      "rebuildSize": [
+        390,
+        3034
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/pages-faqs.390.png"
+    },
+    {
+      "file": "pages-faqs.768.png",
+      "slug": "pages-faqs",
+      "width": 768,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 1205243,
+      "compared": 1213440,
+      "ratio": 0.993245,
+      "baselineSize": [
+        768,
+        1580
+      ],
+      "rebuildSize": [
+        768,
+        2065
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/pages-faqs.768.png"
+    },
+    {
+      "file": "products-aleaf-10-bubble-beaker.1024.png",
+      "slug": "products-aleaf-10-bubble-beaker",
+      "width": 1024,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 2688116,
+      "compared": 2718720,
+      "ratio": 0.988743,
+      "baselineSize": [
+        1024,
+        2655
+      ],
+      "rebuildSize": [
+        1024,
+        3096
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/products-aleaf-10-bubble-beaker.1024.png"
+    },
+    {
+      "file": "products-aleaf-10-bubble-beaker.1440.png",
+      "slug": "products-aleaf-10-bubble-beaker",
+      "width": 1440,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 3760265,
+      "compared": 3794400,
+      "ratio": 0.991004,
+      "baselineSize": [
+        1440,
+        2635
+      ],
+      "rebuildSize": [
+        1440,
+        3007
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/products-aleaf-10-bubble-beaker.1440.png"
+    },
+    {
+      "file": "products-aleaf-10-bubble-beaker.390.png",
+      "slug": "products-aleaf-10-bubble-beaker",
+      "width": 390,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 1864086,
+      "compared": 1906320,
+      "ratio": 0.977845,
+      "baselineSize": [
+        390,
+        4888
+      ],
+      "rebuildSize": [
+        390,
+        7142
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/products-aleaf-10-bubble-beaker.390.png"
+    },
+    {
+      "file": "products-aleaf-10-bubble-beaker.768.png",
+      "slug": "products-aleaf-10-bubble-beaker",
+      "width": 768,
+      "verdict": "SIZE-MISMATCH",
+      "differing": 2631654,
+      "compared": 2674176,
+      "ratio": 0.984099,
+      "baselineSize": [
+        768,
+        3482
+      ],
+      "rebuildSize": [
+        768,
+        4769
+      ],
+      "sizeMismatch": true,
+      "diffImage": "audit/screens/diff/products-aleaf-10-bubble-beaker.768.png"
+    }
+  ]
+}

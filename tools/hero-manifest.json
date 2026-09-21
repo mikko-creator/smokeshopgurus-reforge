@@ -1,0 +1,24 @@
+{
+  "note": "Hero candidates: cannabis vape, in the gun-metal language. Four directions, all unbranded product/botanical still life. No people, no lettering, no logos — the same B3 constraints as every other generated image, and each one gets looked at on a contact sheet before any of them ships.",
+  "model": "fal-ai/flux/dev",
+  "steps": 34,
+  "style": "cinematic product photography on a brushed gunmetal steel surface, dramatic low-key side lighting, deep charcoal and cold blue-grey palette, volumetric haze, photorealistic, shallow depth of field, wide cinematic composition with clear negative space on the left for text",
+  "antiText": "completely unbranded, perfectly smooth unmarked surfaces, no text, no letters, no words, no numbers, no typography, no logo, no label, no engraving, no packaging print, no watermark, no people, no hands, no faces, no smoking, no weapons",
+  "images": [
+    { "id": "hero-vape-leaf", "role": "hero", "size": "landscape_16_9",
+      "alt": "Matte vape device resting on gunmetal beside a cannabis leaf",
+      "prompt": "a single sleek matte black cannabis vape pen lying on a brushed gunmetal plate beside one fresh green cannabis leaf, dew on the leaf, rim light catching the device edge, completely blank casing" },
+
+    { "id": "hero-vape-vapor", "role": "hero", "size": "landscape_16_9",
+      "alt": "Vapor curling over a gunmetal surface with a cannabis leaf silhouette",
+      "prompt": "soft white vapour curling slowly over a dark brushed gunmetal surface, a single cannabis leaf silhouetted in the haze behind it, one slim unbranded vape device catching a cold rim light, atmospheric and moody" },
+
+    { "id": "hero-vape-flatlay", "role": "hero", "size": "landscape_16_9",
+      "alt": "Overhead arrangement of vape devices and cannabis leaves on gunmetal",
+      "prompt": "an overhead flat-lay of three slim unbranded matte vape devices arranged in a row on a brushed gunmetal plate, scattered fresh cannabis leaves around them, cold directional light raking across the metal, blank casings" },
+
+    { "id": "hero-vape-macro", "role": "hero", "size": "landscape_16_9",
+      "alt": "Macro of a vape device mouthpiece against a cannabis leaf",
+      "prompt": "extreme macro of the machined mouthpiece of an unbranded matte gunmetal vape device in sharp focus, a cannabis leaf blurred deep in the background, knurled metal detail, cold specular highlights, blank surfaces" }
+  ]
+}

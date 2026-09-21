@@ -1,0 +1,212 @@
+{
+  "note": "Decorative category and material imagery for the gun-metal skeuomorphic redesign. Every prompt is unbranded product-category still life or raw material texture. Nothing here depicts a person, a premises or a documented outcome (site-reforge B3). ids and alts deliberately avoid the sr-fabrication proof-role vocabulary.",
+  "model": "fal-ai/flux/dev",
+  "steps": 32,
+  "style": "studio product photography on a brushed gunmetal steel surface, dramatic directional rim light, deep charcoal and gunmetal grey palette, cold blue-grey highlights, photorealistic, crisp macro detail, shallow depth of field, dark moody background",
+  "antiText": "completely unbranded, blank unmarked surfaces, no text, no letters, no words, no numbers, no typography, no logo, no label, no packaging print, no watermark, no signature, no people, no hands, no faces",
+  "images": [
+    {
+      "id": "hero-gunmetal-anvil",
+      "role": "hero",
+      "size": "landscape_16_9",
+      "alt": "Abstract gunmetal steel panels lit from the side",
+      "prompt": "an abstract arrangement of heavy machined gunmetal steel plates and bevelled edges, forge-dark industrial still life, volumetric haze"
+    },
+    {
+      "id": "tex-brushed-gunmetal",
+      "role": "texture",
+      "size": "square_hd",
+      "alt": "Brushed gunmetal surface texture",
+      "prompt": "seamless flat-on brushed gunmetal steel plate texture, fine horizontal grain, even lighting, no objects"
+    },
+    {
+      "id": "tex-machined-swirl",
+      "role": "texture",
+      "size": "square_hd",
+      "alt": "Machined circular grain metal texture",
+      "prompt": "seamless flat-on engine-turned machined steel texture, overlapping circular jewelled swirls, dark pewter tone, no objects"
+    },
+    {
+      "id": "tex-knurled-grip",
+      "role": "texture",
+      "size": "square_hd",
+      "alt": "Knurled metal grip texture",
+      "prompt": "seamless flat-on knurled steel grip texture, fine diamond crosshatch machining, gunmetal grey, no objects"
+    },
+    {
+      "id": "tex-tread-plate",
+      "role": "texture",
+      "size": "square_hd",
+      "alt": "Steel tread plate texture",
+      "prompt": "seamless flat-on dark steel diamond tread plate texture, raised treads, worn gunmetal finish, no objects"
+    },
+    {
+      "id": "tex-perforated-mesh",
+      "role": "texture",
+      "size": "square_hd",
+      "alt": "Perforated steel mesh texture",
+      "prompt": "seamless flat-on perforated gunmetal steel mesh texture, round holes in a tight grid, backlit shadow, no objects"
+    },
+    {
+      "id": "tex-scratched-steel",
+      "role": "texture",
+      "size": "square_hd",
+      "alt": "Worn scratched steel texture",
+      "prompt": "seamless flat-on scuffed and scratched dark steel texture, patina and micro-abrasions, gunmetal grey, no objects"
+    },
+    {
+      "id": "cat-glass-bongs",
+      "role": "category",
+      "size": "square_hd",
+      "alt": "Clear borosilicate glass water pipe on a metal surface",
+      "prompt": "a tall clear borosilicate glass water pipe with a beaker base and smoked-grey accents, plain unetched glass"
+    },
+    {
+      "id": "cat-glass-pipes",
+      "role": "category",
+      "size": "square_hd",
+      "alt": "Clear glass hand pipes on a metal surface",
+      "prompt": "three small clear and smoke-grey glass hand pipes arranged in a row, plain unetched glass"
+    },
+    {
+      "id": "cat-glass-bangers",
+      "role": "category",
+      "size": "square_hd",
+      "alt": "Quartz banger and terp pearls on a metal surface",
+      "prompt": "a thick flat-rimmed clear quartz banger nail beside three small glass pearls, plain unetched glass"
+    },
+    {
+      "id": "cat-rolling-papers",
+      "role": "category",
+      "size": "square_hd",
+      "alt": "Stack of plain unbleached rolling paper booklets",
+      "prompt": "a neat stack of plain unbleached brown rolling paper booklets, blank covers, one booklet fanned open showing thin leaves"
+    },
+    {
+      "id": "cat-pre-rolled-cones",
+      "role": "category",
+      "size": "square_hd",
+      "alt": "Unbleached pre-rolled paper cones in a row",
+      "prompt": "a row of empty unbleached brown pre-rolled paper cones standing upright in a plain metal tray, blank paper"
+    },
+    {
+      "id": "cat-blunt-wraps",
+      "role": "category",
+      "size": "square_hd",
+      "alt": "Natural leaf wraps on a metal surface",
+      "prompt": "several flat natural tobacco-free leaf wraps and a plain rolling tray, earthy brown tones, blank surfaces"
+    },
+    {
+      "id": "cat-disposable-vapes",
+      "role": "category",
+      "size": "square_hd",
+      "alt": "Unbranded disposable vape devices in a row",
+      "prompt": "three sleek matte gunmetal disposable vape devices standing in a row, completely blank casings, no screen graphics"
+    },
+    {
+      "id": "cat-wax-pens",
+      "role": "category",
+      "size": "square_hd",
+      "alt": "Unbranded wax pen and battery on a metal surface",
+      "prompt": "a slim brushed-metal wax pen vaporizer disassembled into two pieces beside a cylindrical battery, blank matte casing"
+    },
+    {
+      "id": "cat-grinders",
+      "role": "category",
+      "size": "square_hd",
+      "alt": "Machined metal herb grinder, open",
+      "prompt": "a four-piece machined aluminium herb grinder with knurled edges, lid lifted to show the milled teeth, gunmetal anodised finish, blank surfaces"
+    },
+    {
+      "id": "cat-lighters",
+      "role": "category",
+      "size": "square_hd",
+      "alt": "Plain lighters and a torch lighter on a metal surface",
+      "prompt": "a cluster of plain unlabelled pocket lighters and one brushed-metal jet torch lighter with a blue flame, blank casings"
+    },
+    {
+      "id": "cat-mushroom-wellness",
+      "role": "category",
+      "size": "square_hd",
+      "alt": "Dried functional mushrooms and an unlabelled jar",
+      "prompt": "dried lions mane and reishi functional mushrooms beside a plain unlabelled amber glass jar, botanical still life"
+    },
+    {
+      "id": "cat-edibles",
+      "role": "category",
+      "size": "square_hd",
+      "alt": "Assorted gummies in a plain dish",
+      "prompt": "assorted translucent fruit gummy squares spilling from a plain unlabelled matte tin onto a metal surface"
+    },
+    {
+      "id": "cat-tinctures",
+      "role": "category",
+      "size": "square_hd",
+      "alt": "Unlabelled amber dropper bottle",
+      "prompt": "a plain unlabelled amber glass dropper bottle with a gunmetal cap, glass pipette beside it, completely blank bottle"
+    },
+    {
+      "id": "cat-topicals",
+      "role": "category",
+      "size": "square_hd",
+      "alt": "Unlabelled balm tin, open",
+      "prompt": "a plain unlabelled brushed-metal balm tin with the lid off showing smooth cream, blank surfaces"
+    },
+    {
+      "id": "cat-kratom",
+      "role": "category",
+      "size": "square_hd",
+      "alt": "Green botanical powder and capsules in a plain dish",
+      "prompt": "fine green botanical powder in a small metal dish beside scattered clear capsules and a dried green leaf, blank surfaces"
+    },
+    {
+      "id": "cat-pet-treats",
+      "role": "category",
+      "size": "square_hd",
+      "alt": "Bone-shaped biscuits in a plain metal bowl",
+      "prompt": "bone-shaped baked dog biscuits in a plain brushed-metal pet bowl, warm brown biscuit tones, blank surfaces"
+    },
+    {
+      "id": "cat-stash-bags",
+      "role": "category",
+      "size": "square_hd",
+      "alt": "Matte black carry bag with metal hardware",
+      "prompt": "a matte black smell-proof zip carry bag with heavy gunmetal zip hardware and a combination lock, completely blank fabric, no badges"
+    },
+    {
+      "id": "cat-herb-containers",
+      "role": "category",
+      "size": "square_hd",
+      "alt": "Machined metal containers with screw lids",
+      "prompt": "two small machined gunmetal screw-top containers, one open showing a rubber seal, knurled grip rings, blank surfaces"
+    },
+    {
+      "id": "cat-accessories",
+      "role": "category",
+      "size": "square_hd",
+      "alt": "Assorted metal smoking accessories laid flat",
+      "prompt": "a flat-lay of assorted small metal smoking accessories, poker tools, screens and a plain rolling tray, arranged in a grid, blank surfaces"
+    },
+    {
+      "id": "vapor-smoke-a",
+      "role": "texture",
+      "size": "landscape_16_9",
+      "alt": "Wisps of pale smoke drifting",
+      "prompt": "wispy white smoke drifting upward against pure black, delicate curling tendrils and thin filaments, soft volumetric haze, high contrast studio smoke photography, isolated on black background, no objects, no lettering"
+    },
+    {
+      "id": "vapor-smoke-b",
+      "role": "texture",
+      "size": "landscape_16_9",
+      "alt": "Long thin trails of pale smoke",
+      "prompt": "sparse thin white smoke trails against pure black, long slow horizontal drifting streaks, fine wispy filaments, high contrast studio smoke photography, isolated on black background, no objects, no lettering"
+    },
+    {
+      "id": "vapor-smoke-c",
+      "role": "texture",
+      "size": "square_hd",
+      "alt": "Soft rolling cloud of pale smoke",
+      "prompt": "abstract billowing pale smoke filling the frame against pure black, rolling volume with feathered wispy edges, backlit haze, macro studio smoke photography, isolated on black background, smoke only, no floor, no ground, no surface, no table, no incense, no stick, no holder, no objects, no lettering"
+    }
+  ]
+}

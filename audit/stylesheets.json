@@ -1,0 +1,266 @@
+{
+  "schema": "site-reforge/stylesheets@1",
+  "generated": "2026-09-21T04:37:15.591Z",
+  "discovered": [
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/base.css?v=159841507637079171801765470786",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-cart-items.css?v=13033300910818915211765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-predictive-search.css?v=118923337488134913561765470787",
+    "https://cdn.shopify.com/extensions/01a0b3a6-c191-7582-a657-4673cabb87c9/judgeme-755/assets/shopify_v2.css",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-slideshow.css?v=17933591812325749411765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-slider.css?v=14039311878856620671765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-list-menu.css?v=151968516119678728991765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-search.css?v=165164710990765432851765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-menu-drawer.css?v=147478906057189667651765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-cart-notification.css?v=54116361853792938221765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-price.css?v=47596247576480123001765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/section-image-banner.css?v=124819179385751388401765470788",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/section-collection-list.css?v=70863279319435850561765470788",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-card.css?v=120341546515895839841765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/template-collection.css?v=58558206033505836701765470788",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-rating.css?v=179577762467860590411765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-volume-pricing.css?v=111870094811454961941765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/quick-order-list.css?v=86354568948591544181765470788",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/quantity-popover.css?v=160630540099520878331765470788",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-accordion.css?v=7971072480289620591765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/collapsible-content.css?v=113829722280668215821765470786",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/section-footer.css?v=60318643098753476351765470788",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-newsletter.css?v=4727253280200485261765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-list-payment.css?v=69253961410771838501765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-list-social.css?v=35792976012981934991765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-article-card.css?v=47105078945762260691765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/section-main-blog.css?v=94217760973989691871765470788",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-facets.css?v=170553690294338652621765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-show-more.css?v=139536189637226996221765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-swatch-input.css?v=61683592951238328641765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-swatch.css?v=6811383713633888781765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-pagination.css?v=136206814810731739951765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/section-main-page.css?v=848677459125201531765470788",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/section-contact-form.css?v=124756058432495035521765470788",
+    "https://cdn.shopify.com/shopifycloud/privacy-banner/data-sale-opt-out.css",
+    "https://smokeshopgurus.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/section-main-product.css?v=161818056142182136911765470788",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-deferred-media.css?v=14096082462203297471765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-product-variant-picker.css?v=101198305663325844211765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-pickup-availability.css?v=34645222959864780961765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-complementary-products.css?v=181881012348126712411765470787",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/quick-add.css?v=130590836869345997561765470788",
+    "https://smokeshopgurus.com/cdn/shop/t/34/assets/section-related-products.css?v=80324771040738084201765470788"
+  ],
+  "saved": [
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/base.css?v=159841507637079171801765470786",
+      "savedAs": "cdn-shop-t-34-assets-base.css-v-159841507637079171801765470786.css",
+      "bytes": 67218
+    },
+    {
+      "url": "https://cdn.shopify.com/extensions/01a0b3a6-c191-7582-a657-4673cabb87c9/judgeme-755/assets/shopify_v2.css",
+      "savedAs": "extensions-01a0b3a6-c191-7582-a657-4673cabb87c9-judgeme-755-assets-shopify_v2.css",
+      "bytes": 76596
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-cart-items.css?v=13033300910818915211765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-cart-items.css-v-13033300910818915211765470787.css",
+      "bytes": 5001
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-predictive-search.css?v=118923337488134913561765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-predictive-search.css-v-118923337488134913561765470787.css",
+      "bytes": 4976
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-slideshow.css?v=17933591812325749411765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-slideshow.css-v-17933591812325749411765470787.css",
+      "bytes": 3674
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-slider.css?v=14039311878856620671765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-slider.css-v-14039311878856620671765470787.css",
+      "bytes": 7896
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-list-menu.css?v=151968516119678728991765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-list-menu.css-v-151968516119678728991765470787.css",
+      "bytes": 516
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-search.css?v=165164710990765432851765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-search.css-v-165164710990765432851765470787.css",
+      "bytes": 1338
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-menu-drawer.css?v=147478906057189667651765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-menu-drawer.css-v-147478906057189667651765470787.css",
+      "bytes": 4689
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-cart-notification.css?v=54116361853792938221765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-cart-notification.css-v-54116361853792938221765470787.css",
+      "bytes": 2692
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-price.css?v=47596247576480123001765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-price.css-v-47596247576480123001765470787.css",
+      "bytes": 1642
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/section-image-banner.css?v=124819179385751388401765470788",
+      "savedAs": "cdn-shop-t-34-assets-section-image-banner.css-v-124819179385751388401765470788.css",
+      "bytes": 8428
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/section-collection-list.css?v=70863279319435850561765470788",
+      "savedAs": "cdn-shop-t-34-assets-section-collection-list.css-v-70863279319435850561765470788.css",
+      "bytes": 1030
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-card.css?v=120341546515895839841765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-card.css-v-120341546515895839841765470787.css",
+      "bytes": 11873
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/template-collection.css?v=58558206033505836701765470788",
+      "savedAs": "cdn-shop-t-34-assets-template-collection.css-v-58558206033505836701765470788.css",
+      "bytes": 1509
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-rating.css?v=179577762467860590411765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-rating.css-v-179577762467860590411765470787.css",
+      "bytes": 1102
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-volume-pricing.css?v=111870094811454961941765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-volume-pricing.css-v-111870094811454961941765470787.css",
+      "bytes": 1134
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/quick-order-list.css?v=86354568948591544181765470788",
+      "savedAs": "cdn-shop-t-34-assets-quick-order-list.css-v-86354568948591544181765470788.css",
+      "bytes": 9925
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/quantity-popover.css?v=160630540099520878331765470788",
+      "savedAs": "cdn-shop-t-34-assets-quantity-popover.css-v-160630540099520878331765470788.css",
+      "bytes": 2992
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-accordion.css?v=7971072480289620591765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-accordion.css-v-7971072480289620591765470787.css",
+      "bytes": 1072
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/collapsible-content.css?v=113829722280668215821765470786",
+      "savedAs": "cdn-shop-t-34-assets-collapsible-content.css-v-113829722280668215821765470786.css",
+      "bytes": 2330
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/section-footer.css?v=60318643098753476351765470788",
+      "savedAs": "cdn-shop-t-34-assets-section-footer.css-v-60318643098753476351765470788.css",
+      "bytes": 7472
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-newsletter.css?v=4727253280200485261765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-newsletter.css-v-4727253280200485261765470787.css",
+      "bytes": 1305
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-list-payment.css?v=69253961410771838501765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-list-payment.css-v-69253961410771838501765470787.css",
+      "bytes": 362
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-list-social.css?v=35792976012981934991765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-list-social.css-v-35792976012981934991765470787.css",
+      "bytes": 504
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-article-card.css?v=47105078945762260691765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-article-card.css-v-47105078945762260691765470787.css",
+      "bytes": 2004
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-facets.css?v=170553690294338652621765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-facets.css-v-170553690294338652621765470787.css",
+      "bytes": 21192
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/section-main-blog.css?v=94217760973989691871765470788",
+      "savedAs": "cdn-shop-t-34-assets-section-main-blog.css-v-94217760973989691871765470788.css",
+      "bytes": 1973
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-show-more.css?v=139536189637226996221765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-show-more.css-v-139536189637226996221765470787.css",
+      "bytes": 162
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-swatch-input.css?v=61683592951238328641765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-swatch-input.css-v-61683592951238328641765470787.css",
+      "bytes": 2444
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-swatch.css?v=6811383713633888781765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-swatch.css-v-6811383713633888781765470787.css",
+      "bytes": 709
+    },
+    {
+      "url": "https://cdn.shopify.com/shopifycloud/privacy-banner/data-sale-opt-out.css",
+      "savedAs": "shopifycloud-privacy-banner-data-sale-opt-out.css",
+      "bytes": 5253
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/section-main-page.css?v=848677459125201531765470788",
+      "savedAs": "cdn-shop-t-34-assets-section-main-page.css-v-848677459125201531765470788.css",
+      "bytes": 305
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-pagination.css?v=136206814810731739951765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-pagination.css-v-136206814810731739951765470787.css",
+      "bytes": 1254
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+      "savedAs": "cdn-shopifycloud-portable-wallets-latest-accelerated-checkout-backwards-compat.css",
+      "bytes": 13728
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/section-contact-form.css?v=124756058432495035521765470788",
+      "savedAs": "cdn-shop-t-34-assets-section-contact-form.css-v-124756058432495035521765470788.css",
+      "bytes": 560
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/section-main-product.css?v=161818056142182136911765470788",
+      "savedAs": "cdn-shop-t-34-assets-section-main-product.css-v-161818056142182136911765470788.css",
+      "bytes": 26703
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-deferred-media.css?v=14096082462203297471765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-deferred-media.css-v-14096082462203297471765470787.css",
+      "bytes": 2303
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-product-variant-picker.css?v=101198305663325844211765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-product-variant-picker.css-v-101198305663325844211765470787.css",
+      "bytes": 4068
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-pickup-availability.css?v=34645222959864780961765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-pickup-availability.css-v-34645222959864780961765470787.css",
+      "bytes": 3045
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/component-complementary-products.css?v=181881012348126712411765470787",
+      "savedAs": "cdn-shop-t-34-assets-component-complementary-products.css-v-181881012348126712411765470787.css",
+      "bytes": 3982
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/quick-add.css?v=130590836869345997561765470788",
+      "savedAs": "cdn-shop-t-34-assets-quick-add.css-v-130590836869345997561765470788.css",
+      "bytes": 7498
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/shop/t/34/assets/section-related-products.css?v=80324771040738084201765470788",
+      "savedAs": "cdn-shop-t-34-assets-section-related-products.css-v-80324771040738084201765470788.css",
+      "bytes": 92
+    }
+  ]
+}

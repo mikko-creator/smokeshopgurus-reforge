@@ -1,0 +1,153 @@
+
+/* ===================================================================
+   GLASS CARDS
+   ===================================================================
+   The card SHELL becomes glass. The media well does NOT.
+
+   .pcard__media is an opaque --gm-050 light box and its image runs
+   mix-blend-mode: multiply. multiply mixes an element with what is
+   BEHIND it, so the moment that well goes translucent every product
+   cut-out blends against the dark page and goes near-black. site.css
+   already records this exact failure once, for .pdp__thumbs. The well
+   is therefore pinned opaque here, on purpose, and the glass lives on
+   the frame around it.
+   =================================================================== */
+.pcard,
+.tile {
+  background-color: var(--glass-tint-solid);
+  background-image: var(--glass-noise), var(--glass-face);
+  box-shadow:
+    inset 0 1px 0 var(--glass-edge),
+    inset 0 -1px 0 var(--hairline-dk),
+    inset 0 0 0 1px var(--glass-inner),
+    0 0 0 1px var(--hairline),
+    0 2px 4px var(--dark-3),
+    0 16px 36px var(--dark-2);
+}
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .pcard,
+  .tile {
+    background-color: var(--glass-tint-deep);
+    -webkit-backdrop-filter: blur(var(--glass-blur-lite)) saturate(var(--glass-sat));
+    backdrop-filter: blur(var(--glass-blur-lite)) saturate(var(--glass-sat));
+  }
+}
+/* the light stages stay opaque — see the note above */
+.pcard__media { background-color: var(--gm-050); }
+.pdp__stage { background-color: var(--gm-050); }
+
+/* The specular sweep. A pane catches the light as it lifts; this is the
+   one-light-source rule applied to a moving surface rather than a static
+   edge. Painted on a pseudo so it costs no extra element. */
+.pcard::after,
+.tile::after {
+  content: ''; position: absolute; inset: 0; z-index: 2;
+  border-radius: inherit; pointer-events: none;
+  background-image: var(--glass-glare);
+  opacity: 0;
+  transition: opacity 0.28s ease;
+}
+.pcard:hover::after,
+.tile:hover::after { opacity: 1; }
+
+/* ===================================================================
+   HOVER
+   ===================================================================
+   Transform and opacity only. Nothing here moves a box in layout, so
+   hovering a card cannot reflow the grid around it.
+   =================================================================== */
+.pcard,
+.tile {
+  transition:
+    transform 0.26s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.26s cubic-bezier(0.22, 1, 0.36, 1),
+    background-color 0.26s ease;
+}
+.pcard:hover,
+.tile:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    inset 0 1px 0 var(--glass-edge),
+    inset 0 -1px 0 var(--hairline-dk),
+    inset 0 0 0 1px var(--glass-inner),
+    0 0 0 1px var(--glass-acc-edge),
+    0 4px 8px var(--dark-3),
+    0 28px 60px var(--dark-1);
+}
+/* the photograph pushes toward the glass as the card lifts */
+.pcard__media img,
+.tile__media img { transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1); }
+.pcard:hover .pcard__media img,
+.tile:hover .tile__media img { transform: scale(1.055); }
+.pcard__media,
+.tile__media { overflow: hidden; }
+
+/* the title picks up the accent as the card lifts */
+.pcard__title a,
+.tile__title a { transition: color 0.2s ease; }
+.pcard:hover .pcard__title a,
+.tile:hover .tile__title a { color: var(--acc-hi); }
+
+/* chips, badges and thumbnails get the same lift at a smaller amplitude */
+.chip,
+.badge,
+.pdp__thumb { transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease; }
+.chip:hover,
+.pdp__thumb:hover { transform: translateY(-2px); }
+.badge:hover { transform: translateY(-3px); box-shadow: var(--plate-lifted); }
+
+/* nav and footer links get an underline that grows from the left */
+.footer a,
+.nav__panel a { position: relative; }
+.footer a::after,
+.nav__panel a::after {
+  content: ''; position: absolute; left: 0; bottom: 2px;
+  width: 100%; height: 1px; background-color: var(--acc-hi);
+  transform: scaleX(0); transform-origin: left;
+  transition: transform 0.24s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.footer a:hover::after,
+.nav__panel a:hover::after { transform: scaleX(1); }
+
+/* ===================================================================
+   SCROLL REVEALS
+   ===================================================================
+   PROGRESSIVE, NOT DEFENSIVE. The hidden state is scoped to
+   html.js-reveal, and only src/scripts/reveal.js adds that class — and
+   only after it has confirmed IntersectionObserver exists and that the
+   visitor has not asked for reduced motion. With the script blocked,
+   the class is never added and every element is simply visible.
+   Content must never depend on a script to be readable.
+
+   transform + opacity only: a reveal that animated height or margin
+   would shift the page under the reader as it played.
+   =================================================================== */
+.js-reveal [data-reveal] {
+  opacity: 0;
+  transform: translateY(18px);
+  will-change: opacity, transform;
+}
+.js-reveal [data-reveal].is-in {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+}
+/* will-change is dropped the moment the animation is done: left on, it
+   keeps a compositor layer alive for every card on the page. It is also
+   why no glass ancestor carries it — will-change makes a containing
+   block for position:fixed and would re-anchor the sticky bars. */
+.js-reveal [data-reveal].is-in { will-change: auto; }
+
+/* Grid children stagger by their index, set inline by the generator.
+   Capped at 8 so the last card in an 82-item grid does not wait 4s. */
+.js-reveal [data-reveal].is-in { transition-delay: calc(var(--i, 0) * 55ms); }
+
+@media (prefers-reduced-motion: reduce) {
+  .js-reveal [data-reveal] { opacity: 1; transform: none; transition: none; }
+  .pcard, .tile, .pcard__media img, .tile__media img,
+  .chip, .badge, .pdp__thumb, .footer a::after, .nav__panel a::after { transition: none; }
+  .pcard:hover, .tile:hover { transform: none; }
+  .pcard:hover .pcard__media img, .tile:hover .tile__media img { transform: none; }
+}

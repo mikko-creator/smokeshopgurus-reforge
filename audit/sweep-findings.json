@@ -1,0 +1,2103 @@
+{
+  "schema": "site-reforge/sweep-findings@1",
+  "generated": "2026-09-21T16:16:07.533Z",
+  "sweeps": 24,
+  "widths": [
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "baselineWidths": [
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "dimensions": [
+    {
+      "name": "Viewport 1024px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(1) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 1024px",
+          "value": "700px natural vs 204px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(2) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 1024px",
+          "value": "1256px natural vs 204px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(3) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 1024px",
+          "value": "1200px natural vs 204px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(4) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 1024px",
+          "value": "1200px natural vs 204px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.facets:nth-of-type(2) > div.facets__wide > div.facets__bar > div.facets__group:nth-of-type(1) > details.facets__drop:nth-of-type(1) > div.facets__panel > label:nth-of-type(1) > span.visually-hidden @ 1024px",
+          "value": "22px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.facets:nth-of-type(2) > div.facets__wide > div.facets__bar > div.facets__group:nth-of-type(1) > details.facets__drop:nth-of-type(1) > div.facets__panel > label:nth-of-type(2) > span.visually-hidden @ 1024px",
+          "value": "22px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(1) > a.pcard__medialink > span.visually-hidden:nth-of-type(1) @ 1024px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(1) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 1024px",
+          "value": "32px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(2) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 1024px",
+          "value": "32px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(3) > a.pcard__medialink > span.visually-hidden:nth-of-type(1) @ 1024px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(3) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 1024px",
+          "value": "32px in 1px",
+          "inherited": false
+        }
+      ]
+    },
+    {
+      "name": "Viewport 1440px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(1) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 1440px",
+          "value": "700px natural vs 268px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(2) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 1440px",
+          "value": "1256px natural vs 268px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(3) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 1440px",
+          "value": "1200px natural vs 268px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(4) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 1440px",
+          "value": "1200px natural vs 268px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.facets:nth-of-type(2) > div.facets__wide > div.facets__bar > div.facets__group:nth-of-type(1) > details.facets__drop:nth-of-type(1) > div.facets__panel > label:nth-of-type(1) > span.visually-hidden @ 1440px",
+          "value": "22px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.facets:nth-of-type(2) > div.facets__wide > div.facets__bar > div.facets__group:nth-of-type(1) > details.facets__drop:nth-of-type(1) > div.facets__panel > label:nth-of-type(2) > span.visually-hidden @ 1440px",
+          "value": "22px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(1) > a.pcard__medialink > span.visually-hidden:nth-of-type(1) @ 1440px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(1) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 1440px",
+          "value": "32px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(2) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 1440px",
+          "value": "32px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(3) > a.pcard__medialink > span.visually-hidden:nth-of-type(1) @ 1440px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(3) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 1440px",
+          "value": "32px in 1px",
+          "inherited": false
+        }
+      ]
+    },
+    {
+      "name": "Viewport 390px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.hero-wrap.sec:nth-of-type(1) > div.hero > img.hero__bg @ 390px",
+          "value": "1024px natural vs 390px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard:nth-of-type(2) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 390px",
+          "value": "1256px natural vs 326px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard:nth-of-type(3) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 390px",
+          "value": "1200px natural vs 326px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.facets:nth-of-type(2) > details.facets__mobile > div.facets__bar > div.facets__group:nth-of-type(1) > details.facets__drop:nth-of-type(1) > div.facets__panel > label:nth-of-type(1) > span.visually-hidden @ 390px",
+          "value": "22px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.facets:nth-of-type(2) > details.facets__mobile > div.facets__bar > div.facets__group:nth-of-type(1) > details.facets__drop:nth-of-type(1) > div.facets__panel > label:nth-of-type(2) > span.visually-hidden @ 390px",
+          "value": "22px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(1) > a.pcard__medialink > span.visually-hidden:nth-of-type(1) @ 390px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(1) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 390px",
+          "value": "32px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard:nth-of-type(2) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 390px",
+          "value": "32px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard:nth-of-type(3) > a.pcard__medialink > span.visually-hidden:nth-of-type(1) @ 390px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard:nth-of-type(3) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 390px",
+          "value": "32px in 1px",
+          "inherited": false
+        }
+      ]
+    },
+    {
+      "name": "Viewport 768px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(1) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 768px",
+          "value": "700px natural vs 203px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(2) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 768px",
+          "value": "1256px natural vs 203px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(3) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 768px",
+          "value": "1200px natural vs 203px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard:nth-of-type(4) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 768px",
+          "value": "1200px natural vs 203px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.facets:nth-of-type(2) > div.facets__wide > div.facets__bar > div.facets__group:nth-of-type(1) > details.facets__drop:nth-of-type(1) > div.facets__panel > label:nth-of-type(1) > span.visually-hidden @ 768px",
+          "value": "22px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.facets:nth-of-type(2) > div.facets__wide > div.facets__bar > div.facets__group:nth-of-type(1) > details.facets__drop:nth-of-type(1) > div.facets__panel > label:nth-of-type(2) > span.visually-hidden @ 768px",
+          "value": "22px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(1) > a.pcard__medialink > span.visually-hidden:nth-of-type(1) @ 768px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(1) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 768px",
+          "value": "32px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(2) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 768px",
+          "value": "32px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(3) > a.pcard__medialink > span.visually-hidden:nth-of-type(1) @ 768px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4 > article.pcard.is-in:nth-of-type(3) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 768px",
+          "value": "32px in 1px",
+          "inherited": false
+        }
+      ]
+    },
+    {
+      "name": "Viewport 1024px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(1) > span.mcard__media:nth-of-type(1) > img @ 1024px",
+          "value": "700px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(2) > span.mcard__media:nth-of-type(1) > img @ 1024px",
+          "value": "700px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(4) > span.mcard__media:nth-of-type(1) > img @ 1024px",
+          "value": "700px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(6) > span.mcard__media:nth-of-type(1) > img @ 1024px",
+          "value": "602px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(8) > span.mcard__media:nth-of-type(1) > img @ 1024px",
+          "value": "700px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(9) > span.mcard__media:nth-of-type(1) > img @ 1024px",
+          "value": "700px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(10) > span.mcard__media:nth-of-type(1) > img @ 1024px",
+          "value": "600px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(11) > span.mcard__media:nth-of-type(1) > img @ 1024px",
+          "value": "700px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(13) > span.mcard__media:nth-of-type(1) > img @ 1024px",
+          "value": "602px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.tile:nth-of-type(1) > div.tile__media:nth-of-type(1) > img @ 1024px",
+          "value": "1024px natural vs 236px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.tile:nth-of-type(2) > div.tile__media:nth-of-type(1) > img @ 1024px",
+          "value": "1024px natural vs 236px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.tile:nth-of-type(3) > div.tile__media:nth-of-type(1) > img @ 1024px",
+          "value": "1024px natural vs 236px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.tile:nth-of-type(4) > div.tile__media:nth-of-type(1) > img @ 1024px",
+          "value": "1024px natural vs 236px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(4) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(1) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 1024px",
+          "value": "1200px natural vs 204px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(4) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(2) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 1024px",
+          "value": "1200px natural vs 204px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "2 more not listed",
+          "location": "(page) @ 1024px",
+          "value": "17",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(1) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1024px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(2) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1024px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(4) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1024px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(5) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1024px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(6) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1024px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(7) > span.mcard__title:nth-of-type(2) @ 1024px",
+          "value": "71px in 48px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(7) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1024px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(8) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1024px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(9) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1024px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(11) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1024px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(12) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1024px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(13) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1024px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(14) > span.mcard__title:nth-of-type(2) @ 1024px",
+          "value": "71px in 48px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(14) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1024px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(4) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(2) > a.pcard__medialink > span.visually-hidden:nth-of-type(1) @ 1024px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "11 more not listed",
+          "location": "(page) @ 1024px",
+          "value": "26",
+          "inherited": false
+        }
+      ]
+    },
+    {
+      "name": "Viewport 1440px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(1) > span.mcard__media:nth-of-type(1) > img @ 1440px",
+          "value": "700px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(2) > span.mcard__media:nth-of-type(1) > img @ 1440px",
+          "value": "700px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(3) > span.mcard__media:nth-of-type(1) > img @ 1440px",
+          "value": "600px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard.is-focus:nth-of-type(4) > span.mcard__media:nth-of-type(1) > img @ 1440px",
+          "value": "700px natural vs 244px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(6) > span.mcard__media:nth-of-type(1) > img @ 1440px",
+          "value": "602px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(8) > span.mcard__media:nth-of-type(1) > img @ 1440px",
+          "value": "700px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(9) > span.mcard__media:nth-of-type(1) > img @ 1440px",
+          "value": "700px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(10) > span.mcard__media:nth-of-type(1) > img @ 1440px",
+          "value": "600px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(11) > span.mcard__media:nth-of-type(1) > img @ 1440px",
+          "value": "700px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(13) > span.mcard__media:nth-of-type(1) > img @ 1440px",
+          "value": "602px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.tile:nth-of-type(1) > div.tile__media:nth-of-type(1) > img @ 1440px",
+          "value": "1024px natural vs 300px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.tile:nth-of-type(2) > div.tile__media:nth-of-type(1) > img @ 1440px",
+          "value": "1024px natural vs 300px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.tile:nth-of-type(3) > div.tile__media:nth-of-type(1) > img @ 1440px",
+          "value": "1024px natural vs 300px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.tile:nth-of-type(4) > div.tile__media:nth-of-type(1) > img @ 1440px",
+          "value": "1024px natural vs 300px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(4) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(1) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 1440px",
+          "value": "1200px natural vs 268px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "3 more not listed",
+          "location": "(page) @ 1440px",
+          "value": "18",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(1) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1440px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(2) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1440px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard.is-focus:nth-of-type(4) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1440px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(5) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1440px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(6) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1440px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(7) > span.mcard__title:nth-of-type(2) @ 1440px",
+          "value": "71px in 48px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(7) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1440px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(8) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1440px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(9) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1440px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(11) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1440px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(12) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1440px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(13) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1440px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(14) > span.mcard__title:nth-of-type(2) @ 1440px",
+          "value": "71px in 48px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(14) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 1440px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(4) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(2) > a.pcard__medialink > span.visually-hidden:nth-of-type(1) @ 1440px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "11 more not listed",
+          "location": "(page) @ 1440px",
+          "value": "26",
+          "inherited": false
+        }
+      ]
+    },
+    {
+      "name": "Viewport 390px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.hero-wrap:nth-of-type(1) > div.hero > img.hero__bg @ 390px",
+          "value": "1024px natural vs 390px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(1) > span.mcard__media:nth-of-type(1) > img @ 390px",
+          "value": "700px natural vs 168px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard.is-focus:nth-of-type(2) > span.mcard__media:nth-of-type(1) > img @ 390px",
+          "value": "700px natural vs 195px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(3) > span.mcard__media:nth-of-type(1) > img @ 390px",
+          "value": "600px natural vs 168px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(4) > span.mcard__media:nth-of-type(1) > img @ 390px",
+          "value": "700px natural vs 168px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(6) > span.mcard__media:nth-of-type(1) > img @ 390px",
+          "value": "602px natural vs 168px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(8) > span.mcard__media:nth-of-type(1) > img @ 390px",
+          "value": "700px natural vs 168px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(9) > span.mcard__media:nth-of-type(1) > img @ 390px",
+          "value": "700px natural vs 168px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(10) > span.mcard__media:nth-of-type(1) > img @ 390px",
+          "value": "600px natural vs 168px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(11) > span.mcard__media:nth-of-type(1) > img @ 390px",
+          "value": "700px natural vs 168px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(13) > span.mcard__media:nth-of-type(1) > img @ 390px",
+          "value": "602px natural vs 168px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.tile:nth-of-type(1) > div.tile__media:nth-of-type(1) > img @ 390px",
+          "value": "1024px natural vs 358px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.tile:nth-of-type(2) > div.tile__media:nth-of-type(1) > img @ 390px",
+          "value": "1024px natural vs 358px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(1) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 390px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard.is-focus:nth-of-type(2) > span.mcard__title:nth-of-type(2) @ 390px",
+          "value": "71px in 48px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard.is-focus:nth-of-type(2) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 390px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(4) > span.mcard__title:nth-of-type(2) @ 390px",
+          "value": "71px in 48px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(4) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 390px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(5) > span.mcard__title:nth-of-type(2) @ 390px",
+          "value": "71px in 48px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(5) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 390px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(6) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 390px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(7) > span.mcard__title:nth-of-type(2) @ 390px",
+          "value": "71px in 48px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(7) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 390px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(8) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 390px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(9) > span.mcard__title:nth-of-type(2) @ 390px",
+          "value": "71px in 48px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(9) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 390px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(11) > span.mcard__title:nth-of-type(2) @ 390px",
+          "value": "71px in 48px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(11) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 390px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "17 more not listed",
+          "location": "(page) @ 390px",
+          "value": "32",
+          "inherited": false
+        }
+      ]
+    },
+    {
+      "name": "Viewport 768px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(1) > span.mcard__media:nth-of-type(1) > img @ 768px",
+          "value": "700px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(2) > span.mcard__media:nth-of-type(1) > img @ 768px",
+          "value": "700px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(4) > span.mcard__media:nth-of-type(1) > img @ 768px",
+          "value": "700px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(6) > span.mcard__media:nth-of-type(1) > img @ 768px",
+          "value": "602px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(8) > span.mcard__media:nth-of-type(1) > img @ 768px",
+          "value": "700px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(9) > span.mcard__media:nth-of-type(1) > img @ 768px",
+          "value": "700px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(10) > span.mcard__media:nth-of-type(1) > img @ 768px",
+          "value": "600px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(11) > span.mcard__media:nth-of-type(1) > img @ 768px",
+          "value": "700px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(13) > span.mcard__media:nth-of-type(1) > img @ 768px",
+          "value": "602px natural vs 210px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.tile:nth-of-type(1) > div.tile__media:nth-of-type(1) > img @ 768px",
+          "value": "1024px natural vs 235px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.tile:nth-of-type(2) > div.tile__media:nth-of-type(1) > img @ 768px",
+          "value": "1024px natural vs 235px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.tile:nth-of-type(3) > div.tile__media:nth-of-type(1) > img @ 768px",
+          "value": "1024px natural vs 235px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.tile:nth-of-type(4) > div.tile__media:nth-of-type(1) > img @ 768px",
+          "value": "1024px natural vs 235px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(1) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 768px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(2) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 768px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(4) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 768px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(5) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 768px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(6) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 768px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(7) > span.mcard__title:nth-of-type(2) @ 768px",
+          "value": "71px in 48px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(7) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 768px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(8) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 768px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(9) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 768px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(11) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 768px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(12) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 768px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(13) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 768px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(14) > span.mcard__title:nth-of-type(2) @ 768px",
+          "value": "71px in 48px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.sec.sec--flush:nth-of-type(2) > div.marquee:nth-of-type(2) > div.marquee__track > a.mcard:nth-of-type(14) > span.mcard__price:nth-of-type(3) > span.visually-hidden:nth-of-type(2) @ 768px",
+          "value": "23px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(4) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(2) > a.pcard__medialink > span.visually-hidden:nth-of-type(1) @ 768px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "11 more not listed",
+          "location": "(page) @ 768px",
+          "value": "26",
+          "inherited": false
+        }
+      ]
+    },
+    {
+      "name": "Viewport 1024px",
+      "findings": []
+    },
+    {
+      "name": "Viewport 1440px",
+      "findings": []
+    },
+    {
+      "name": "Viewport 390px",
+      "findings": []
+    },
+    {
+      "name": "Viewport 768px",
+      "findings": []
+    },
+    {
+      "name": "Viewport 1024px",
+      "findings": []
+    },
+    {
+      "name": "Viewport 1440px",
+      "findings": []
+    },
+    {
+      "name": "Viewport 390px",
+      "findings": []
+    },
+    {
+      "name": "Viewport 768px",
+      "findings": []
+    },
+    {
+      "name": "Viewport 1024px",
+      "findings": []
+    },
+    {
+      "name": "Viewport 1440px",
+      "findings": []
+    },
+    {
+      "name": "Viewport 390px",
+      "findings": []
+    },
+    {
+      "name": "Viewport 768px",
+      "findings": []
+    },
+    {
+      "name": "Viewport 1024px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#pdp-main @ 1024px",
+          "value": "1200px natural vs 436px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(1) > img @ 1024px",
+          "value": "1200px natural vs 68px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(2) > img @ 1024px",
+          "value": "1200px natural vs 68px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(3) > img @ 1024px",
+          "value": "540px natural vs 68px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(4) > img @ 1024px",
+          "value": "1200px natural vs 68px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(1) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 1024px",
+          "value": "1200px natural vs 204px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(2) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 1024px",
+          "value": "700px natural vs 204px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(3) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 1024px",
+          "value": "1200px natural vs 204px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(4) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 1024px",
+          "value": "1000px natural vs 204px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(1) > span.visually-hidden @ 1024px",
+          "value": "15px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(2) > span.visually-hidden @ 1024px",
+          "value": "15px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(3) > span.visually-hidden @ 1024px",
+          "value": "15px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(4) > span.visually-hidden @ 1024px",
+          "value": "15px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > p.pdp__price:nth-of-type(1) > span.visually-hidden:nth-of-type(2) @ 1024px",
+          "value": "64px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > p.ticker:nth-of-type(2) > span.visually-hidden:nth-of-type(2) @ 1024px",
+          "value": "21px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > div.pdp__order:nth-of-type(3) > p.visually-hidden:nth-of-type(1) @ 1024px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > div.pdp__order:nth-of-type(3) > p.visually-hidden:nth-of-type(2) @ 1024px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > div.pdp__order:nth-of-type(3) > p.visually-hidden:nth-of-type(3) @ 1024px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > div.pdp__order:nth-of-type(3) > p.visually-hidden:nth-of-type(4) @ 1024px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(2) > a.pcard__medialink > span.visually-hidden:nth-of-type(1) @ 1024px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(2) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 1024px",
+          "value": "32px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(3) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 1024px",
+          "value": "32px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(4) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 1024px",
+          "value": "32px in 1px",
+          "inherited": false
+        }
+      ]
+    },
+    {
+      "name": "Viewport 1440px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(1) > img @ 1440px",
+          "value": "1200px natural vs 68px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(2) > img @ 1440px",
+          "value": "1200px natural vs 68px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(3) > img @ 1440px",
+          "value": "540px natural vs 68px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(4) > img @ 1440px",
+          "value": "1200px natural vs 68px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(1) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 1440px",
+          "value": "1200px natural vs 268px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(2) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 1440px",
+          "value": "700px natural vs 268px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(3) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 1440px",
+          "value": "1200px natural vs 268px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(4) > a.pcard__medialink > span.pcard__media:nth-of-type(2) > img @ 1440px",
+          "value": "1000px natural vs 268px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(1) > span.visually-hidden @ 1440px",
+          "value": "15px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(2) > span.visually-hidden @ 1440px",
+          "value": "15px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(3) > span.visually-hidden @ 1440px",
+          "value": "15px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(4) > span.visually-hidden @ 1440px",
+          "value": "15px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > p.pdp__price:nth-of-type(1) > span.visually-hidden:nth-of-type(2) @ 1440px",
+          "value": "64px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > p.ticker:nth-of-type(2) > span.visually-hidden:nth-of-type(2) @ 1440px",
+          "value": "21px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > div.pdp__order:nth-of-type(3) > p.visually-hidden:nth-of-type(1) @ 1440px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > div.pdp__order:nth-of-type(3) > p.visually-hidden:nth-of-type(2) @ 1440px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > div.pdp__order:nth-of-type(3) > p.visually-hidden:nth-of-type(3) @ 1440px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > div.pdp__order:nth-of-type(3) > p.visually-hidden:nth-of-type(4) @ 1440px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(2) > a.pcard__medialink > span.visually-hidden:nth-of-type(1) @ 1440px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(2) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 1440px",
+          "value": "32px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(3) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 1440px",
+          "value": "32px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(4) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 1440px",
+          "value": "32px in 1px",
+          "inherited": false
+        }
+      ]
+    },
+    {
+      "name": "Viewport 390px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#pdp-main @ 390px",
+          "value": "1200px natural vs 310px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(1) > img @ 390px",
+          "value": "1200px natural vs 68px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(2) > img @ 390px",
+          "value": "1200px natural vs 68px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(3) > img @ 390px",
+          "value": "540px natural vs 68px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(4) > img @ 390px",
+          "value": "1200px natural vs 68px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(1) > span.visually-hidden @ 390px",
+          "value": "15px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(2) > span.visually-hidden @ 390px",
+          "value": "15px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(3) > span.visually-hidden @ 390px",
+          "value": "15px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(4) > span.visually-hidden @ 390px",
+          "value": "15px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > p.pdp__price:nth-of-type(1) > span.visually-hidden:nth-of-type(2) @ 390px",
+          "value": "64px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > p.ticker:nth-of-type(2) > span.visually-hidden:nth-of-type(2) @ 390px",
+          "value": "21px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > div.pdp__order:nth-of-type(3) > p.visually-hidden:nth-of-type(1) @ 390px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > div.pdp__order:nth-of-type(3) > p.visually-hidden:nth-of-type(2) @ 390px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > div.pdp__order:nth-of-type(3) > p.visually-hidden:nth-of-type(3) @ 390px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > div.pdp__order:nth-of-type(3) > p.visually-hidden:nth-of-type(4) @ 390px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(2) > a.pcard__medialink > span.visually-hidden:nth-of-type(1) @ 390px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(2) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 390px",
+          "value": "32px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(3) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 390px",
+          "value": "32px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(4) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 390px",
+          "value": "32px in 1px",
+          "inherited": false
+        }
+      ]
+    },
+    {
+      "name": "Viewport 768px",
+      "findings": [
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(1) > img @ 768px",
+          "value": "1200px natural vs 68px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(2) > img @ 768px",
+          "value": "1200px natural vs 68px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(3) > img @ 768px",
+          "value": "540px natural vs 68px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Image far larger than its display size",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(4) > img @ 768px",
+          "value": "1200px natural vs 68px displayed",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(1) > span.visually-hidden @ 768px",
+          "value": "15px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(2) > span.visually-hidden @ 768px",
+          "value": "15px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(3) > span.visually-hidden @ 768px",
+          "value": "15px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(1) > div.pdp__thumbs:nth-of-type(2) > button.pdp__thumb:nth-of-type(4) > span.visually-hidden @ 768px",
+          "value": "15px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > p.pdp__price:nth-of-type(1) > span.visually-hidden:nth-of-type(2) @ 768px",
+          "value": "64px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > p.ticker:nth-of-type(2) > span.visually-hidden:nth-of-type(2) @ 768px",
+          "value": "21px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > div.pdp__order:nth-of-type(3) > p.visually-hidden:nth-of-type(1) @ 768px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > div.pdp__order:nth-of-type(3) > p.visually-hidden:nth-of-type(2) @ 768px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > div.pdp__order:nth-of-type(3) > p.visually-hidden:nth-of-type(3) @ 768px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(1) > div.pdp > div:nth-of-type(2) > div.pdp__order:nth-of-type(3) > p.visually-hidden:nth-of-type(4) @ 768px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(2) > a.pcard__medialink > span.visually-hidden:nth-of-type(1) @ 768px",
+          "value": "26px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(2) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 768px",
+          "value": "32px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(3) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 768px",
+          "value": "32px in 1px",
+          "inherited": false
+        },
+        {
+          "severity": "minor",
+          "title": "Text clipped by overflow:hidden",
+          "detail": "",
+          "location": "#main > section.shell.sec:nth-of-type(3) > div.grid.grid--4:nth-of-type(2) > article.pcard:nth-of-type(4) > div.pcard__body > p.pcard__price > span.visually-hidden:nth-of-type(3) @ 768px",
+          "value": "32px in 1px",
+          "inherited": false
+        }
+      ]
+    }
+  ]
+}

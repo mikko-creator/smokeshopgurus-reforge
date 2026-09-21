@@ -1,0 +1,889 @@
+{
+  "schema": "site-reforge/data@1",
+  "generated": "2026-09-21T03:34:30.583Z",
+  "note": "Same-origin data files a shipped script fetches at RUNTIME. The markup references none of these, so no other stage can see them; a build without them renders a shell and passes parity, because parity compares two equally empty static documents. Served at their ORIGINAL path — the caller is a string literal this pipeline cannot rewrite.",
+  "discovered": [
+    {
+      "url": "https://smokeshopgurus.com/cdn/shopifycloud/storefront/assets/storefront/event_observer_reporter-ed358274.js",
+      "pathname": "/cdn/shopifycloud/storefront/assets/storefront/event_observer_reporter-ed358274.js",
+      "via": "index.html",
+      "probe": true
+    },
+    {
+      "url": "https://smokeshopgurus.com/sf_private_access_tokens",
+      "pathname": "/sf_private_access_tokens",
+      "via": "index.html",
+      "probe": true
+    },
+    {
+      "url": "https://smokeshopgurus.com/GET",
+      "pathname": "/GET",
+      "via": "index.html",
+      "probe": true
+    },
+    {
+      "url": "https://smokeshopgurus.com/POST",
+      "pathname": "/POST",
+      "via": "index.html",
+      "probe": true
+    },
+    {
+      "url": "https://smokeshopgurus.com/development",
+      "pathname": "/development",
+      "via": "index.html",
+      "probe": true
+    },
+    {
+      "url": "https://smokeshopgurus.com/blogs/GET",
+      "pathname": "/blogs/GET",
+      "via": "blogs-news.html",
+      "probe": true
+    },
+    {
+      "url": "https://smokeshopgurus.com/blogs/POST",
+      "pathname": "/blogs/POST",
+      "via": "blogs-news.html",
+      "probe": true
+    },
+    {
+      "url": "https://smokeshopgurus.com/blogs/development",
+      "pathname": "/blogs/development",
+      "via": "blogs-news.html",
+      "probe": true
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/GET",
+      "pathname": "/collections/GET",
+      "via": "collections-accessories.html",
+      "probe": true
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/POST",
+      "pathname": "/collections/POST",
+      "via": "collections-accessories.html",
+      "probe": true
+    },
+    {
+      "url": "https://smokeshopgurus.com/collections/development",
+      "pathname": "/collections/development",
+      "via": "collections-accessories.html",
+      "probe": true
+    },
+    {
+      "url": "https://smokeshopgurus.com/pages/GET",
+      "pathname": "/pages/GET",
+      "via": "pages-about.html",
+      "probe": true
+    },
+    {
+      "url": "https://smokeshopgurus.com/pages/POST",
+      "pathname": "/pages/POST",
+      "via": "pages-about.html",
+      "probe": true
+    },
+    {
+      "url": "https://smokeshopgurus.com/pages/development",
+      "pathname": "/pages/development",
+      "via": "pages-about.html",
+      "probe": true
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/GET",
+      "pathname": "/products/GET",
+      "via": "products-aleaf-10-bubble-beaker.html",
+      "probe": true
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/POST",
+      "pathname": "/products/POST",
+      "via": "products-aleaf-10-bubble-beaker.html",
+      "probe": true
+    },
+    {
+      "url": "https://smokeshopgurus.com/products/development",
+      "pathname": "/products/development",
+      "via": "products-aleaf-10-bubble-beaker.html",
+      "probe": true
+    }
+  ],
+  "saved": [],
+  "unresolved": [
+    {
+      "literal": "${productUrl}?section_id=bulk-quick-order-list",
+      "via": "04ba3ff0-global.js"
+    },
+    {
+      "literal": "${this.dataset.url}&product_id=${productId}&section_id=${this.dataset.sectionId}",
+      "via": "04ba3ff0-global.js"
+    },
+    {
+      "literal": "${routes.predictive_search_url}?q=${encodeURIComponent(searchTerm)}&section_id=predictive-search",
+      "via": "c4786199-predictive-search.js"
+    },
+    {
+      "literal": "${this.dataset.url}?variant=${currentVariantId}&section_id=${this.dataset.section}",
+      "via": "7316a38b-product-info.js"
+    },
+    {
+      "literal": "${routes.cart_add_url}",
+      "via": "49cd39eb-product-form.js"
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "index.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "blogs-news.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-accessories.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-accessories-page-1.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-accessories-page-2.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-all.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-all-page-1.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-all-page-2.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-all-page-3.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-all-page-4.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-all-page-5.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-best-seller.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-blunt-cone-wraps.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-blunt-wraps.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-blunt-wraps-1.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-bud-lighters.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-buds-grinders.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-bulk-lighters.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-bulk-pre-rolled-cones.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-cbd-dog-calming-treats.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-cbd-edibles.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-cbd-edibles-1.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-cbd-pet-treats.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-cone-rolling-supplies.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-disposable-vape-devices.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-disposable-vape-pens.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-functional-mushroom-products.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-functional-mushroom-products-copy.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-glass-bangers.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-glass-bongs.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-glass-bongs-pipes.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-glass-smoking-pipes.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-hemp-rolling-papers.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-hemp-rolling-papers-page-1.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-hemp-rolling-papers-page-2.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-hemp-vape-pen.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-herb-storage-containers.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-king-size-cones.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-king-size-rolling-papers.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-kratom.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-mushroom-products.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-natural-leaf-blunts.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-nicotine-disposable-vape.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-odor-proof-bags.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-pre-roll-blunts.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-pre-rolled-cones.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-rolling-papers.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-skunk-bags.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-slow-burn-cones.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-smell-proof-stash-bags.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-smoking-accessories.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-smoking-accessories-page-1.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-smoking-accessories-page-2.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-tinctures.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-tobacco-smoking-accessories.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-topicals.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-torch-lighters.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-upsell.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "collections-wax-pens.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "pages-about.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "pages-contact.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "pages-data-sharing-opt-out.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "pages-faqs.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "pages-page-wishlist.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "pages-privacy-policy.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "pages-return-policy.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "pages-shipping-return-policy.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "pages-term-and-services.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-aleaf-10-bubble-beaker.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-aleaf-12-double-matrix.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-aleaf-5-torch.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-aleaf-6-torch.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-aleaf-8-interstellar-box-rig-lavender-uv.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-aleaf-8-nectar.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-aleaf-glitter-glycerin-triangle-pipe.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-aleaf-grinder-63mm-black.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-aleaf-grinder-63mm-blue.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-aleaf-grinder-63mm-green.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-aleaf-grinder-63mm-purple.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-aleaf-grinder-63mm-red.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-aleaf-the-honeycomb-16-beaker.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-bic-assorted-lighters-50pk.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-bic-assorted-lighters-50pk-3pk.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-bic-assorted-mini-lighters-50pk.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-blazy-susan-bulk-cones-pink-98mm.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-blazy-susan-bulk-cones-purple-98mm.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-blazy-susan-king-size-slim-purple-papers-50ct-box.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-cartisan-atom-510-battery-24pk-box.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-cartisan-pro-pen-neo-900-panther.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-elements-1-1-4-original-cones-1.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-elements-1-1-4-original-papers.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-elements-1-1-4-pink-cones.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-elements-1-1-4-ultra-thin-cones-6ct-30pk-case.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-elements-1-1-4-ultra-thin-parpers-25ct-box-1.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-elements-king-size-original-cones.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-elements-king-size-original-papers.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-elements-king-size-pink-cones.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-elements-king-slim-original-papers.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-elements-king-wide-original-papers.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-elements-king-wide-original-papers-1.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-fasta-vape.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-import-glass-flat-rimmed-banger-w-terp-pearls-14mm-1.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-import-glass-thick-flat-rimmed-banger-10mm-90.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-import-glass-thick-flat-rimmed-banger-14mm-90.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-inex-munchy-bowl.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-inex-stardust-beaker.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-inex-steamroller.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-infused-edibles-1000mg-gummies.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-jolly-cannabis-dog-treats-cbd-cbg-berry-butter.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-jolly-cannabis-dog-treats-cbd-cbn-jam-butter.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-king-palm-1g-mini-2pk-20ct-box-watermelon-wave.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-king-palm-1g-natural-mini-2pk-20ct-box.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-lookah-bear-510-battery-5pk-aqua.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-lookah-mini-unicorn.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-lookah-python.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-lookah-seahorse-pro-plus.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-lookah-swordfish.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-maven-alpha-box.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-maven-alpha-mini-box.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-maven-cannon-blue-green-purple-box.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-maven-cannon-yellow-red-black-box.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-mmelt-magic-mushroom-chocolate-bar-milk-chocolate-candy.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-nerdy-puff-pulse-x-30k.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-ooze-booster-panther.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-ooze-brink.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-ooze-duplax-2.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-ooze-electro-barrel-e-rig.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-pop-cones-1-1-4-unbleached-cones-6ct-24pk-case-whld-grape.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-raw-1-1-4-classic-papers-24ct-box.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-raw-classic-98-special-1400ct.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-raw-classic-king-1400ct.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-raw-king-size-classic-bulk-cones-1400ct-1.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-shrum-xum-magic-tabs.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-skunk-coffin-5-black.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-skunk-coffin-7-grey.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-skunk-element-backpack-midnight-navy.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-skunk-element-backpack-midnight-navy-1.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-skunk-mini-backpack-atomic-white.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-skunk-nomad-backpack-charcoal.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-skunk-sidekick-small-black-leather.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-tre-house-magic-mushroom-chocolate-bar-fruity-cereal.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-wulf-ari-knife-kit-9pk.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-wulf-deck-510-battery-9pk.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-wulf-kodo-510-battery-9ct-box.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-wulf-kodo-knife-9pk.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-wulf-kodo-pro-510-battery-9ct-box.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-wulf-kodo-pro-digit-510-battery-15ct-box.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-wulf-tryp-mushroom-510-battery-9pk.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-zig-zag-1-1-4-ultra-thin-cones-6ct-24pk-case.html",
+      "remote": true
+    },
+    {
+      "literal": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+      "via": "products-zig-zag-1-1-4-ultra-thin-parpers-24ct-box.html",
+      "remote": true
+    },
+    {
+      "literal": "https://smokeshopgurus.com/cdn/shopifycloud/storefront/assets/storefront/event_observer_reporter-ed358274.js",
+      "via": "index.html",
+      "notData": true,
+      "probed": "not JSON"
+    }
+  ],
+  "unresolvedNote": "An interpolated or cross-origin runtime endpoint. Not fetched: an interpolated path is a SERVER and a static clone has no server, and a cross-origin one belongs to somebody else. Both are reported so the build states what it cannot serve."
+}

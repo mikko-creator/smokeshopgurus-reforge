@@ -1,0 +1,12 @@
+{
+  "schema": "site-reforge/fabrication-report@1",
+  "generated": "2026-09-21T16:16:08.998Z",
+  "rebuildDir": "C:\\Users\\Dell\\smokeshopgurus-reforge\\dist",
+  "filesScanned": 141,
+  "claimsChecked": 772,
+  "sourceCorpusChars": 527186,
+  "declaredFactsChars": 2850,
+  "counts": {},
+  "verdict": "SOURCED",
+  "findings": []
+}

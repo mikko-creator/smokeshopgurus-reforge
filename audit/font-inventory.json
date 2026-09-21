@@ -1,0 +1,30 @@
+{
+  "schema": "site-reforge/fonts@1",
+  "generated": "2026-09-21T03:34:16.793Z",
+  "discovered": [
+    "https://smokeshopgurus.com/cdn/fonts/playfair_display/playfairdisplay_n4.9980f3e16959dc89137cc1369bfc3ae98af1deb9.woff2",
+    "https://smokeshopgurus.com/cdn/fonts/playfair_display/playfairdisplay_n4.c562b7c8e5637886a811d2a017f9e023166064ee.woff"
+  ],
+  "saved": [
+    {
+      "url": "https://smokeshopgurus.com/cdn/fonts/playfair_display/playfairdisplay_n4.9980f3e16959dc89137cc1369bfc3ae98af1deb9.woff2",
+      "savedAs": "playfairdisplay_n4.9980f3e16959dc89137cc1369bfc3ae98af1deb9.woff2",
+      "bytes": 22812,
+      "sha256": "6341d6cea2ddc94de82d5afae0cc27934652bfa924537026878ec38420db53e0"
+    },
+    {
+      "url": "https://smokeshopgurus.com/cdn/fonts/playfair_display/playfairdisplay_n4.c562b7c8e5637886a811d2a017f9e023166064ee.woff",
+      "savedAs": "playfairdisplay_n4.c562b7c8e5637886a811d2a017f9e023166064ee.woff",
+      "bytes": 22704,
+      "sha256": "3291bc272f6c4ef1b9a4c485d924462ca2c76b9c342ac8f1f1b088f632bd8b72"
+    }
+  ],
+  "map": {
+    "https://smokeshopgurus.com/cdn/fonts/playfair_display/playfairdisplay_n4.9980f3e16959dc89137cc1369bfc3ae98af1deb9.woff2": "/fonts/playfairdisplay_n4.9980f3e16959dc89137cc1369bfc3ae98af1deb9.woff2",
+    "//smokeshopgurus.com/cdn/fonts/playfair_display/playfairdisplay_n4.9980f3e16959dc89137cc1369bfc3ae98af1deb9.woff2": "/fonts/playfairdisplay_n4.9980f3e16959dc89137cc1369bfc3ae98af1deb9.woff2",
+    "/cdn/fonts/playfair_display/playfairdisplay_n4.9980f3e16959dc89137cc1369bfc3ae98af1deb9.woff2": "/fonts/playfairdisplay_n4.9980f3e16959dc89137cc1369bfc3ae98af1deb9.woff2",
+    "https://smokeshopgurus.com/cdn/fonts/playfair_display/playfairdisplay_n4.c562b7c8e5637886a811d2a017f9e023166064ee.woff": "/fonts/playfairdisplay_n4.c562b7c8e5637886a811d2a017f9e023166064ee.woff",
+    "//smokeshopgurus.com/cdn/fonts/playfair_display/playfairdisplay_n4.c562b7c8e5637886a811d2a017f9e023166064ee.woff": "/fonts/playfairdisplay_n4.c562b7c8e5637886a811d2a017f9e023166064ee.woff",
+    "/cdn/fonts/playfair_display/playfairdisplay_n4.c562b7c8e5637886a811d2a017f9e023166064ee.woff": "/fonts/playfairdisplay_n4.c562b7c8e5637886a811d2a017f9e023166064ee.woff"
+  }
+}

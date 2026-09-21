@@ -1,0 +1,24 @@
+{
+  "schema": "site-reforge/decontamination@1",
+  "generated": "2026-09-21T16:16:51.466Z",
+  "target": "C:\\Users\\Dell\\smokeshopgurus-reforge\\dist",
+  "filesFound": 154,
+  "filesScanned": 154,
+  "filesSkipped": 0,
+  "counts": {
+    "blocker": 1
+  },
+  "clean": false,
+  "verdict": "CONTAMINATED",
+  "findings": [
+    {
+      "id": "powered-by-text",
+      "severity": "blocker",
+      "why": "visible platform credit in the copy.",
+      "file": "pages/term-and-services/index.html",
+      "line": 185,
+      "match": "powered by Shopify",
+      "excerpt": "<div class=\"prose shell-narrow\" style=\"margin-inline:0;padding-inline:0\"><p>OVERVIEW Welcome to Smoke Shop Gurus ! The terms “we”, “us” and “our” refer to Smoke Shop Guru. Smoke Shop Guru operates thi"
+    }
+  ]
+}

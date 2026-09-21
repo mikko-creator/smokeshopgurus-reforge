@@ -1,0 +1,197 @@
+{
+  "schema": "site-reforge/failures@1",
+  "items": [
+    {
+      "stage": "crawl:page",
+      "target": "https://smokeshopgurus.com/customer_authentication/redirect?locale=en&region_country=US",
+      "reason": "redirect-loop-or-bad-location",
+      "extra": {
+        "chain": [
+          {
+            "from": "https://smokeshopgurus.com/customer_authentication/redirect?locale=en&region_country=US",
+            "status": 302,
+            "to": "https://shopify.com/64110264431/account?buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3bTgxdnItY2IubXlzaG9waWZ5LmNvbSIsImZsYWdzIjpbXSwiZXhwIjoxNzkwNTY2MzI4LCJuYmYiOjE3ODk5NjE1Mjh9.Lp5dtCWpX4Uv_osYGbkd5Gu3jZi6hjVSkTE2HpzXLxc&locale=en&region_country=US"
+          },
+          {
+            "from": "https://shopify.com/64110264431/account?buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3bTgxdnItY2IubXlzaG9waWZ5LmNvbSIsImZsYWdzIjpbXSwiZXhwIjoxNzkwNTY2MzI4LCJuYmYiOjE3ODk5NjE1Mjh9.Lp5dtCWpX4Uv_osYGbkd5Gu3jZi6hjVSkTE2HpzXLxc&locale=en&region_country=US",
+            "status": 302,
+            "to": "https://shopify.com/authentication/64110264431/oauth/authorize?buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3bTgxdnItY2IubXlzaG9waWZ5LmNvbSIsImZsYWdzIjpbXSwiZXhwIjoxNzkwNTY2MzI4LCJuYmYiOjE3ODk5NjE1Mjh9.Lp5dtCWpX4Uv_osYGbkd5Gu3jZi6hjVSkTE2HpzXLxc&client_id=bb00c759-36f3-4ca9-9753-ee8d6ee4b75a&locale=en-US&nonce=98a98fac-8129-4c18-bb4f-639e9af04f57&redirect_uri=https%3A%2F%2Fshopify.com%2F64110264431%2Faccount%2Fcallback&region_country=US&response_type=code&scope=openid+email+customer-account-api%3Afull&state=hWNH4cGxVR3f3PASwRbNPhZK"
+          },
+          {
+            "from": "https://shopify.com/authentication/64110264431/oauth/authorize?buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3bTgxdnItY2IubXlzaG9waWZ5LmNvbSIsImZsYWdzIjpbXSwiZXhwIjoxNzkwNTY2MzI4LCJuYmYiOjE3ODk5NjE1Mjh9.Lp5dtCWpX4Uv_osYGbkd5Gu3jZi6hjVSkTE2HpzXLxc&client_id=bb00c759-36f3-4ca9-9753-ee8d6ee4b75a&locale=en-US&nonce=98a98fac-8129-4c18-bb4f-639e9af04f57&redirect_uri=https%3A%2F%2Fshopify.com%2F64110264431%2Faccount%2Fcallback&region_country=US&response_type=code&scope=openid+email+customer-account-api%3Afull&state=hWNH4cGxVR3f3PASwRbNPhZK",
+            "status": 302,
+            "to": "https://smokeshopgurus.com/services/login_with_shop/buyer/start?ctx=01M310AT8B08KY9MV1525BPJ04&return_to=https%3A%2F%2Fshopify.com%2Fauthentication%2F64110264431%2Foauth%2Fauthorize%3Fanalytics_trace_id%3D92388f19-e60b-44c7-a985-411528941de1%26buyer_flags%3DeyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3bTgxdnItY2IubXlzaG9waWZ5LmNvbSIsImZsYWdzIjpbXSwiZXhwIjoxNzkwNTY2MzI4LCJuYmYiOjE3ODk5NjE1Mjh9.Lp5dtCWpX4Uv_osYGbkd5Gu3jZi6hjVSkTE2HpzXLxc%26client_id%3Dbb00c759-36f3-4ca9-9753-ee8d6ee4b75a%26locale%3Den-US%26nonce%3D98a98fac-8129-4c18-bb4f-639e9af04f57%26redirect_uri%3Dhttps%253A%252F%252Fshopify.com%252F64110264431%252Faccount%252Fcallback%26region_country%3DUS%26response_type%3Dcode%26scope%3Dopenid%2Bemail%2Bcustomer-account-api%253Afull%26state%3DhWNH4cGxVR3f3PASwRbNPhZK"
+          },
+          {
+            "from": "https://smokeshopgurus.com/services/login_with_shop/buyer/start?ctx=01M310AT8B08KY9MV1525BPJ04&return_to=https%3A%2F%2Fshopify.com%2Fauthentication%2F64110264431%2Foauth%2Fauthorize%3Fanalytics_trace_id%3D92388f19-e60b-44c7-a985-411528941de1%26buyer_flags%3DeyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3bTgxdnItY2IubXlzaG9waWZ5LmNvbSIsImZsYWdzIjpbXSwiZXhwIjoxNzkwNTY2MzI4LCJuYmYiOjE3ODk5NjE1Mjh9.Lp5dtCWpX4Uv_osYGbkd5Gu3jZi6hjVSkTE2HpzXLxc%26client_id%3Dbb00c759-36f3-4ca9-9753-ee8d6ee4b75a%26locale%3Den-US%26nonce%3D98a98fac-8129-4c18-bb4f-639e9af04f57%26redirect_uri%3Dhttps%253A%252F%252Fshopify.com%252F64110264431%252Faccount%252Fcallback%26region_country%3DUS%26response_type%3Dcode%26scope%3Dopenid%2Bemail%2Bcustomer-account-api%253Afull%26state%3DhWNH4cGxVR3f3PASwRbNPhZK",
+            "status": 302,
+            "to": "https://shop.app/accounts/bounce?client_id=9c34a9cb-21b6-4fc2-8e19-573fa5708353&redirect_uri=https%3A%2F%2Fsmokeshopgurus.com%2Fservices%2Flogin_with_shop%2Fbuyer%2Fcomplete%3Freturn_to%3Dhttps%253A%252F%252Fshopify.com%252Fauthentication%252F64110264431%252Foauth%252Fauthorize%253Fanalytics_trace_id%253D92388f19-e60b-44c7-a985-411528941de1%2526buyer_flags%253DeyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3bTgxdnItY2IubXlzaG9waWZ5LmNvbSIsImZsYWdzIjpbXSwiZXhwIjoxNzkwNTY2MzI4LCJuYmYiOjE3ODk5NjE1Mjh9.Lp5dtCWpX4Uv_osYGbkd5Gu3jZi6hjVSkTE2HpzXLxc%2526client_id%253Dbb00c759-36f3-4ca9-9753-ee8d6ee4b75a%2526locale%253Den-US%2526nonce%253D98a98fac-8129-4c18-bb4f-639e9af04f57%2526redirect_uri%253Dhttps%25253A%25252F%25252Fshopify.com%25252F64110264431%25252Faccount%25252Fcallback%2526region_country%253DUS%2526response_type%253Dcode%2526scope%253Dopenid%252Bemail%252Bcustomer-account-api%25253Afull%2526state%253DhWNH4cGxVR3f3PASwRbNPhZK%26state%3DBAh7BzoKc3RhdGVJIjVNaGZPMGNJTUhaZ01xYXZEejYyX2RTaTdaVm5va1dadE5WcHFGekx1bDFzWU1kU0UGOgZFRjoPc2Vzc2lvbl9pZEkiHzAxTTMxMEFUOEIwOEtZOU1WMTUyNUJQSjA0BjsGVA%253D%253D--aea97ecfa6e7847487c54d2819d67de310598dd1"
+          },
+          {
+            "from": "https://shop.app/accounts/bounce?client_id=9c34a9cb-21b6-4fc2-8e19-573fa5708353&redirect_uri=https%3A%2F%2Fsmokeshopgurus.com%2Fservices%2Flogin_with_shop%2Fbuyer%2Fcomplete%3Freturn_to%3Dhttps%253A%252F%252Fshopify.com%252Fauthentication%252F64110264431%252Foauth%252Fauthorize%253Fanalytics_trace_id%253D92388f19-e60b-44c7-a985-411528941de1%2526buyer_flags%253DeyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3bTgxdnItY2IubXlzaG9waWZ5LmNvbSIsImZsYWdzIjpbXSwiZXhwIjoxNzkwNTY2MzI4LCJuYmYiOjE3ODk5NjE1Mjh9.Lp5dtCWpX4Uv_osYGbkd5Gu3jZi6hjVSkTE2HpzXLxc%2526client_id%253Dbb00c759-36f3-4ca9-9753-ee8d6ee4b75a%2526locale%253Den-US%2526nonce%253D98a98fac-8129-4c18-bb4f-639e9af04f57%2526redirect_uri%253Dhttps%25253A%25252F%25252Fshopify.com%25252F64110264431%25252Faccount%25252Fcallback%2526region_country%253DUS%2526response_type%253Dcode%2526scope%253Dopenid%252Bemail%252Bcustomer-account-api%25253Afull%2526state%253DhWNH4cGxVR3f3PASwRbNPhZK%26state%3DBAh7BzoKc3RhdGVJIjVNaGZPMGNJTUhaZ01xYXZEejYyX2RTaTdaVm5va1dadE5WcHFGekx1bDFzWU1kU0UGOgZFRjoPc2Vzc2lvbl9pZEkiHzAxTTMxMEFUOEIwOEtZOU1WMTUyNUJQSjA0BjsGVA%253D%253D--aea97ecfa6e7847487c54d2819d67de310598dd1",
+            "status": 302,
+            "to": "https://smokeshopgurus.com/services/login_with_shop/buyer/complete?return_to=https%3A%2F%2Fshopify.com%2Fauthentication%2F64110264431%2Foauth%2Fauthorize%3Fanalytics_trace_id%3D92388f19-e60b-44c7-a985-411528941de1%26buyer_flags%3DeyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3bTgxdnItY2IubXlzaG9waWZ5LmNvbSIsImZsYWdzIjpbXSwiZXhwIjoxNzkwNTY2MzI4LCJuYmYiOjE3ODk5NjE1Mjh9.Lp5dtCWpX4Uv_osYGbkd5Gu3jZi6hjVSkTE2HpzXLxc%26client_id%3Dbb00c759-36f3-4ca9-9753-ee8d6ee4b75a%26locale%3Den-US%26nonce%3D98a98fac-8129-4c18-bb4f-639e9af04f57%26redirect_uri%3Dhttps%253A%252F%252Fshopify.com%252F64110264431%252Faccount%252Fcallback%26region_country%3DUS%26response_type%3Dcode%26scope%3Dopenid%2Bemail%2Bcustomer-account-api%253Afull%26state%3DhWNH4cGxVR3f3PASwRbNPhZK&state=BAh7BzoKc3RhdGVJIjVNaGZPMGNJTUhaZ01xYXZEejYyX2RTaTdaVm5va1dadE5WcHFGekx1bDFzWU1kU0UGOgZFRjoPc2Vzc2lvbl9pZEkiHzAxTTMxMEFUOEIwOEtZOU1WMTUyNUJQSjA0BjsGVA%3D%3D--aea97ecfa6e7847487c54d2819d67de310598dd1&token=MzRWbTRvSjBKNGs5cllLaFZLUjNaa29VaXlZaTNaa0FtR0Rtd0t6MVFCdXZlL1MxWG9KaDc2SnI5SVRiUVRDOWtUZ01RdC9DRnRZVmxrc250MTF5SmZNQlhmWllXS2FOd1R1azg0MGdweVhpMnExY2ZLdWM5YnJFY21ZUnZqU09MUSswTTA1REVGRVZ4dzZnRi9yVzFzYm9hYTRJOFFxOFFCTjYvNTZhRzZYWS8vUUlTTFBWTjRselRqUGZldUJQYmlUN0Z1WWt3RHRFaEM1SWZQbDZJSnhlaHhBTXlzbjRsZ1BTV1ZIZEhzNWtjQnFVQjdQTHJrdk9oZnJBdnBCZWJSdVdvazJaOVBmdG9PZzNDbGVNTHN5TGREcE03WG1UUGhxUHhyRjQ4QkNaUC9wdDNDSXlHa295cHpUcExPOEErQktGZkZmNlJRbGZqMlBoY2pTWGlpS1FWQ0svSUY5dEFvNnNFa2ljK0x4SzY3TmpTV25OQUJEYmlJYndoSUwzN09sR2paM0hnU1RHNE9CY2FmL1RXMGV6UWVUVzYrUlREY0EvekV3ZDc5STBrR2ErZjNXU05FRVdnVWVtWjJKK1dmeWFHRHpLQXFUTisyMm9RODhKZVVkQ1BTWTlpc01ydHJhREJNbXM2cFRzSnVUWk0vWjY0b1c2SU9CaFZEZnlEY0t2ekhNTzFMTXhOby9nelZNSzlydmN4OTVybk1yVXZzNFJOaXVMMnVCN1dDYjBOMThzVEdNOHFFQXd2VVBNS1RtTFpzZWcvaFJMdTdXV0o2MlFSL240K0xUMWpGS2c2VVREZjZ5SDhlYzZYYktGN3NEY3JpUWlmUzFvSUJ2WGxoYUhWZzN2L0EyMDNGWHB1TFJIeXhiK1c2KzF4S0tIcmZiMDdObzJQaWFNckZ1Q2VNMXBSblMyaldrWTVHaW43YTR0eGZNc0ZIVzJkU055dktRd29Wa2p0RW5rOFBvVDhJMjZseDhZU29TOW9yU29NVXJyclo3K1hWVlZnOG0veFowMGtaclcxdVk5Z2k0Vm1qR0pMQkcxZ2lIazZGUks5SE9PU2lycXcwSURZWkVBU2VucmJRdmtHVWNCdEFhRXNYZVNDQkJaSm1vOXFEOEdYenZmVFJCMmM2ejlYK2YraGdlMVh6bnBhZFhUR0t1ZXUyU05VeHV1dlloT21ydUVYc09FbFZ4b0RsQkNDaW5BSHMyZWZQcmZkYjhpWTBoazdiZ2ZsMThneW1XS2ZLYXNOM3k2VDNqc2Q0OWR6Y1FVdy9HeW1VVlY1RVcvZS9DTng2dVpwRGZrVGhBbjU5b3FNcFlmdjZJYlFDN0ZWQkZFekY2bFB5VnJZa0Q1bXRZeXJJTXlERGVGa2F3WDBFNTM1V1ZsaDM0L1RFdXR5Sm91cjJDYWI1a0QzMXc9LS1jN3J4WlZhSFpIOVZUYkdScVAvK3dBPT0%3D--eb663d2dd77eb6e892dea5c085a1b0c7ca581c50"
+          },
+          {
+            "from": "https://smokeshopgurus.com/services/login_with_shop/buyer/complete?return_to=https%3A%2F%2Fshopify.com%2Fauthentication%2F64110264431%2Foauth%2Fauthorize%3Fanalytics_trace_id%3D92388f19-e60b-44c7-a985-411528941de1%26buyer_flags%3DeyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3bTgxdnItY2IubXlzaG9waWZ5LmNvbSIsImZsYWdzIjpbXSwiZXhwIjoxNzkwNTY2MzI4LCJuYmYiOjE3ODk5NjE1Mjh9.Lp5dtCWpX4Uv_osYGbkd5Gu3jZi6hjVSkTE2HpzXLxc%26client_id%3Dbb00c759-36f3-4ca9-9753-ee8d6ee4b75a%26locale%3Den-US%26nonce%3D98a98fac-8129-4c18-bb4f-639e9af04f57%26redirect_uri%3Dhttps%253A%252F%252Fshopify.com%252F64110264431%252Faccount%252Fcallback%26region_country%3DUS%26response_type%3Dcode%26scope%3Dopenid%2Bemail%2Bcustomer-account-api%253Afull%26state%3DhWNH4cGxVR3f3PASwRbNPhZK&state=BAh7BzoKc3RhdGVJIjVNaGZPMGNJTUhaZ01xYXZEejYyX2RTaTdaVm5va1dadE5WcHFGekx1bDFzWU1kU0UGOgZFRjoPc2Vzc2lvbl9pZEkiHzAxTTMxMEFUOEIwOEtZOU1WMTUyNUJQSjA0BjsGVA%3D%3D--aea97ecfa6e7847487c54d2819d67de310598dd1&token=MzRWbTRvSjBKNGs5cllLaFZLUjNaa29VaXlZaTNaa0FtR0Rtd0t6MVFCdXZlL1MxWG9KaDc2SnI5SVRiUVRDOWtUZ01RdC9DRnRZVmxrc250MTF5SmZNQlhmWllXS2FOd1R1azg0MGdweVhpMnExY2ZLdWM5YnJFY21ZUnZqU09MUSswTTA1REVGRVZ4dzZnRi9yVzFzYm9hYTRJOFFxOFFCTjYvNTZhRzZYWS8vUUlTTFBWTjRselRqUGZldUJQYmlUN0Z1WWt3RHRFaEM1SWZQbDZJSnhlaHhBTXlzbjRsZ1BTV1ZIZEhzNWtjQnFVQjdQTHJrdk9oZnJBdnBCZWJSdVdvazJaOVBmdG9PZzNDbGVNTHN5TGREcE03WG1UUGhxUHhyRjQ4QkNaUC9wdDNDSXlHa295cHpUcExPOEErQktGZkZmNlJRbGZqMlBoY2pTWGlpS1FWQ0svSUY5dEFvNnNFa2ljK0x4SzY3TmpTV25OQUJEYmlJYndoSUwzN09sR2paM0hnU1RHNE9CY2FmL1RXMGV6UWVUVzYrUlREY0EvekV3ZDc5STBrR2ErZjNXU05FRVdnVWVtWjJKK1dmeWFHRHpLQXFUTisyMm9RODhKZVVkQ1BTWTlpc01ydHJhREJNbXM2cFRzSnVUWk0vWjY0b1c2SU9CaFZEZnlEY0t2ekhNTzFMTXhOby9nelZNSzlydmN4OTVybk1yVXZzNFJOaXVMMnVCN1dDYjBOMThzVEdNOHFFQXd2VVBNS1RtTFpzZWcvaFJMdTdXV0o2MlFSL240K0xUMWpGS2c2VVREZjZ5SDhlYzZYYktGN3NEY3JpUWlmUzFvSUJ2WGxoYUhWZzN2L0EyMDNGWHB1TFJIeXhiK1c2KzF4S0tIcmZiMDdObzJQaWFNckZ1Q2VNMXBSblMyaldrWTVHaW43YTR0eGZNc0ZIVzJkU055dktRd29Wa2p0RW5rOFBvVDhJMjZseDhZU29TOW9yU29NVXJyclo3K1hWVlZnOG0veFowMGtaclcxdVk5Z2k0Vm1qR0pMQkcxZ2lIazZGUks5SE9PU2lycXcwSURZWkVBU2VucmJRdmtHVWNCdEFhRXNYZVNDQkJaSm1vOXFEOEdYenZmVFJCMmM2ejlYK2YraGdlMVh6bnBhZFhUR0t1ZXUyU05VeHV1dlloT21ydUVYc09FbFZ4b0RsQkNDaW5BSHMyZWZQcmZkYjhpWTBoazdiZ2ZsMThneW1XS2ZLYXNOM3k2VDNqc2Q0OWR6Y1FVdy9HeW1VVlY1RVcvZS9DTng2dVpwRGZrVGhBbjU5b3FNcFlmdjZJYlFDN0ZWQkZFekY2bFB5VnJZa0Q1bXRZeXJJTXlERGVGa2F3WDBFNTM1V1ZsaDM0L1RFdXR5Sm91cjJDYWI1a0QzMXc9LS1jN3J4WlZhSFpIOVZUYkdScVAvK3dBPT0%3D--eb663d2dd77eb6e892dea5c085a1b0c7ca581c50",
+            "status": 302,
+            "to": "https://shopify.com/authentication/64110264431/oauth/authorize?analytics_trace_id=92388f19-e60b-44c7-a985-411528941de1&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3bTgxdnItY2IubXlzaG9waWZ5LmNvbSIsImZsYWdzIjpbXSwiZXhwIjoxNzkwNTY2MzI4LCJuYmYiOjE3ODk5NjE1Mjh9.Lp5dtCWpX4Uv_osYGbkd5Gu3jZi6hjVSkTE2HpzXLxc&client_id=bb00c759-36f3-4ca9-9753-ee8d6ee4b75a&locale=en-US&nonce=98a98fac-8129-4c18-bb4f-639e9af04f57&redirect_uri=https%3A%2F%2Fshopify.com%2F64110264431%2Faccount%2Fcallback&region_country=US&response_type=code&scope=openid+email+customer-account-api%3Afull&state=hWNH4cGxVR3f3PASwRbNPhZK"
+          },
+          {
+            "from": "https://shopify.com/authentication/64110264431/oauth/authorize?analytics_trace_id=92388f19-e60b-44c7-a985-411528941de1&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3bTgxdnItY2IubXlzaG9waWZ5LmNvbSIsImZsYWdzIjpbXSwiZXhwIjoxNzkwNTY2MzI4LCJuYmYiOjE3ODk5NjE1Mjh9.Lp5dtCWpX4Uv_osYGbkd5Gu3jZi6hjVSkTE2HpzXLxc&client_id=bb00c759-36f3-4ca9-9753-ee8d6ee4b75a&locale=en-US&nonce=98a98fac-8129-4c18-bb4f-639e9af04f57&redirect_uri=https%3A%2F%2Fshopify.com%2F64110264431%2Faccount%2Fcallback&region_country=US&response_type=code&scope=openid+email+customer-account-api%3Afull&state=hWNH4cGxVR3f3PASwRbNPhZK",
+            "status": 302,
+            "to": "https://smokeshopgurus.com/services/login_with_shop/buyer/start?ctx=01M310AVN61SCA86D3EZ8KDGDP&return_to=https%3A%2F%2Fshopify.com%2Fauthentication%2F64110264431%2Foauth%2Fauthorize%3Fanalytics_trace_id%3D92388f19-e60b-44c7-a985-411528941de1%26buyer_flags%3DeyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3bTgxdnItY2IubXlzaG9waWZ5LmNvbSIsImZsYWdzIjpbXSwiZXhwIjoxNzkwNTY2MzI4LCJuYmYiOjE3ODk5NjE1Mjh9.Lp5dtCWpX4Uv_osYGbkd5Gu3jZi6hjVSkTE2HpzXLxc%26client_id%3Dbb00c759-36f3-4ca9-9753-ee8d6ee4b75a%26locale%3Den-US%26nonce%3D98a98fac-8129-4c18-bb4f-639e9af04f57%26redirect_uri%3Dhttps%253A%252F%252Fshopify.com%252F64110264431%252Faccount%252Fcallback%26region_country%3DUS%26response_type%3Dcode%26scope%3Dopenid%2Bemail%2Bcustomer-account-api%253Afull%26state%3DhWNH4cGxVR3f3PASwRbNPhZK"
+          }
+        ]
+      },
+      "at": "2026-09-21T03:32:09.247Z",
+      "accepted": true,
+      "acceptedReason": "Shopify customer-account OAuth bounce. The chain leaves the origin for shopify.com and shop.app and returns a login flow, not a page of the site. robots.txt disallows /account and the rebuild has no account system (see docs/DEPLOY.md). Nothing about the site is missing from the harvest because of it.",
+      "acceptedAt": "2026-09-21T04:58:25.356Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://smokeshopgurus.com/sf_private_access_tokens",
+      "reason": "refused: HTTP 401",
+      "at": "2026-09-21T03:34:24.491Z",
+      "accepted": true,
+      "acceptedReason": "Shopify private storefront-token endpoint. It answers 401 to everyone, is disallowed by the site's own robots.txt (/sf_*), and is platform infrastructure rather than an asset of the site.",
+      "acceptedAt": "2026-09-21T04:58:25.357Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://smokeshopgurus.com/GET",
+      "reason": "status 404",
+      "at": "2026-09-21T03:34:24.997Z",
+      "accepted": true,
+      "acceptedReason": "Not a real URL. The asset pass reads candidate paths out of inline script, and these are string literals from the theme's own JavaScript — HTTP verbs and an environment name — resolved against the origin. Each 404s because nothing was ever published there. No asset of the site is missing.",
+      "acceptedAt": "2026-09-21T04:58:25.357Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://smokeshopgurus.com/POST",
+      "reason": "status 404",
+      "at": "2026-09-21T03:34:25.382Z",
+      "accepted": true,
+      "acceptedReason": "Not a real URL. The asset pass reads candidate paths out of inline script, and these are string literals from the theme's own JavaScript — HTTP verbs and an environment name — resolved against the origin. Each 404s because nothing was ever published there. No asset of the site is missing.",
+      "acceptedAt": "2026-09-21T04:58:25.357Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://smokeshopgurus.com/development",
+      "reason": "status 404",
+      "at": "2026-09-21T03:34:25.748Z",
+      "accepted": true,
+      "acceptedReason": "Not a real URL. The asset pass reads candidate paths out of inline script, and these are string literals from the theme's own JavaScript — HTTP verbs and an environment name — resolved against the origin. Each 404s because nothing was ever published there. No asset of the site is missing.",
+      "acceptedAt": "2026-09-21T04:58:25.357Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://smokeshopgurus.com/blogs/GET",
+      "reason": "status 404",
+      "at": "2026-09-21T03:34:26.149Z",
+      "accepted": true,
+      "acceptedReason": "Not a real URL. The asset pass reads candidate paths out of inline script, and these are string literals from the theme's own JavaScript — HTTP verbs and an environment name — resolved against the origin. Each 404s because nothing was ever published there. No asset of the site is missing.",
+      "acceptedAt": "2026-09-21T04:58:25.357Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://smokeshopgurus.com/blogs/POST",
+      "reason": "status 404",
+      "at": "2026-09-21T03:34:26.538Z",
+      "accepted": true,
+      "acceptedReason": "Not a real URL. The asset pass reads candidate paths out of inline script, and these are string literals from the theme's own JavaScript — HTTP verbs and an environment name — resolved against the origin. Each 404s because nothing was ever published there. No asset of the site is missing.",
+      "acceptedAt": "2026-09-21T04:58:25.357Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://smokeshopgurus.com/blogs/development",
+      "reason": "status 404",
+      "at": "2026-09-21T03:34:26.941Z",
+      "accepted": true,
+      "acceptedReason": "Not a real URL. The asset pass reads candidate paths out of inline script, and these are string literals from the theme's own JavaScript — HTTP verbs and an environment name — resolved against the origin. Each 404s because nothing was ever published there. No asset of the site is missing.",
+      "acceptedAt": "2026-09-21T04:58:25.357Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://smokeshopgurus.com/collections/GET",
+      "reason": "status 404",
+      "at": "2026-09-21T03:34:27.397Z",
+      "accepted": true,
+      "acceptedReason": "Not a real URL. The asset pass reads candidate paths out of inline script, and these are string literals from the theme's own JavaScript — HTTP verbs and an environment name — resolved against the origin. Each 404s because nothing was ever published there. No asset of the site is missing.",
+      "acceptedAt": "2026-09-21T04:58:25.357Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://smokeshopgurus.com/collections/POST",
+      "reason": "status 404",
+      "at": "2026-09-21T03:34:27.742Z",
+      "accepted": true,
+      "acceptedReason": "Not a real URL. The asset pass reads candidate paths out of inline script, and these are string literals from the theme's own JavaScript — HTTP verbs and an environment name — resolved against the origin. Each 404s because nothing was ever published there. No asset of the site is missing.",
+      "acceptedAt": "2026-09-21T04:58:25.357Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://smokeshopgurus.com/collections/development",
+      "reason": "status 404",
+      "at": "2026-09-21T03:34:28.187Z",
+      "accepted": true,
+      "acceptedReason": "Not a real URL. The asset pass reads candidate paths out of inline script, and these are string literals from the theme's own JavaScript — HTTP verbs and an environment name — resolved against the origin. Each 404s because nothing was ever published there. No asset of the site is missing.",
+      "acceptedAt": "2026-09-21T04:58:25.357Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://smokeshopgurus.com/pages/GET",
+      "reason": "status 404",
+      "at": "2026-09-21T03:34:28.559Z",
+      "accepted": true,
+      "acceptedReason": "Not a real URL. The asset pass reads candidate paths out of inline script, and these are string literals from the theme's own JavaScript — HTTP verbs and an environment name — resolved against the origin. Each 404s because nothing was ever published there. No asset of the site is missing.",
+      "acceptedAt": "2026-09-21T04:58:25.357Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://smokeshopgurus.com/pages/POST",
+      "reason": "status 404",
+      "at": "2026-09-21T03:34:28.974Z",
+      "accepted": true,
+      "acceptedReason": "Not a real URL. The asset pass reads candidate paths out of inline script, and these are string literals from the theme's own JavaScript — HTTP verbs and an environment name — resolved against the origin. Each 404s because nothing was ever published there. No asset of the site is missing.",
+      "acceptedAt": "2026-09-21T04:58:25.357Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://smokeshopgurus.com/pages/development",
+      "reason": "status 404",
+      "at": "2026-09-21T03:34:29.357Z",
+      "accepted": true,
+      "acceptedReason": "Not a real URL. The asset pass reads candidate paths out of inline script, and these are string literals from the theme's own JavaScript — HTTP verbs and an environment name — resolved against the origin. Each 404s because nothing was ever published there. No asset of the site is missing.",
+      "acceptedAt": "2026-09-21T04:58:25.357Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://smokeshopgurus.com/products/GET",
+      "reason": "status 404",
+      "at": "2026-09-21T03:34:29.751Z",
+      "accepted": true,
+      "acceptedReason": "Not a real URL. The asset pass reads candidate paths out of inline script, and these are string literals from the theme's own JavaScript — HTTP verbs and an environment name — resolved against the origin. Each 404s because nothing was ever published there. No asset of the site is missing.",
+      "acceptedAt": "2026-09-21T04:58:25.357Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://smokeshopgurus.com/products/POST",
+      "reason": "status 404",
+      "at": "2026-09-21T03:34:30.168Z",
+      "accepted": true,
+      "acceptedReason": "Not a real URL. The asset pass reads candidate paths out of inline script, and these are string literals from the theme's own JavaScript — HTTP verbs and an environment name — resolved against the origin. Each 404s because nothing was ever published there. No asset of the site is missing.",
+      "acceptedAt": "2026-09-21T04:58:25.357Z"
+    },
+    {
+      "stage": "assets:data",
+      "target": "https://smokeshopgurus.com/products/development",
+      "reason": "status 404",
+      "at": "2026-09-21T03:34:30.583Z",
+      "accepted": true,
+      "acceptedReason": "Not a real URL. The asset pass reads candidate paths out of inline script, and these are string literals from the theme's own JavaScript — HTTP verbs and an environment name — resolved against the origin. Each 404s because nothing was ever published there. No asset of the site is missing.",
+      "acceptedAt": "2026-09-21T04:58:25.357Z"
+    }
+  ]
+}

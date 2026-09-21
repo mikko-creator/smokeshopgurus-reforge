@@ -1,0 +1,51 @@
+chrome up on port 9353
+  OK  index@390  style  els=686  sh=6972
+  OK  index@390  scroll reveals=4
+  OK  index@768  style  els=692  sh=5892
+  OK  index@768  scroll reveals=6
+  OK  index@1024  style  els=803  sh=5005
+  OK  index@1024  scroll reveals=6
+  OK  index@1440  style  els=803  sh=5177
+  OK  index@1440  scroll reveals=6
+  OK  collections-glass-bongs@390  style  els=303  sh=3782
+  OK  collections-glass-bongs@390  scroll reveals=4
+  OK  collections-glass-bongs@768  style  els=331  sh=3026
+  OK  collections-glass-bongs@768  scroll reveals=6
+  OK  collections-glass-bongs@1024  style  els=469  sh=2230
+  OK  collections-glass-bongs@1024  scroll reveals=6
+  OK  collections-glass-bongs@1440  style  els=469  sh=2155
+  OK  collections-glass-bongs@1440  scroll reveals=6
+  OK  products-aleaf-10-bubble-beaker@390  style  els=328  sh=4227
+  OK  products-aleaf-10-bubble-beaker@390  scroll reveals=5
+  OK  products-aleaf-10-bubble-beaker@768  style  els=378  sh=3482
+  OK  products-aleaf-10-bubble-beaker@768  scroll reveals=7
+  OK  products-aleaf-10-bubble-beaker@1024  style  els=518  sh=2655
+  OK  products-aleaf-10-bubble-beaker@1024  scroll reveals=7
+  OK  products-aleaf-10-bubble-beaker@1440  style  els=442  sh=2160
+  OK  products-aleaf-10-bubble-beaker@1440  scroll reveals=7
+  OK  pages-about@390  style  els=169  sh=3077
+  OK  pages-about@390  scroll reveals=4
+  OK  pages-about@768  style  els=175  sh=1965
+  OK  pages-about@768  scroll reveals=6
+  OK  pages-about@1024  style  els=313  sh=1679
+  OK  pages-about@1024  scroll reveals=6
+  OK  pages-about@1440  style  els=313  sh=1561
+  OK  pages-about@1440  scroll reveals=6
+  OK  pages-contact@390  style  els=221  sh=4200
+  OK  pages-contact@390  scroll reveals=4
+  OK  pages-contact@768  style  els=227  sh=3161
+  OK  pages-contact@768  scroll reveals=6
+  OK  pages-contact@1024  style  els=365  sh=2554
+  OK  pages-contact@1024  scroll reveals=6
+  OK  pages-contact@1440  style  els=365  sh=2410
+  OK  pages-contact@1440  scroll reveals=6
+  OK  pages-faqs@390  style  els=159  sh=2647
+  OK  pages-faqs@390  scroll reveals=4
+  OK  pages-faqs@768  style  els=165  sh=1580
+  OK  pages-faqs@768  scroll reveals=6
+  OK  pages-faqs@1024  style  els=303  sh=1399
+  OK  pages-faqs@1024  scroll reveals=1
+  OK  pages-faqs@1440  style  els=303  sh=1294
+  OK  pages-faqs@1440  scroll reveals=1
+
+capture-run: 48 captured, 0 failed -> C:\Users\Dell\smokeshopgurus-reforge\audit\capture-raw

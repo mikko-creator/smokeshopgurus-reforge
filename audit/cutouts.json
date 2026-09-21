@@ -1,0 +1,16 @@
+{
+ "schema": "smokeshopgurus/cutouts@1",
+ "generated": "2026-09-21T16:11:10.504Z",
+ "note": "Client product photographs with the studio background flood-filled away by tools/cutout.mjs, for the Best Seller marquee only. The originals are untouched and are still what every product page and grid shows.",
+ "tool": "tools/cutout.mjs",
+ "count": 7,
+ "files": [
+  "09a5ca5a-WholesaleWarehouseLogoIdeas.png",
+  "5f2bd55f-81f4CEQvLzL._UF1000_1000_QL80.png",
+  "2a15e86e-cartisan-pro-pen-neo-black.png",
+  "d772e746-81oWuLXZ9fL._UF894_1000_QL80__1.png",
+  "4305263d-98mm-800-ct-cones-purple-330x330.png",
+  "e6661f74-ElementsPinkCones11_4.png",
+  "8024f883-BPS_Element_MidnightNavy_Front-595631.png"
+ ]
+}

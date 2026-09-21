@@ -1,0 +1,9 @@
+{
+  "schema": "site-reforge/data-assets@1",
+  "generated": "2026-09-21T03:34:30.587Z",
+  "note": "Images named ONLY inside a runtime data file. `ref` is the exact string as it appears in that file — the builder rewrites that string to the local path, and blanks any template prefix, so the code that assembles the URL keeps working.",
+  "templatePrefixes": [],
+  "skippedBareNames": [],
+  "skippedNote": "An image FILENAME carried as metadata beside an asset, not a path. No prefix serves it, so pairing it with one would only be a speculative request at a server belonging to somebody else.",
+  "refs": []
+}

@@ -1,0 +1,115 @@
+
+/* ===================================================================
+   METAL SHIMMER — button hover
+   ===================================================================
+   Replaces the hover colour change. A machined face does not change
+   colour when you approach it; it catches the light. So a specular band
+   sweeps across the button instead, and the fill stays put.
+
+   STACKING. .btn is position:relative but sets no z-index, so a
+   positioned ::before would paint in step 8 — ABOVE the inline text.
+   isolation:isolate makes .btn a stacking context, which lets the
+   pseudo sit at z-index:-1: negative-index children paint in step 3,
+   after the element's own background and before its content. The band
+   therefore travels between the fill and the label. `isolation` only
+   creates a stacking context — unlike will-change, contain, filter or
+   transform it does NOT create a containing block, so nothing
+   position:fixed on this site gets re-anchored by it.
+
+   overflow:hidden is already on .btn, so the band is clipped to the
+   button and the skew never leaks past the corner radius.
+
+   transform, not `left`: the sweep stays on the compositor and costs no
+   layout on a page that can hold 82 buttons.
+   =================================================================== */
+.btn { isolation: isolate; }
+
+.btn::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -25%;
+  bottom: -25%;
+  left: 0;
+  width: 36%;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateX(-160%) skewX(-18deg);
+  background-image: linear-gradient(
+    100deg,
+    transparent 0%,
+    var(--lite-3) 18%,
+    var(--lite-1) 50%,
+    var(--lite-3) 82%,
+    transparent 100%
+  );
+}
+
+@keyframes sr-btn-shimmer {
+  0%   { opacity: 0; transform: translateX(-160%) skewX(-18deg); }
+  14%  { opacity: 1; }
+  86%  { opacity: 1; }
+  100% { opacity: 0; transform: translateX(320%) skewX(-18deg); }
+}
+
+.btn:hover::before,
+.btn:focus-visible::before {
+  animation: sr-btn-shimmer 0.85s cubic-bezier(0.25, 0.6, 0.3, 1);
+}
+
+/* The fill no longer moves on hover — the shimmer is the feedback. The
+   earlier rules changed background-color, which is what this replaces.
+   :active still darkens and travels, because a press should feel like a
+   press and that is touch feedback rather than decoration. */
+.btn:hover { background-color: var(--gm-700); color: var(--gm-000); }
+.btn--primary:hover { background-color: var(--acc); }
+.btn--ghost:hover { background-color: var(--glass-tint); }
+
+/* A second, slower band on the primary button so the brand control reads
+   as the most polished surface on the page. */
+.btn--primary::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -25%;
+  bottom: -25%;
+  left: 0;
+  width: 18%;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateX(-260%) skewX(-18deg);
+  background-image: linear-gradient(
+    100deg,
+    transparent 0%,
+    var(--lite-2) 50%,
+    transparent 100%
+  );
+}
+.btn--primary:hover::after,
+.btn--primary:focus-visible::after {
+  animation: sr-btn-shimmer 0.85s cubic-bezier(0.25, 0.6, 0.3, 1) 0.12s;
+}
+/* .btn--knurled already owns ::after for its grip strip, so a knurled
+   primary keeps the grip and takes only the single band. */
+.btn--primary.btn--knurled::after {
+  z-index: auto;
+  top: auto;
+  bottom: 4px;
+  left: 12%;
+  right: 12%;
+  width: auto;
+  height: 4px;
+  opacity: 0.85;
+  transform: none;
+  border-radius: 2px;
+  background-image: var(--knurl);
+  animation: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn::before,
+  .btn--primary::after { animation: none !important; opacity: 0; }
+  /* with the sweep suppressed, hover needs SOME affordance back */
+  .btn:hover { background-color: var(--gm-650); }
+  .btn--primary:hover { background-color: var(--acc-deep); }
+}

@@ -1,0 +1,9 @@
+assets complete in 63m16s
+  images        3592 (3592 on disk, 0 failed)
+  duplicates    1958
+  stylesheets   43/43
+  webfonts      2/2
+  scripts       17/17 (same-origin only)
+  median px     360
+  decisions     KEEP:1429 REMOVE:1958 REPLACE:204 OPTIONAL:1
+  next          node scripts/sr-tokens.mjs --project "C:\\Users\\Dell\\smokeshopgurus-reforge"

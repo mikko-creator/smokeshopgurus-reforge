@@ -1,0 +1,18 @@
+{
+ "settleMs": 1500,
+ "paintMs": 900,
+ "urls": [
+  "file:///C:/Users/Dell/smokeshopgurus-reforge/audit/contact-sheets/sheet-1.html",
+  "file:///C:/Users/Dell/smokeshopgurus-reforge/audit/contact-sheets/sheet-2.html",
+  "file:///C:/Users/Dell/smokeshopgurus-reforge/audit/contact-sheets/sheet-3.html",
+  "file:///C:/Users/Dell/smokeshopgurus-reforge/audit/contact-sheets/sheet-4.html",
+  "file:///C:/Users/Dell/smokeshopgurus-reforge/audit/contact-sheets/sheet-5.html"
+ ],
+ "names": [
+  "sheet-1",
+  "sheet-2",
+  "sheet-3",
+  "sheet-4",
+  "sheet-5"
+ ]
+}

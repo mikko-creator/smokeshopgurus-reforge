@@ -1,0 +1,218 @@
+{
+  "schema": "site-reforge/gate@1",
+  "generated": "2026-09-21T16:16:56.896Z",
+  "project": "smokeshopgurus-com",
+  "target": "https://smokeshopgurus.com/",
+  "verdict": "NOT-READY",
+  "counts": {
+    "PASS": 23,
+    "FAIL": 5,
+    "UNPROVEN": 1
+  },
+  "note": "UNPROVEN blocks exactly like FAIL. A check that could not see its artifact did not pass.",
+  "checks": [
+    {
+      "id": "C01",
+      "label": "Site inventory completed",
+      "stage": "crawl",
+      "status": "PASS",
+      "evidence": "150 html pages inventoried"
+    },
+    {
+      "id": "C02",
+      "label": "Crawl was not truncated",
+      "stage": "crawl",
+      "status": "PASS",
+      "evidence": "queue drained; 152 urls"
+    },
+    {
+      "id": "C03",
+      "label": "Every crawled page fetched successfully",
+      "stage": "crawl",
+      "status": "FAIL",
+      "evidence": "1 pages failed — see audit/failures.json"
+    },
+    {
+      "id": "C04",
+      "label": "Content captured for every page",
+      "stage": "extract",
+      "status": "PASS",
+      "evidence": "150 pages with body text"
+    },
+    {
+      "id": "C05",
+      "label": "No page is an unresolved JS-rendered shell",
+      "stage": "extract",
+      "status": "PASS",
+      "evidence": "0 high-risk pages"
+    },
+    {
+      "id": "C06",
+      "label": "SEO inventory captured",
+      "stage": "extract",
+      "status": "FAIL",
+      "evidence": "150 source page(s) had no title"
+    },
+    {
+      "id": "C07",
+      "label": "Image inventory completed with real dimensions",
+      "stage": "assets",
+      "status": "PASS",
+      "evidence": "3592 images, 3592 measured, 3592 re-measured from disk"
+    },
+    {
+      "id": "C08",
+      "label": "Every image has a decision",
+      "stage": "assets",
+      "status": "PASS",
+      "evidence": "all 3592 images decided"
+    },
+    {
+      "id": "C09",
+      "label": "Design baseline captured from a browser, not just source CSS",
+      "stage": "tokens",
+      "status": "PASS",
+      "evidence": "computed (browser capture) — 24 viewport(s) covering 390/768/1024/1440px, re-read from disk"
+    },
+    {
+      "id": "C10",
+      "label": "Motion inventory has no open gaps",
+      "stage": "motion",
+      "status": "PASS",
+      "evidence": "18 keyframes, 1246 animated elements"
+    },
+    {
+      "id": "C11",
+      "label": "Rebuild reproduces every source animation",
+      "stage": "motion",
+      "status": "PASS",
+      "evidence": "18 keyframes present verbatim in src/styles/motion.css"
+    },
+    {
+      "id": "C12",
+      "label": "Preset libraries reviewed",
+      "stage": "presets",
+      "status": "UNPROVEN",
+      "evidence": "audit/preset-index.json absent — no preset library was indexed"
+    },
+    {
+      "id": "C13",
+      "label": "Brand token layer emitted and actually referenced",
+      "stage": "brand",
+      "status": "PASS",
+      "evidence": "180 tokens declared, 95 referenced across 3 authored sheet(s), 0 off-token colour literal(s)"
+    },
+    {
+      "id": "C14",
+      "label": "Every source section has a change-control decision",
+      "stage": "ux",
+      "status": "PASS",
+      "evidence": "476 rows decided"
+    },
+    {
+      "id": "C15",
+      "label": "Required narrative slots are filled",
+      "stage": "ux",
+      "status": "PASS",
+      "evidence": "5 required slots mapped"
+    },
+    {
+      "id": "C16",
+      "label": "Every source page exists in the rebuild",
+      "stage": "parity",
+      "status": "PASS",
+      "evidence": "150/150 pages mapped, 2 added by decision"
+    },
+    {
+      "id": "C17",
+      "label": "Content survived the rebuild",
+      "stage": "parity",
+      "status": "FAIL",
+      "evidence": "86 content-loss finding(s)"
+    },
+    {
+      "id": "C18",
+      "label": "SEO survived the rebuild",
+      "stage": "seo",
+      "status": "PASS",
+      "evidence": "0 lost titles, descriptions, canonicals or H1s"
+    },
+    {
+      "id": "C19",
+      "label": "Forms and contact details are intact",
+      "stage": "functional",
+      "status": "PASS",
+      "evidence": "forms and contact details present"
+    },
+    {
+      "id": "C20",
+      "label": "No invented content",
+      "stage": "fabrication",
+      "status": "PASS",
+      "evidence": "772 claims checked, all traced to source or declared facts"
+    },
+    {
+      "id": "C21",
+      "label": "No trace of the source platform",
+      "stage": "decontaminate",
+      "status": "FAIL",
+      "evidence": "1 blocker trace(s): powered-by-text"
+    },
+    {
+      "id": "C22",
+      "label": "Design matches the source pixel-for-pixel at every breakpoint",
+      "stage": "pixeldiff",
+      "status": "FAIL",
+      "evidence": "worst drift 99.515% on pages-about.1440.png"
+    },
+    {
+      "id": "C23",
+      "label": "Responsive swept at every configured breakpoint",
+      "stage": "responsive",
+      "status": "PASS",
+      "evidence": "no blocker/major introduced at 390/768/1024/1440px"
+    },
+    {
+      "id": "C24",
+      "label": "Recorded failures are all resolved or accepted",
+      "stage": "gate",
+      "status": "PASS",
+      "evidence": "17 recorded failure(s), none open"
+    },
+    {
+      "id": "C25",
+      "label": "Handoff documentation present and filled in",
+      "stage": "package",
+      "status": "PASS",
+      "evidence": "docs/: BRAND-SYSTEM.md, CHANGE-LOG.md, DEPLOY.md, README.md — no unfilled placeholders"
+    },
+    {
+      "id": "C26",
+      "label": "The rebuild actually contains pages",
+      "stage": "implement",
+      "status": "PASS",
+      "evidence": "141 html file(s) in dist/"
+    },
+    {
+      "id": "C27",
+      "label": "The clone lane was verified, if it was used",
+      "stage": "cloneVerify",
+      "status": "PASS",
+      "evidence": "no clone lane in this project"
+    },
+    {
+      "id": "C28",
+      "label": "Every rebuilt section names a preset that exists",
+      "stage": "presetMatch",
+      "status": "PASS",
+      "evidence": "no preset library in this project"
+    },
+    {
+      "id": "C29",
+      "label": "SEO emitted and derivable fields repaired",
+      "stage": "seo",
+      "status": "PASS",
+      "evidence": "emitted robots.txt, sitemap.xml, llms.txt · repaired 2245 field(s) on 141 page(s)"
+    }
+  ]
+}

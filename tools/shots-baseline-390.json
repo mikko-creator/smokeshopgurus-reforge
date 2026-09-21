@@ -1,0 +1,21 @@
+{
+ "settleMs": 2600,
+ "paintMs": 1200,
+ "initScript": "try{localStorage.setItem('ssg.age.ok','1')}catch(e){}",
+ "urls": [
+  "https://smokeshopgurus.com/",
+  "https://smokeshopgurus.com/collections/glass-bongs",
+  "https://smokeshopgurus.com/products/aleaf-10-bubble-beaker",
+  "https://smokeshopgurus.com/pages/about",
+  "https://smokeshopgurus.com/pages/contact",
+  "https://smokeshopgurus.com/pages/faqs"
+ ],
+ "names": [
+  "index.390",
+  "collections-glass-bongs.390",
+  "products-aleaf-10-bubble-beaker.390",
+  "pages-about.390",
+  "pages-contact.390",
+  "pages-faqs.390"
+ ]
+}

@@ -1,0 +1,2455 @@
+{
+  "schema": "site-reforge/image-optimisation@1",
+  "generated": "2026-09-21T16:12:51.973Z",
+  "build": "dist",
+  "mode": "apply",
+  "encoder": "1.6.0\r\nlibsharpyuv: 0.4.2",
+  "settings": {
+    "quality": 82,
+    "maxWidth": 2560
+  },
+  "totals": {
+    "images": 201,
+    "bytesBefore": 45340093,
+    "bytesAfter": 7633615,
+    "converted": 176,
+    "refsRewritten": 1105
+  },
+  "formats": {
+    "webp": 176,
+    "jpeg": 22,
+    "png": 3
+  },
+  "images": [
+    {
+      "file": "assets/cutouts/09a5ca5a-WholesaleWarehouseLogoIdeas.webp",
+      "format": "webp",
+      "width": 700,
+      "height": 700,
+      "bytesBefore": 449445,
+      "bytesAfter": 53362,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/cutouts/2a15e86e-cartisan-pro-pen-neo-black.webp",
+      "format": "webp",
+      "width": 600,
+      "height": 600,
+      "bytesBefore": 59253,
+      "bytesAfter": 6012,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/cutouts/4305263d-98mm-800-ct-cones-purple-330x330.webp",
+      "format": "webp",
+      "width": 330,
+      "height": 330,
+      "bytesBefore": 89373,
+      "bytesAfter": 16782,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/cutouts/5f2bd55f-81f4CEQvLzL._UF1000_1000_QL80.webp",
+      "format": "webp",
+      "width": 700,
+      "height": 559,
+      "bytesBefore": 385317,
+      "bytesAfter": 44822,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/cutouts/8024f883-BPS_Element_MidnightNavy_Front-595631.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 125561,
+      "bytesAfter": 11704,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/cutouts/d772e746-81oWuLXZ9fL._UF894_1000_QL80__1.webp",
+      "format": "webp",
+      "width": 700,
+      "height": 700,
+      "bytesBefore": 354102,
+      "bytesAfter": 50204,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/cutouts/e6661f74-ElementsPinkCones11_4.webp",
+      "format": "webp",
+      "width": 602,
+      "height": 700,
+      "bytesBefore": 592896,
+      "bytesAfter": 60024,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/generated/cat-accessories.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 686967,
+      "bytesAfter": 88188,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (8 references)"
+    },
+    {
+      "file": "assets/generated/cat-blunt-wraps.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 592237,
+      "bytesAfter": 48470,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (5 references)"
+    },
+    {
+      "file": "assets/generated/cat-disposable-vapes.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 366189,
+      "bytesAfter": 19002,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (4 references)"
+    },
+    {
+      "file": "assets/generated/cat-edibles.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 572770,
+      "bytesAfter": 46470,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/generated/cat-glass-bongs.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 422294,
+      "bytesAfter": 32188,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (3 references)"
+    },
+    {
+      "file": "assets/generated/cat-grinders.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 493660,
+      "bytesAfter": 37792,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (1 reference)"
+    },
+    {
+      "file": "assets/generated/cat-herb-containers.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 434321,
+      "bytesAfter": 20928,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (1 reference)"
+    },
+    {
+      "file": "assets/generated/cat-kratom.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 685353,
+      "bytesAfter": 70434,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (1 reference)"
+    },
+    {
+      "file": "assets/generated/cat-lighters.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 492677,
+      "bytesAfter": 35244,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (3 references)"
+    },
+    {
+      "file": "assets/generated/cat-mushroom-wellness.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 644167,
+      "bytesAfter": 70472,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (4 references)"
+    },
+    {
+      "file": "assets/generated/cat-pet-treats.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 502179,
+      "bytesAfter": 36418,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (3 references)"
+    },
+    {
+      "file": "assets/generated/cat-pre-rolled-cones.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 532927,
+      "bytesAfter": 31856,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/generated/cat-rolling-papers.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 545630,
+      "bytesAfter": 42092,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (3 references)"
+    },
+    {
+      "file": "assets/generated/cat-stash-bags.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 472084,
+      "bytesAfter": 40918,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (3 references)"
+    },
+    {
+      "file": "assets/generated/cat-tinctures.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 458922,
+      "bytesAfter": 29534,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (1 reference)"
+    },
+    {
+      "file": "assets/generated/cat-topicals.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 490583,
+      "bytesAfter": 28194,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (1 reference)"
+    },
+    {
+      "file": "assets/generated/cat-wax-pens.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 427010,
+      "bytesAfter": 27364,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (1 reference)"
+    },
+    {
+      "file": "assets/generated/hero-gunmetal-anvil.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 576,
+      "bytesBefore": 343075,
+      "bytesAfter": 38240,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (0 references)"
+    },
+    {
+      "file": "assets/generated/hero-vape-leaf.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 576,
+      "bytesBefore": 375484,
+      "bytesAfter": 31338,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (0 references)"
+    },
+    {
+      "file": "assets/generated/hero-vape-macro.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 576,
+      "bytesBefore": 323763,
+      "bytesAfter": 19608,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (0 references)"
+    },
+    {
+      "file": "assets/generated/hero-vape-vapor.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 576,
+      "bytesBefore": 291082,
+      "bytesAfter": 17826,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (1 reference)"
+    },
+    {
+      "file": "assets/generated/smoke-plate-a.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 461,
+      "bytesBefore": 157792,
+      "bytesAfter": 34724,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (1 reference)"
+    },
+    {
+      "file": "assets/generated/smoke-plate-b.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 530,
+      "bytesBefore": 202088,
+      "bytesAfter": 39034,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (1 reference)"
+    },
+    {
+      "file": "assets/generated/smoke-plate-c.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 799,
+      "bytesBefore": 311759,
+      "bytesAfter": 69474,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (1 reference)"
+    },
+    {
+      "file": "assets/generated/tex-brushed-gunmetal.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 629443,
+      "bytesAfter": 66460,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (0 references)"
+    },
+    {
+      "file": "assets/generated/tex-knurled-grip.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 816558,
+      "bytesAfter": 183338,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (0 references)"
+    },
+    {
+      "file": "assets/generated/tex-machined-swirl.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 798452,
+      "bytesAfter": 98328,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (0 references)"
+    },
+    {
+      "file": "assets/generated/tex-perforated-mesh.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 769146,
+      "bytesAfter": 72692,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (0 references)"
+    },
+    {
+      "file": "assets/generated/tex-scratched-steel.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 816482,
+      "bytesAfter": 118694,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (0 references)"
+    },
+    {
+      "file": "assets/generated/tex-tread-plate.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 660709,
+      "bytesAfter": 67272,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (0 references)"
+    },
+    {
+      "file": "assets/img/05d9ac3f-booster_ooze.webp",
+      "format": "webp",
+      "width": 1280,
+      "height": 1280,
+      "bytesBefore": 103336,
+      "bytesAfter": 60170,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/070aa131-Screenshot2025-09-16at13-11-40elementconesdisplay.jpg_JPEGImage2048x2048pixels_Scaled_44_1.webp",
+      "format": "webp",
+      "width": 919,
+      "height": 919,
+      "bytesBefore": 860227,
+      "bytesAfter": 79352,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (7 references)"
+    },
+    {
+      "file": "assets/img/074be254-Sour-Mixed-Berry.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 25931,
+      "bytesAfter": 15266,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/07b48a28-swordfish_lookah.webp",
+      "format": "webp",
+      "width": 600,
+      "height": 800,
+      "bytesBefore": 663316,
+      "bytesAfter": 50422,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/07e90810-81oWuLXZ9fL._UF894_1000_QL80.webp",
+      "format": "webp",
+      "width": 894,
+      "height": 894,
+      "bytesBefore": 76409,
+      "bytesAfter": 64656,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (7 references)"
+    },
+    {
+      "file": "assets/img/082016d1-ElementsPinkConesKingSize.webp",
+      "format": "webp",
+      "width": 1600,
+      "height": 1200,
+      "bytesBefore": 1375873,
+      "bytesAfter": 84736,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (8 references)"
+    },
+    {
+      "file": "assets/img/09a5ca5a-WholesaleWarehouseLogoIdeas.webp",
+      "format": "webp",
+      "width": 1024,
+      "height": 1024,
+      "bytesBefore": 93270,
+      "bytesAfter": 51970,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (5 references)"
+    },
+    {
+      "file": "assets/img/09d343f3-ooze_brink_dry_herb_vaporizer.webp",
+      "format": "webp",
+      "width": 436,
+      "height": 423,
+      "bytesBefore": 207029,
+      "bytesAfter": 20954,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/0a8b7fc1-UoZ7A9LBRSmJRPT1vVYG_Aleaf230.avif",
+      "format": "jpeg",
+      "width": 712,
+      "height": 712,
+      "bytesBefore": 52110,
+      "bytesAfter": 52110,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/0aeee5ab-Sour-Blue-Razz.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 26475,
+      "bytesAfter": 15714,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/0b365721-elements-king-size-wide-ultra-thin-rolling-papers-50-pack-the-supply-joint-1_1.webp",
+      "format": "jpeg",
+      "width": 480,
+      "height": 480,
+      "bytesBefore": 45314,
+      "bytesAfter": 45314,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/0b8eb296-Screenshot_2025-10-17_at_15-15-00_INEX_BRAND_HEAVY_HAND_PIPE_Inex_Brand.webp",
+      "format": "webp",
+      "width": 715,
+      "height": 748,
+      "bytesBefore": 390713,
+      "bytesAfter": 29436,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/0f0992d5-Screenshot_2025-09-24_at_13-39-25_aleaf_glitter_glycerin_-_Google_Search_1.webp",
+      "format": "webp",
+      "width": 467,
+      "height": 496,
+      "bytesBefore": 141335,
+      "bytesAfter": 14222,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/1042285d-Ooze_Booster_Panther.webp",
+      "format": "webp",
+      "width": 919,
+      "height": 919,
+      "bytesBefore": 694873,
+      "bytesAfter": 39464,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (40 references)"
+    },
+    {
+      "file": "assets/img/11a82d5f-KingPalmNatural2pkMiniRolls_1.webp",
+      "format": "webp",
+      "width": 1500,
+      "height": 1500,
+      "bytesBefore": 270666,
+      "bytesAfter": 60870,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (11 references)"
+    },
+    {
+      "file": "assets/img/11ba6712-Screenshot_2025-10-14_at_12-35-21_Edit_product_Lightspeed_Retail.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 12425,
+      "bytesAfter": 1416,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (7 references)"
+    },
+    {
+      "file": "assets/img/13f3d4f3-Lime-Cucumber-soda.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 26819,
+      "bytesAfter": 15078,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/14b333a5-zig-zig.webp",
+      "format": "webp",
+      "width": 466,
+      "height": 469,
+      "bytesBefore": 143997,
+      "bytesAfter": 19840,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (7 references)"
+    },
+    {
+      "file": "assets/img/16c1ffed-White-Grape.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 25601,
+      "bytesAfter": 14622,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/16dfb1bf-wulf-ari-hot-knife-kit-32110775205967_9.webp",
+      "format": "jpeg",
+      "width": 1946,
+      "height": 1946,
+      "bytesBefore": 216017,
+      "bytesAfter": 216017,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/171a7b04-lookah_unicorn_mini_for_sale.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 28042,
+      "bytesAfter": 3136,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (4 references)"
+    },
+    {
+      "file": "assets/img/1a058b8c-Aleaf780_1200x_a9b74f53-4d1d-43aa-b6fc-2cac0c77e2c2.webp",
+      "format": "jpeg",
+      "width": 1200,
+      "height": 1200,
+      "bytesBefore": 63358,
+      "bytesAfter": 63358,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/1a102c78-Wulf_Kodo_Pro_9ct_wholesale.webp",
+      "format": "webp",
+      "width": 900,
+      "height": 900,
+      "bytesBefore": 490899,
+      "bytesAfter": 42824,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/1acbd7ac-elements-king-size-wide-ultra-thin-rolling-papers-50-pack-the-supply-joint-1.webp",
+      "format": "jpeg",
+      "width": 480,
+      "height": 480,
+      "bytesBefore": 45314,
+      "bytesAfter": 45314,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/1b9f086c-Wulf_Tryp_Mushroom_510_Battery.webp",
+      "format": "webp",
+      "width": 919,
+      "height": 919,
+      "bytesBefore": 839676,
+      "bytesAfter": 55046,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/1cdc735f-ooze_duplex_2.webp",
+      "format": "webp",
+      "width": 445,
+      "height": 432,
+      "bytesBefore": 162993,
+      "bytesAfter": 14636,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (40 references)"
+    },
+    {
+      "file": "assets/img/1e12d44e-Mexico-Mango.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 26275,
+      "bytesAfter": 14878,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/1f3e4ff0-aleaf-dual-jet-blow-torch_Black.webp",
+      "format": "jpeg",
+      "width": 1000,
+      "height": 1000,
+      "bytesBefore": 38105,
+      "bytesAfter": 38105,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/256cec8a-Screenshot_2025-10-14_at_13-31-43_Edit_product_Lightspeed_Retail.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 28278,
+      "bytesAfter": 2946,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/26961e74-Screenshot_2025-10-14_at_11-20-26_Edit_product_Lightspeed_Retail.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 35895,
+      "bytesAfter": 3486,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/295a9660-11inchDoubleMatrixBongbyaLeafGreen_700x_a7de8b5e-41ab-49cc-b584-b57478cc9c3b.webp",
+      "format": "jpeg",
+      "width": 700,
+      "height": 700,
+      "bytesBefore": 35785,
+      "bytesAfter": 35785,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/2a15e86e-cartisan-pro-pen-neo-black.webp",
+      "format": "jpeg",
+      "width": 600,
+      "height": 600,
+      "bytesBefore": 11278,
+      "bytesAfter": 11278,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/2b0cd82c-Screenshot_2025-10-14_at_12-36-47_Edit_product_Lightspeed_Retail.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 16835,
+      "bytesAfter": 1818,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/2f4a1666-Creamy-peach-yogurt.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 23629,
+      "bytesAfter": 14668,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/3028e2c3-Import_Glass_Banger_14mm_90.webp",
+      "format": "webp",
+      "width": 1280,
+      "height": 1280,
+      "bytesBefore": 56591,
+      "bytesAfter": 23376,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/321c0cdc-Matcha-Cake.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 26822,
+      "bytesAfter": 15376,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/331fa54f-Strawberry-Banana.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 27259,
+      "bytesAfter": 15296,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/33e1f1a1-Ooze_Electro_Barrel_C_Core_2000mAh.webp",
+      "format": "webp",
+      "width": 879,
+      "height": 907,
+      "bytesBefore": 450576,
+      "bytesAfter": 21838,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/36852061-Watermelon-Ice.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 27191,
+      "bytesAfter": 15368,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/37a5cada-ooze_booster.webp",
+      "format": "webp",
+      "width": 343,
+      "height": 323,
+      "bytesBefore": 135236,
+      "bytesAfter": 13266,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/37b982a3-Aleaf778_1200x1200_1.webp",
+      "format": "jpeg",
+      "width": 1200,
+      "height": 1200,
+      "bytesBefore": 70849,
+      "bytesAfter": 70849,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/39452431-lookah_bear_510.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 35747,
+      "bytesAfter": 3526,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/39781a41-Blue-Razz-Ice.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 26023,
+      "bytesAfter": 15002,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/3d4448d0-BIC_Assorted_Mini_Lighters_50_Pack.webp",
+      "format": "webp",
+      "width": 894,
+      "height": 894,
+      "bytesBefore": 76409,
+      "bytesAfter": 64656,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (7 references)"
+    },
+    {
+      "file": "assets/img/3e7f2e62-aleaf-63mm-blue.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 10328,
+      "bytesAfter": 4108,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/3e838533-lookah_swordfish_near_me.webp",
+      "format": "webp",
+      "width": 600,
+      "height": 800,
+      "bytesBefore": 251926,
+      "bytesAfter": 20496,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/406cae92-juicy-peach-soda.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 26726,
+      "bytesAfter": 15116,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/421cda88-mushroom-chocolate-fruity-cereal.webp",
+      "format": "webp",
+      "width": 800,
+      "height": 800,
+      "bytesBefore": 92514,
+      "bytesAfter": 51434,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/4305263d-98mm-800-ct-cones-purple-330x330.webp",
+      "format": "webp",
+      "width": 330,
+      "height": 330,
+      "bytesBefore": 16675,
+      "bytesAfter": 9532,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (9 references)"
+    },
+    {
+      "file": "assets/img/4410ef76-Aleaf_Grinder_63mm_Purple.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 13267,
+      "bytesAfter": 4910,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/46ff9f43-Meta-Moon.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 26239,
+      "bytesAfter": 15182,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/4795e25e-Untitled-design---2024-05-14T134322.3971715712413436.webp",
+      "format": "webp",
+      "width": 1280,
+      "height": 1280,
+      "bytesBefore": 427200,
+      "bytesAfter": 21534,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/49bfda64-duplex_2_ooze.webp",
+      "format": "webp",
+      "width": 436,
+      "height": 429,
+      "bytesBefore": 166134,
+      "bytesAfter": 15924,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/4a10d6ec-lookah_seahorse_pro_plus_electric_nectar_collector.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 27195,
+      "bytesAfter": 2978,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (4 references)"
+    },
+    {
+      "file": "assets/img/4f57640d-51BV4x6ud9L._UF1000_1000_QL80_1.webp",
+      "format": "webp",
+      "width": 992,
+      "height": 1000,
+      "bytesBefore": 39264,
+      "bytesAfter": 27748,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (5 references)"
+    },
+    {
+      "file": "assets/img/5028fe27-lookah_python_vaporizer.webp",
+      "format": "webp",
+      "width": 600,
+      "height": 800,
+      "bytesBefore": 474434,
+      "bytesAfter": 34788,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/50745f96-lookah-bear-510-battery-pink.webp",
+      "format": "jpeg",
+      "width": 700,
+      "height": 700,
+      "bytesBefore": 30785,
+      "bytesAfter": 30785,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/55ca35d4-Skunk_Nomad_Backpack_Charcoal.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 17508,
+      "bytesAfter": 13622,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (5 references)"
+    },
+    {
+      "file": "assets/img/55fa3c70-Screenshot_2025-10-17_at_15-34-20_16_aLeaf_Hollow_Base_9MM_Honey_Comb_Beaker_aLeaf_Glass.webp",
+      "format": "webp",
+      "width": 831,
+      "height": 831,
+      "bytesBefore": 759768,
+      "bytesAfter": 46230,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/56e8bc58-Screenshot_2025-10-15_at_21-37-10_Lookah_Python_Best_Handheld_Wax_Dab_Pen_for_Sale.webp",
+      "format": "webp",
+      "width": 600,
+      "height": 800,
+      "bytesBefore": 462490,
+      "bytesAfter": 33152,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/5e8daafe-lookah_bear_510_battery.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 36205,
+      "bytesAfter": 3276,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/5f2bd55f-81f4CEQvLzL._UF1000_1000_QL80.webp",
+      "format": "webp",
+      "width": 1000,
+      "height": 798,
+      "bytesBefore": 55340,
+      "bytesAfter": 47252,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (7 references)"
+    },
+    {
+      "file": "assets/img/5fddb1a0-shop_Lookah_Swordfish_vaporizer.webp",
+      "format": "webp",
+      "width": 600,
+      "height": 800,
+      "bytesBefore": 258027,
+      "bytesAfter": 20832,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/62fa2566-Elements_1_1_4_Original_Papers.jpg",
+      "format": "jpeg",
+      "width": 1000,
+      "height": 893,
+      "bytesBefore": 100016,
+      "bytesAfter": 100016,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "kept: saving 3796 bytes is not worth a new file"
+    },
+    {
+      "file": "assets/img/654cbb14-Screenshot_2025-10-15_at_21-37-25_Lookah_Python_Best_Handheld_Wax_Dab_Pen_for_Sale.webp",
+      "format": "webp",
+      "width": 600,
+      "height": 800,
+      "bytesBefore": 476867,
+      "bytesAfter": 35826,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/65ab98f0-Peach-Mango-Watermelon.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 27162,
+      "bytesAfter": 15944,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/6bee26a0-Sour-Double-Mango.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 26989,
+      "bytesAfter": 15982,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/6ca8b9d3-Import_Glass_Banger_10mm_90.webp",
+      "format": "webp",
+      "width": 1280,
+      "height": 1280,
+      "bytesBefore": 56591,
+      "bytesAfter": 23376,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/6d2a65f4-Mmelt.webp",
+      "format": "webp",
+      "width": 418,
+      "height": 418,
+      "bytesBefore": 180513,
+      "bytesAfter": 21272,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/6dcedf6e-sea-salt-lemon.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 25438,
+      "bytesAfter": 15336,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/6dfebdcf-Grape-B-POP.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 26387,
+      "bytesAfter": 14670,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/6fe10e6d-fcuking-fab.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 26649,
+      "bytesAfter": 14764,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/702b52d7-WKDSncvRBCwEaotXYiE7_Aleaf231.avif",
+      "format": "jpeg",
+      "width": 712,
+      "height": 712,
+      "bytesBefore": 49684,
+      "bytesAfter": 49684,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/71769cdf-Screenshot_2025-10-14_at_12-36-54_Edit_product_Lightspeed_Retail.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 15841,
+      "bytesAfter": 1546,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/7362ad60-s-l400.webp",
+      "format": "webp",
+      "width": 400,
+      "height": 400,
+      "bytesBefore": 43610,
+      "bytesAfter": 22266,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (8 references)"
+    },
+    {
+      "file": "assets/img/74f397a4-Maven_Cannon_Blue_Green_Purple.webp",
+      "format": "webp",
+      "width": 360,
+      "height": 360,
+      "bytesBefore": 130803,
+      "bytesAfter": 10658,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (8 references)"
+    },
+    {
+      "file": "assets/img/75898cca-Dog_Treats_CBD_CBN_-_Jam_Butter.webp",
+      "format": "webp",
+      "width": 757,
+      "height": 631,
+      "bytesBefore": 191167,
+      "bytesAfter": 13372,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/76e4433d-Screenshot_2025-09-16_at_11-21-36_Choice_Botanicals_Bali_Kratom_Capsules_30ct_Jumbo.webp",
+      "format": "webp",
+      "width": 392,
+      "height": 415,
+      "bytesBefore": 124128,
+      "bytesAfter": 11802,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/784d0f56-Aleaf779_1200x1200_912bb188-7f13-4eaf-946b-64deddf30dd5.webp",
+      "format": "jpeg",
+      "width": 1200,
+      "height": 1200,
+      "bytesBefore": 68044,
+      "bytesAfter": 68044,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/79b46e0a-ooze_brink.webp",
+      "format": "webp",
+      "width": 433,
+      "height": 415,
+      "bytesBefore": 201100,
+      "bytesAfter": 20922,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (40 references)"
+    },
+    {
+      "file": "assets/img/7a10b5a5-elements-king-size-wide-papers-box.webp",
+      "format": "webp",
+      "width": 1000,
+      "height": 1000,
+      "bytesBefore": 104837,
+      "bytesAfter": 50314,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/7d031ab4-Skunk_Element_Backpack_Midnight_Navy.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 14900,
+      "bytesAfter": 8786,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (5 references)"
+    },
+    {
+      "file": "assets/img/7f2671bf-Dog_Treats_CBD_CBG_-_Berry_Butter.webp",
+      "format": "webp",
+      "width": 579,
+      "height": 597,
+      "bytesBefore": 191492,
+      "bytesAfter": 12982,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/8024f883-BPS_Element_MidnightNavy_Front-595631.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 14900,
+      "bytesAfter": 8786,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (5 references)"
+    },
+    {
+      "file": "assets/img/815fc565-lookah_seahorse_pro_plus_dab_pen_e-nectar_collector.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 19719,
+      "bytesAfter": 2402,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (4 references)"
+    },
+    {
+      "file": "assets/img/8316362d-Skunk_Mini_Backpack_Atomic_White.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 13794,
+      "bytesAfter": 9704,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (5 references)"
+    },
+    {
+      "file": "assets/img/83a69963-Banger_with_Terp_Pearls_14mm_45.webp",
+      "format": "webp",
+      "width": 608,
+      "height": 608,
+      "bytesBefore": 17515,
+      "bytesAfter": 9566,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/83f4ac60-Screenshot_2025-10-14_at_12-36-39_Edit_product_Lightspeed_Retail.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 15919,
+      "bytesAfter": 1572,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/85740915-Screenshot_2025-10-17_at_15-32-02_16_aLeaf_Hollow_Base_9MM_Honey_Comb_Beaker_aLeaf_Glass.webp",
+      "format": "webp",
+      "width": 831,
+      "height": 831,
+      "bytesBefore": 756110,
+      "bytesAfter": 45364,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/85b9a141-python_lookah.webp",
+      "format": "webp",
+      "width": 600,
+      "height": 800,
+      "bytesBefore": 488542,
+      "bytesAfter": 38278,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/86958b4d-wulf-mods-pro-digit-variable-voltage-battery-assorted-color-group-front-screen-on__54940.webp",
+      "format": "webp",
+      "width": 1280,
+      "height": 1280,
+      "bytesBefore": 244466,
+      "bytesAfter": 147124,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/86b68c32-Ooze_Electro_Barrel_electric_dab_rig.webp",
+      "format": "webp",
+      "width": 470,
+      "height": 438,
+      "bytesBefore": 203910,
+      "bytesAfter": 19536,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/870cf458-Maven_Cannon_Yellow_Red_Black.webp",
+      "format": "webp",
+      "width": 812,
+      "height": 776,
+      "bytesBefore": 524284,
+      "bytesAfter": 29580,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (9 references)"
+    },
+    {
+      "file": "assets/img/877af8fc-Screenshot_2025-10-14_at_12-36-22_Edit_product_Lightspeed_Retail.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 16377,
+      "bytesAfter": 1780,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/88a159a0-KodoKnife9pk.webp",
+      "format": "webp",
+      "width": 470,
+      "height": 511,
+      "bytesBefore": 222189,
+      "bytesAfter": 22634,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/8a4e7f60-Screenshot_2025-10-17_at_15-38-47_16_aLeaf_Hollow_Base_9MM_Honey_Comb_Beaker_aLeaf_Glass.webp",
+      "format": "webp",
+      "width": 831,
+      "height": 831,
+      "bytesBefore": 677510,
+      "bytesAfter": 43008,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/8a636390-Aleaf722_1200x_404ee24f-1a70-4a68-986b-3222041f771d.webp",
+      "format": "jpeg",
+      "width": 1200,
+      "height": 1200,
+      "bytesBefore": 127720,
+      "bytesAfter": 127720,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/8af3c9cd-large_f93ea2c6984b45d7b23e63d8f0f39a2f.webp",
+      "format": "png",
+      "width": 750,
+      "height": 750,
+      "bytesBefore": 519727,
+      "bytesAfter": 519727,
+      "flags": [
+        "HEAVY"
+      ],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/8cc3f115-Screenshot2025-10-22at21-14-11INEXBRANDMUNCHYBOWL_InexBrand.webp",
+      "format": "webp",
+      "width": 1256,
+      "height": 1093,
+      "bytesBefore": 648129,
+      "bytesAfter": 36218,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (5 references)"
+    },
+    {
+      "file": "assets/img/92fc1089-11inchDoubleMatrixBongbyaLeafPink_700x_b130a692-0936-4ddb-ad91-13c7a4ff004c.webp",
+      "format": "jpeg",
+      "width": 700,
+      "height": 700,
+      "bytesBefore": 36679,
+      "bytesAfter": 36679,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/93df01ce-Raw_1_Classic_Papers.webp",
+      "format": "webp",
+      "width": 821,
+      "height": 919,
+      "bytesBefore": 801645,
+      "bytesAfter": 64060,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (5 references)"
+    },
+    {
+      "file": "assets/img/9416dd94-sour-apple-ice.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 26889,
+      "bytesAfter": 15304,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/983ebbe4-Aleaf777_540x_9141a200-3244-4bb8-8559-b87877b7a64b.webp",
+      "format": "jpeg",
+      "width": 540,
+      "height": 540,
+      "bytesBefore": 37109,
+      "bytesAfter": 37109,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/9aeafd58-Lookah_Swordfish_vaporizer.webp",
+      "format": "webp",
+      "width": 600,
+      "height": 800,
+      "bytesBefore": 257110,
+      "bytesAfter": 21154,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/9c8fc7fb-Blazy_Susan_King_Size_Slim_Purple_Papers.webp",
+      "format": "webp",
+      "width": 1200,
+      "height": 1200,
+      "bytesBefore": 86214,
+      "bytesAfter": 46696,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (7 references)"
+    },
+    {
+      "file": "assets/img/9caa4656-stardust-4.webp",
+      "format": "webp",
+      "width": 614,
+      "height": 614,
+      "bytesBefore": 34939,
+      "bytesAfter": 24576,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (4 references)"
+    },
+    {
+      "file": "assets/img/9dacbd3c-Miami-Mint.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 25973,
+      "bytesAfter": 14820,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/a140d894-Screenshot_2025-10-15_at_21-37-07_Lookah_Python_Best_Handheld_Wax_Dab_Pen_for_Sale.webp",
+      "format": "webp",
+      "width": 600,
+      "height": 800,
+      "bytesBefore": 448390,
+      "bytesAfter": 30372,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/a18f9afe-DB82EA03-9E73-4A9F-975C-F043ED11C5BD.webp",
+      "format": "jpeg",
+      "width": 800,
+      "height": 800,
+      "bytesBefore": 42387,
+      "bytesAfter": 42387,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/a26ab31a-choice-botanicals-30-gram-kratom-powder-487417.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 16025,
+      "bytesAfter": 8616,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (8 references)"
+    },
+    {
+      "file": "assets/img/a7b2346f-lookah_swordfish.webp",
+      "format": "webp",
+      "width": 600,
+      "height": 800,
+      "bytesBefore": 221662,
+      "bytesAfter": 18924,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (11 references)"
+    },
+    {
+      "file": "assets/img/a91009dd-Screenshot_2025-10-14_at_12-36-29_Edit_product_Lightspeed_Retail.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 16886,
+      "bytesAfter": 1822,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/aa3bef69-Screenshot_2025-10-15_at_21-37-22_Lookah_Python_Best_Handheld_Wax_Dab_Pen_for_Sale.webp",
+      "format": "webp",
+      "width": 600,
+      "height": 800,
+      "bytesBefore": 470401,
+      "bytesAfter": 34264,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/aba7d840-aleaf-63mm-red.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 10100,
+      "bytesAfter": 4320,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/ac916483-51aUQb3RF3L._UF1000_1000_QL80.jpg",
+      "format": "jpeg",
+      "width": 1000,
+      "height": 1000,
+      "bytesBefore": 46249,
+      "bytesAfter": 46249,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "kept: saving 2779 bytes is not worth a new file"
+    },
+    {
+      "file": "assets/img/af058570-aleaf_water_pipe_8_interstellar_perc_al2093.webp",
+      "format": "webp",
+      "width": 700,
+      "height": 700,
+      "bytesBefore": 33992,
+      "bytesAfter": 15446,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (5 references)"
+    },
+    {
+      "file": "assets/img/b64ac2a6-best_lookah_seahorse_pro_plus.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 28507,
+      "bytesAfter": 2998,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (4 references)"
+    },
+    {
+      "file": "assets/img/b70942f4-lookah_python_for_sale.webp",
+      "format": "webp",
+      "width": 600,
+      "height": 800,
+      "bytesBefore": 440478,
+      "bytesAfter": 32928,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/bb08bb89-Elements.webp",
+      "format": "webp",
+      "width": 919,
+      "height": 919,
+      "bytesBefore": 860227,
+      "bytesAfter": 79352,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (7 references)"
+    },
+    {
+      "file": "assets/img/bdc2c1c6-Screenshot_2025-10-17_at_15-11-03_INEX_BRAND_HEAVY_STEAM_ROLLER_Inex_Brand.webp",
+      "format": "webp",
+      "width": 715,
+      "height": 748,
+      "bytesBefore": 257207,
+      "bytesAfter": 17824,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/be209444-Screenshot_2025-10-14_at_11-20-36_Edit_product_Lightspeed_Retail.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 38698,
+      "bytesAfter": 3746,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/bff7f155-aLeafBlueBongFrontView_700x_6015ec39-150a-4ed6-a483-0858338b0ce3.webp",
+      "format": "jpeg",
+      "width": 700,
+      "height": 700,
+      "bytesBefore": 36552,
+      "bytesAfter": 36552,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/c156b74f-lookah_seahorse_pro_plus_vaporizer.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 28049,
+      "bytesAfter": 2970,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (4 references)"
+    },
+    {
+      "file": "assets/img/c1968665-Skunk_Coffin_5_Black.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 9722,
+      "bytesAfter": 7362,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (7 references)"
+    },
+    {
+      "file": "assets/img/c1ec4441-lookah_python.webp",
+      "format": "webp",
+      "width": 600,
+      "height": 800,
+      "bytesBefore": 402940,
+      "bytesAfter": 28978,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (7 references)"
+    },
+    {
+      "file": "assets/img/c538b1e8-KingPalmWatermelonWave2pkRolls.webp",
+      "format": "webp",
+      "width": 1000,
+      "height": 1000,
+      "bytesBefore": 76254,
+      "bytesAfter": 54110,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (11 references)"
+    },
+    {
+      "file": "assets/img/c57a7a5b-Screenshot_2025-10-17_at_15-37-20_16_aLeaf_Hollow_Base_9MM_Honey_Comb_Beaker_aLeaf_Glass.webp",
+      "format": "webp",
+      "width": 831,
+      "height": 831,
+      "bytesBefore": 723652,
+      "bytesAfter": 44838,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/c682cbc2-Maven_Alpha.webp",
+      "format": "webp",
+      "width": 924,
+      "height": 1000,
+      "bytesBefore": 104288,
+      "bytesAfter": 36994,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (9 references)"
+    },
+    {
+      "file": "assets/img/c7052811-Screenshot_2025-10-14_at_11-20-17_Edit_product_Lightspeed_Retail.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 37520,
+      "bytesAfter": 3476,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/c7cdd718-Wulf_Deck510Battery9pk.webp",
+      "format": "webp",
+      "width": 585,
+      "height": 429,
+      "bytesBefore": 292633,
+      "bytesAfter": 28954,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/c901a6dc-Screenshot_2025-10-14_at_11-19-22_lookah_bear_purple_-_Google_Search.webp",
+      "format": "webp",
+      "width": 334,
+      "height": 334,
+      "bytesBefore": 44092,
+      "bytesAfter": 4006,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/cc44c8d3-FrontviewofBlackAleafBong_700x_6f2a0969-00c6-402b-b437-f9f54799b1e2.webp",
+      "format": "jpeg",
+      "width": 700,
+      "height": 700,
+      "bytesBefore": 34608,
+      "bytesAfter": 34608,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/cc77a008-Skunk_Sidekick_Small_Black_Leather.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 16490,
+      "bytesAfter": 11712,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (7 references)"
+    },
+    {
+      "file": "assets/img/ccb25588-6d886dd92dc5315f6c8c50a33642359c.avif",
+      "format": "png",
+      "width": 410,
+      "height": 410,
+      "bytesBefore": 84037,
+      "bytesAfter": 84037,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/cd15223d-Aleaf_Grinder_63mm_Green.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 13005,
+      "bytesAfter": 4672,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/ce51c618-aleaf-63mm-black.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 7611,
+      "bytesAfter": 3614,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (7 references)"
+    },
+    {
+      "file": "assets/img/d00f3528-Elements_1_Ultra_Thin_Papers.jpg",
+      "format": "jpeg",
+      "width": 1000,
+      "height": 893,
+      "bytesBefore": 100016,
+      "bytesAfter": 100016,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "kept: saving 3796 bytes is not worth a new file"
+    },
+    {
+      "file": "assets/img/d772e746-81oWuLXZ9fL._UF894_1000_QL80__1.webp",
+      "format": "webp",
+      "width": 894,
+      "height": 894,
+      "bytesBefore": 76409,
+      "bytesAfter": 64656,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (8 references)"
+    },
+    {
+      "file": "assets/img/dab7e7e0-Screenshot_2025-10-15_at_21-44-34_LOOKAH_Swordfish_Awesome_Dab_Pen_for_Wax.webp",
+      "format": "webp",
+      "width": 600,
+      "height": 800,
+      "bytesBefore": 261124,
+      "bytesAfter": 21980,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/dcc8e6ed-lookah_bear_510_vape_battery.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 34557,
+      "bytesAfter": 3186,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/ddfdc26c-Lookah_Bear_Pink-Tie-Dye_600x600_4936b7e5-6ea7-463c-b398-5dc7521d045d.webp",
+      "format": "png",
+      "width": 600,
+      "height": 600,
+      "bytesBefore": 196262,
+      "bytesAfter": 196262,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/de41663d-Blueberry-wm.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 26474,
+      "bytesAfter": 15696,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (9 references)"
+    },
+    {
+      "file": "assets/img/dfeb9cc3-NOw4KropSciU6Gi2rHfd_Aleaf228.webp",
+      "format": "webp",
+      "width": 1600,
+      "height": 1600,
+      "bytesBefore": 137065,
+      "bytesAfter": 78222,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/e107e5af-Maven_Alpha_Mini_Torch.webp",
+      "format": "webp",
+      "width": 360,
+      "height": 360,
+      "bytesBefore": 146221,
+      "bytesAfter": 16828,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (9 references)"
+    },
+    {
+      "file": "assets/img/e3a6212b-lookah_510_battery_bear.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 27841,
+      "bytesAfter": 2818,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/e411abda-Smokeshop_Guru_Logo_1_350x_1.webp",
+      "format": "webp",
+      "width": 261,
+      "height": 66,
+      "bytesBefore": 8674,
+      "bytesAfter": 4164,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (282 references)"
+    },
+    {
+      "file": "assets/img/e47cffde-Skunk_Coffin_7_Grey.webp",
+      "format": "webp",
+      "width": 350,
+      "height": 350,
+      "bytesBefore": 18976,
+      "bytesAfter": 15876,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (7 references)"
+    },
+    {
+      "file": "assets/img/e595f011-WholesaleWarehouseLogoIdeas_1.webp",
+      "format": "webp",
+      "width": 1946,
+      "height": 1946,
+      "bytesBefore": 79623,
+      "bytesAfter": 42828,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/e635d544-Aleaf840_1200x1200_612883c7-37c0-456f-a5e0-6c13ad77f7cf.webp",
+      "format": "jpeg",
+      "width": 1200,
+      "height": 1200,
+      "bytesBefore": 52420,
+      "bytesAfter": 52420,
+      "flags": [],
+      "action": "none"
+    },
+    {
+      "file": "assets/img/e6661f74-ElementsPinkCones11_4.webp",
+      "format": "webp",
+      "width": 860,
+      "height": 1000,
+      "bytesBefore": 73830,
+      "bytesAfter": 62394,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (8 references)"
+    },
+    {
+      "file": "assets/img/e820afab-Cartisan_Atom_battery.webp",
+      "format": "webp",
+      "width": 1946,
+      "height": 1460,
+      "bytesBefore": 141347,
+      "bytesAfter": 64790,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/eb61bc2b-poppop.webp",
+      "format": "webp",
+      "width": 919,
+      "height": 919,
+      "bytesBefore": 504935,
+      "bytesAfter": 44090,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (7 references)"
+    },
+    {
+      "file": "assets/img/ec6dc923-Screenshot_2025-10-14_at_11-17-20_Edit_product_Lightspeed_Retail.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 35067,
+      "bytesAfter": 3278,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/f230fa81-Lookah_Bear_510_Battery_5pk.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 33969,
+      "bytesAfter": 3124,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (7 references)"
+    },
+    {
+      "file": "assets/img/f44883cc-pink-98mm.webp",
+      "format": "webp",
+      "width": 1200,
+      "height": 1200,
+      "bytesBefore": 100631,
+      "bytesAfter": 50920,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (8 references)"
+    },
+    {
+      "file": "assets/img/f4b6bd04-Ooze_Electro_Barrel_E_Rig.webp",
+      "format": "webp",
+      "width": 470,
+      "height": 432,
+      "bytesBefore": 188533,
+      "bytesAfter": 16600,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (40 references)"
+    },
+    {
+      "file": "assets/img/f5032f9d-lookah_seahorse_pro_plus.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 17728,
+      "bytesAfter": 2404,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (9 references)"
+    },
+    {
+      "file": "assets/img/f52ff1bf-Screenshot_2025-10-14_at_12-36-08_Edit_product_Lightspeed_Retail.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 15443,
+      "bytesAfter": 1656,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/f7557d0f-Screenshot_2025-10-14_at_13-31-24_Edit_product_Lightspeed_Retail.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 24495,
+      "bytesAfter": 2536,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (4 references)"
+    },
+    {
+      "file": "assets/img/f7ce98fd-Wulf_Kodo_9ct_Wholesale.webp",
+      "format": "webp",
+      "width": 919,
+      "height": 919,
+      "bytesBefore": 532493,
+      "bytesAfter": 42552,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (6 references)"
+    },
+    {
+      "file": "assets/img/f9e6d421-Untitled-design---2024-05-14T134302.0391715712373213.webp",
+      "format": "webp",
+      "width": 1280,
+      "height": 1280,
+      "bytesBefore": 504865,
+      "bytesAfter": 24228,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (8 references)"
+    },
+    {
+      "file": "assets/img/fc71eb34-Screenshot_2025-10-14_at_12-36-00_Edit_product_Lightspeed_Retail.webp",
+      "format": "webp",
+      "width": 220,
+      "height": 220,
+      "bytesBefore": 16885,
+      "bytesAfter": 1806,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (2 references)"
+    },
+    {
+      "file": "assets/img/ff4b2883-Zig-Zag_1_Ultra_Thin_Papers.webp",
+      "format": "webp",
+      "width": 1942,
+      "height": 2451,
+      "bytesBefore": 408121,
+      "bytesAfter": 311586,
+      "flags": [
+        "LEGACY-FORMAT",
+        "HEAVY"
+      ],
+      "action": "converted to webp (5 references)"
+    },
+    {
+      "file": "assets/img/ff909dd3-raw_5ed7bce8-87c5-4580-ba1d-199dd1be7340.webp",
+      "format": "webp",
+      "width": 992,
+      "height": 1000,
+      "bytesBefore": 39264,
+      "bytesAfter": 27748,
+      "flags": [
+        "LEGACY-FORMAT"
+      ],
+      "action": "converted to webp (9 references)"
+    }
+  ]
+}

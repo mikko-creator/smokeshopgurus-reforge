@@ -1,0 +1,17 @@
+{
+ "settleMs": 2600,
+ "paintMs": 1200,
+ "initScript": "try{localStorage.setItem('ssg.age.ok','1')}catch(e){}",
+ "urls": [
+  "http://127.0.0.1:8788/",
+  "http://127.0.0.1:8788/products/aleaf-10-bubble-beaker/",
+  "http://127.0.0.1:8788/cart/",
+  "http://127.0.0.1:8788/search/?q=aleaf"
+ ],
+ "names": [
+  "final-home",
+  "final-product",
+  "final-cart",
+  "final-search"
+ ]
+}

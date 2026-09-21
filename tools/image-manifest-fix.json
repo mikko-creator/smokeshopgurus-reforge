@@ -1,0 +1,33 @@
+{
+  "note": "Regeneration pass 2. Six images replaced after visual inspection of pass 1: four carried fabricated lettering or the wrong subject entirely (the knurled-texture prompt rendered a firearm, because the shared style string put 'gunmetal' beside 'grip'), two were too ambiguous to read as their category. Texture items now carry a styleOverride with no weapon-adjacent vocabulary.",
+  "model": "fal-ai/flux/dev",
+  "steps": 32,
+  "style": "studio product photography on a brushed dark steel surface, dramatic directional rim light, deep charcoal and cold grey palette, photorealistic, crisp macro detail, shallow depth of field, dark moody background",
+  "antiText": "completely unbranded, perfectly smooth unmarked surfaces, no text, no letters, no words, no numbers, no typography, no logo, no label, no engraving, no etching, no packaging print, no watermark, no signature, no people, no hands, no faces, no weapons, no firearms",
+  "images": [
+    { "id": "tex-knurled-grip", "role": "texture", "size": "square_hd",
+      "alt": "Crosshatch knurling machined into dark steel",
+      "styleOverride": "flat top-down macro texture, dark charcoal steel, cold grey tones, even diffuse lighting, photorealistic surface detail, fills the whole frame",
+      "prompt": "a seamless crosshatch knurling pattern machined into a dark steel plate, fine diamond milling, repeating across the entire surface, no objects, no props, texture only" },
+
+    { "id": "cat-disposable-vapes", "role": "category", "size": "square_hd",
+      "alt": "Three plain matte vape devices in a row",
+      "prompt": "three sleek matte charcoal disposable vape devices standing upright in a row, completely smooth featureless casings, no markings of any kind on the bodies" },
+
+    { "id": "cat-wax-pens", "role": "category", "size": "square_hd",
+      "alt": "Plain metal vaporizer pen and battery",
+      "prompt": "a slim brushed steel vaporizer pen lying beside a plain cylindrical battery and a small metal cap, perfectly smooth polished casings with no markings" },
+
+    { "id": "cat-accessories", "role": "category", "size": "square_hd",
+      "alt": "Plain metal smoking accessories laid flat",
+      "prompt": "an overhead flat-lay of plain stainless steel smoking accessories, round mesh screens, a small scoop tool and a shallow metal tray, arranged in a neat grid on dark slate, perfectly smooth unmarked metal" },
+
+    { "id": "cat-glass-bangers", "role": "category", "size": "square_hd",
+      "alt": "Thick quartz banger with a flat rim",
+      "prompt": "a thick-walled clear quartz banger bucket with a flat top rim and a bent neck joint standing upright, beside three small clear glass spheres, plain polished glass" },
+
+    { "id": "cat-glass-pipes", "role": "category", "size": "square_hd",
+      "alt": "Clear glass spoon pipes on a metal surface",
+      "prompt": "three clear glass spoon-shaped hand pipes with round bowls and flat mouthpieces arranged side by side on a dark metal surface, plain unetched glass" }
+  ]
+}

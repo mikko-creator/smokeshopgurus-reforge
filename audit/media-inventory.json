@@ -1,0 +1,10 @@
+{
+  "schema": "site-reforge/media@1",
+  "generated": "2026-09-21T03:34:16.958Z",
+  "note": "Same-origin <video>/<audio>/<source> only. A third-party video is an outbound dependency of the site, not an asset of it. Oversized files are skipped, never truncated.",
+  "maxBytes": 52428800,
+  "discovered": [],
+  "saved": [],
+  "skipped": [],
+  "map": {}
+}

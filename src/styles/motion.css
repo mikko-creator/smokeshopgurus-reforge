@@ -1,0 +1,468 @@
+/* motion.css — replication of the source site motion.
+ * Keyframes below are VERBATIM from the live capture.
+ * Do not re-type them: a retyped keyframe is a different animation.
+ * Source: audit/motion-inventory.json
+ */
+
+/* from capture https://smokeshopgurus.com/cdn/shop/t/34/assets/base.css?v=159841507637079171801765470786 */
+@keyframes translateAnnouncementSlideIn {
+  0% { opacity: 0; transform: translate(var(--announcement-translate-from)); }
+  100% { opacity: 1; transform: translate(0px); }
+}
+/* from capture https://smokeshopgurus.com/cdn/shop/t/34/assets/base.css?v=159841507637079171801765470786 */
+@keyframes translateAnnouncementSlideOut {
+  0% { opacity: 1; transform: translate(0px); }
+  100% { opacity: 0; transform: translate(var(--announcement-translate-to)); }
+}
+/* from capture https://smokeshopgurus.com/cdn/shop/t/34/assets/base.css?v=159841507637079171801765470786 */
+@keyframes animateMenuOpen {
+  0% { opacity: 0; transform: translateY(-1.5rem); }
+  100% { opacity: 1; transform: translateY(0px); }
+}
+/* from capture https://smokeshopgurus.com/cdn/shop/t/34/assets/base.css?v=159841507637079171801765470786 */
+@keyframes animateAmbient {
+  0% { transform: rotate(0deg) translate(1em) rotate(0deg) scale(1.2); }
+  100% { transform: rotate(360deg) translate(1em) rotate(-360deg) scale(1.2); }
+}
+/* from capture https://smokeshopgurus.com/cdn/shop/t/34/assets/base.css?v=159841507637079171801765470786 */
+@keyframes slideIn {
+  0% { transform: translateY(2rem); opacity: 0.01; }
+  100% { transform: translateY(0px); opacity: 1; }
+}
+/* from capture https://smokeshopgurus.com/cdn/shop/t/34/assets/base.css?v=159841507637079171801765470786 */
+@keyframes fadeIn {
+  0% { opacity: 0.01; }
+  100% { opacity: 1; }
+}
+/* from capture https://smokeshopgurus.com/cdn/shop/t/34/assets/base.css?v=159841507637079171801765470786 */
+@keyframes rotator {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(270deg); }
+}
+/* from capture https://smokeshopgurus.com/cdn/shop/t/34/assets/base.css?v=159841507637079171801765470786 */
+@keyframes dash {
+  0% { stroke-dashoffset: 280; }
+  50% { stroke-dashoffset: 75; transform: rotate(135deg); }
+  100% { stroke-dashoffset: 280; transform: rotate(450deg); }
+}
+/* from capture https://smokeshopgurus.com/cdn/shop/t/34/assets/base.css?v=159841507637079171801765470786 */
+@keyframes indeterminateAnimation {
+  0% { transform: translate(-20%) scaleX(0); }
+  40% { transform: translate(30%) scaleX(0.7); }
+  100% { transform: translate(100%) scaleX(0); }
+}
+/* from capture https://smokeshopgurus.com/cdn/shop/t/34/assets/component-pickup-availability.css?v=34645222959864780961765470787 */
+@keyframes animateDrawerOpen {
+
+}
+/* from capture https://smokeshopgurus.com/cdn/shop/t/34/assets/section-footer.css?v=60318643098753476351765470788 */
+@keyframes appear-down {
+  0% { opacity: 0; margin-top: -1rem; }
+  100% { opacity: 1; margin-top: 0px; }
+}
+/* from capture https://smokeshopgurus.com/cdn/shop/t/34/assets/section-footer.css?v=60318643098753476351765470788 */
+@keyframes animateLocalization {
+  0% { opacity: 0; transform: translateY(0px); }
+  100% { opacity: 1; transform: translateY(-1rem); }
+}
+/* from capture https://smokeshopgurus.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css */
+@keyframes shopify-rotator {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(270deg); }
+}
+/* from capture https://smokeshopgurus.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css */
+@keyframes shopify-dash {
+  0% { stroke-dashoffset: 280px; }
+  50% { stroke-dashoffset: 75px; transform: rotate(135deg); }
+  100% { stroke-dashoffset: 280px; transform: rotate(450deg); }
+}
+/* from capture https://smokeshopgurus.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css */
+@keyframes acceleratedCheckoutLoadingSkeleton {
+  50% { opacity: var(--shopify-accelerated-checkout-skeleton-animation-opacity-start,1); }
+  75% { opacity: var(--shopify-accelerated-checkout-skeleton-animation-opacity-end,.5); }
+  100% { opacity: var(--shopify-accelerated-checkout-skeleton-animation-opacity-start,1); }
+}
+/* from css */
+@keyframes form_shake{0%,to{margin-left:0}10%,30%,50%,70%,90%{margin-left:-10px}20%,40%,60%,80%{margin-left:10px}}
+/* from capture (inline) */
+@keyframes jdgm-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+/* from capture (inline) */
+@keyframes ai-ticker-scroll-azzyywhyyy0lhwguwzaigenblock73f2607piptgy {
+  0% { transform: translateX(0px); }
+  100% { transform: translateX(-50%); }
+}
+
+/* --- easing tokens observed on the source ------------------------------ */
+:root {
+  --ease-1: cubic-bezier(0.52, 0, 0.61, 0.99);
+  --ease-2: cubic-bezier(.29,.63,.44,1);
+  --ease-3: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  --ease-4: cubic-bezier(0, 0, .3, 1);
+  --ease-5: cubic-bezier(.25,.46,.45,.94);
+  --ease-6: cubic-bezier(.52,0,.61,.99);
+  --dur-1: 0.1s;
+  --dur-2: 0.3s;
+  --dur-3: 0.2s, 0.2s;
+  --dur-4: 0.1s, 0.1s;
+  --dur-5: 0.4s;
+  --dur-6: 0.5s;
+}
+
+/* --- per-element motion measured on the source -------------------------- */
+/* Each block below is what the ORIGINAL element resolved to. Re-apply these
+   to the equivalent rebuilt component; the selector names will differ, the
+   VALUES must not. */
+/* html.js > body.gradient > a.skip-to-content-link.button  @1024px */
+.REPLACE-ME {
+  transition: box-shadow 0.1s ease;
+}
+/* section > div.utility-bar.color-scheme-4 > div.page-width.utility-bar__grid > div.announcement-bar:nth-of-type(1) > a.announcement-bar__link.link > p.announcement-bar__message.h5 > svg.icon.icon-arrow > path  @1024px */
+.REPLACE-ME {
+  transition: transform 0.1s ease;
+  transform: matrix(1, 0, 0, 1, -2.5, 0);
+}
+/* section > sticky-header.header-wrapper.color-scheme-1 > header.header.header--middle-left > a.header__heading-link.link > div.header__heading-logo-wrapper  @1024px */
+.REPLACE-ME {
+  transition: width 0.3s cubic-bezier(0.52, 0, 0.61, 0.99);
+}
+/* #HeaderMenu-cones > span  @1024px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #HeaderMenu-MenuList-1  @1024px */
+.REPLACE-ME {
+  transition: opacity, transform 0.2s, 0.2s ease, ease 0s, 0s;
+  transform: matrix(1, 0, 0, 1, 0, -15);
+}
+/* #HeaderMenu-nicotine > span  @1024px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #HeaderMenu-MenuList-2  @1024px */
+.REPLACE-ME {
+  transition: opacity, transform 0.2s, 0.2s ease, ease 0s, 0s;
+  transform: matrix(1, 0, 0, 1, 0, -15);
+}
+/* #HeaderMenu-edibles > span  @1024px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #HeaderMenu-explore-more > span.header__active-menu-item  @1024px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #HeaderMenu-MenuList-4  @1024px */
+.REPLACE-ME {
+  transition: opacity, transform 0.2s, 0.2s ease, ease 0s, 0s;
+  transform: matrix(1, 0, 0, 1, 0, -15);
+}
+/* #HeaderMenu-explore-more-glass > span  @1024px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #HeaderMenu-SubMenuList-explore-more-glass-  @1024px */
+.REPLACE-ME {
+  transition: opacity, transform 0.2s, 0.2s ease, ease 0s, 0s;
+  transform: matrix(1, 0, 0, 1, 0, -15);
+}
+/* #HeaderMenu-explore-more-mushroom > span  @1024px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #HeaderMenu-SubMenuList-explore-more-mushroom-  @1024px */
+.REPLACE-ME {
+  transition: opacity, transform 0.2s, 0.2s ease, ease 0s, 0s;
+  transform: matrix(1, 0, 0, 1, 0, -15);
+}
+/* #HeaderMenu-explore-more-papers > span  @1024px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #HeaderMenu-SubMenuList-explore-more-papers-  @1024px */
+.REPLACE-ME {
+  transition: opacity, transform 0.2s, 0.2s ease, ease 0s, 0s;
+  transform: matrix(1, 0, 0, 1, 0, -15);
+}
+/* #HeaderMenu-explore-more-accessories > span  @1024px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #HeaderMenu-SubMenuList-explore-more-accessories-  @1024px */
+.REPLACE-ME {
+  transition: opacity, transform 0.2s, 0.2s ease, ease 0s, 0s;
+  transform: matrix(1, 0, 0, 1, 0, -15);
+}
+/* #HeaderMenu-explore-more-wraps > span  @1024px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #HeaderMenu-SubMenuList-explore-more-wraps-  @1024px */
+.REPLACE-ME {
+  transition: opacity, transform 0.2s, 0.2s ease, ease 0s, 0s;
+  transform: matrix(1, 0, 0, 1, 0, -15);
+}
+/* #HeaderMenu-explore-more-pet > span  @1024px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #HeaderMenu-SubMenuList-explore-more-pet-  @1024px */
+.REPLACE-ME {
+  transition: opacity, transform 0.2s, 0.2s ease, ease 0s, 0s;
+  transform: matrix(1, 0, 0, 1, 0, -15);
+}
+/* #HeaderMenu-explore-more-skunk-bags > span  @1024px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #HeaderMenu-SubMenuList-explore-more-skunk-bags-  @1024px */
+.REPLACE-ME {
+  transition: opacity, transform 0.2s, 0.2s ease, ease 0s, 0s;
+  transform: matrix(1, 0, 0, 1, 0, -15);
+}
+/* #HeaderMenu-about-us > span  @1024px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #HeaderMenu-contact-us > span  @1024px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* section > sticky-header.header-wrapper.color-scheme-1 > header.header.header--middle-left > div.header__icons.header__icons--localization > details-modal.header__search > details > div.search-modal.modal__content > div.search-modal__content.search-modal__content-bottom:nth-of-type(2) > predictive-search.search-modal__form > form.search.search-modal__form > div.field:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: box-shadow 0.1s ease;
+}
+/* #Search-In-Modal  @1024px */
+.REPLACE-ME {
+  transition: box-shadow 0.1s ease;
+}
+/* section > sticky-header.header-wrapper.color-scheme-1 > header.header.header--middle-left > div.header__icons.header__icons--localization > details-modal.header__search > details > div.search-modal.modal__content > div.search-modal__content.search-modal__content-bottom:nth-of-type(2) > predictive-search.search-modal__form > form.search.search-modal__form > div.field:nth-of-type(1) > label.field__label  @1024px */
+.REPLACE-ME {
+  transition: top, font-size 0.1s, 0.1s ease, ease 0s, 0s;
+}
+/* #main-collection-filters > div.facets-container.scroll-trigger  @1024px */
+.REPLACE-ME {
+  animation: fadeIn 0.6s cubic-bezier(0, 0, 0.3, 1) 0s 1;
+}
+/* #Details-filter.v.availability-template--19547441496175__main-product-grid > summary.facets__summary.caption-large > div > span.facets__summary-label  @1024px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #Facet-1-template--19547441496175__main-product-grid > div.facets__header > facet-remove > a.facets__reset.link  @1024px */
+.REPLACE-ME {
+  transition: text-decoration-thickness 0.1s ease;
+}
+/* #Details-filter.v.price-template--19547441496175__main-product-grid > summary.facets__summary.caption-large > div > span  @1024px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #Facet-2-template--19547441496175__main-product-grid > div.facets__header > facet-remove > a.facets__reset.link  @1024px */
+.REPLACE-ME {
+  transition: text-decoration-thickness 0.1s ease;
+}
+/* #Facet-2-template--19547441496175__main-product-grid > price-range.facets__price > div.field:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: box-shadow 0.1s ease;
+}
+/* #Filter-Price-GTE  @1024px */
+.REPLACE-ME {
+  transition: box-shadow 0.1s ease;
+}
+/* #Facet-2-template--19547441496175__main-product-grid > price-range.facets__price > div.field:nth-of-type(1) > label.field__label  @1024px */
+.REPLACE-ME {
+  transition: top, font-size 0.1s, 0.1s ease, ease 0s, 0s;
+}
+/* #Facet-2-template--19547441496175__main-product-grid > price-range.facets__price > div.field:nth-of-type(2)  @1024px */
+.REPLACE-ME {
+  transition: box-shadow 0.1s ease;
+}
+/* #Filter-Price-LTE  @1024px */
+.REPLACE-ME {
+  transition: box-shadow 0.1s ease;
+}
+/* #Facet-2-template--19547441496175__main-product-grid > price-range.facets__price > div.field:nth-of-type(2) > label.field__label  @1024px */
+.REPLACE-ME {
+  transition: top, font-size 0.1s, 0.1s ease, ease 0s, 0s;
+}
+/* #ProductGridContainer  @1024px */
+.REPLACE-ME {
+  animation: slideIn 0.6s cubic-bezier(0, 0, 0.3, 1) 0s 1 forwards;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+/* #product-grid > li.grid__item.scroll-trigger:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  animation: slideIn 0.6s cubic-bezier(0, 0, 0.3, 1) 0.075s 1 forwards;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+/* #product-grid > li.grid__item.scroll-trigger:nth-of-type(1) > div.card-wrapper.product-card-wrapper > div.card.card--card  @1024px */
+.REPLACE-ME {
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -1, 0, 0, 0, 1);
+}
+/* #product-grid > li.grid__item.scroll-trigger:nth-of-type(1) > div.card-wrapper.product-card-wrapper > div.card.card--card > div.card__inner.ratio:nth-of-type(1) > div.card__media:nth-of-type(1) > div.media.media--transparent > img.motion-reduce:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+/* #product-grid > li.grid__item.scroll-trigger:nth-of-type(1) > div.card-wrapper.product-card-wrapper > div.card.card--card > div.card__inner.ratio:nth-of-type(1) > div.card__media:nth-of-type(1) > div.media.media--transparent > img.motion-reduce:nth-of-type(2)  @1024px */
+.REPLACE-ME {
+  transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+/* #product-grid > li.grid__item.scroll-trigger:nth-of-type(2)  @1024px */
+.REPLACE-ME {
+  animation: slideIn 0.6s cubic-bezier(0, 0, 0.3, 1) 0.15s 1 forwards;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+/* #product-grid > li.grid__item.scroll-trigger:nth-of-type(2) > div.card-wrapper.product-card-wrapper > div.card.card--card  @1024px */
+.REPLACE-ME {
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -1, 0, 0, 0, 1);
+}
+/* #product-grid > li.grid__item.scroll-trigger:nth-of-type(2) > div.card-wrapper.product-card-wrapper > div.card.card--card > div.card__inner.ratio:nth-of-type(1) > div.card__media:nth-of-type(1) > div.media.media--transparent > img.motion-reduce  @1024px */
+.REPLACE-ME {
+  transition: transform 0.5s ease;
+}
+/* #product-grid > li.grid__item.scroll-trigger:nth-of-type(3)  @1024px */
+.REPLACE-ME {
+  animation: slideIn 0.6s cubic-bezier(0, 0, 0.3, 1) 0.225s 1 forwards;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+/* #product-grid > li.grid__item.scroll-trigger:nth-of-type(3) > div.card-wrapper.product-card-wrapper > div.card.card--card  @1024px */
+.REPLACE-ME {
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -1, 0, 0, 0, 1);
+}
+/* #product-grid > li.grid__item.scroll-trigger:nth-of-type(3) > div.card-wrapper.product-card-wrapper > div.card.card--card > div.card__inner.ratio:nth-of-type(1) > div.card__media:nth-of-type(1) > div.media.media--transparent > img.motion-reduce:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+/* #product-grid > li.grid__item.scroll-trigger:nth-of-type(3) > div.card-wrapper.product-card-wrapper > div.card.card--card > div.card__inner.ratio:nth-of-type(1) > div.card__media:nth-of-type(1) > div.media.media--transparent > img.motion-reduce:nth-of-type(2)  @1024px */
+.REPLACE-ME {
+  transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+/* #product-grid > li.grid__item.scroll-trigger:nth-of-type(4)  @1024px */
+.REPLACE-ME {
+  animation: slideIn 0.6s cubic-bezier(0, 0, 0.3, 1) 0.3s 1 forwards;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+/* #product-grid > li.grid__item.scroll-trigger:nth-of-type(4) > div.card-wrapper.product-card-wrapper > div.card.card--card  @1024px */
+.REPLACE-ME {
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -1, 0, 0, 0, 1);
+}
+/* #product-grid > li.grid__item.scroll-trigger:nth-of-type(4) > div.card-wrapper.product-card-wrapper > div.card.card--card > div.card__inner.ratio:nth-of-type(1) > div.card__media:nth-of-type(1) > div.media.media--transparent > img.motion-reduce  @1024px */
+.REPLACE-ME {
+  transition: transform 0.5s ease;
+}
+/* section > div.ai-collection-banner-abvcwalzkbzdnajk2taigenblock765ce08c3ee6e > div.ai-collection-banner__shape-top-abvcwalzkbzdnajk2taigenblock765ce08c3ee6e:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transform: matrix(-1, 0, 0, -1, 0, -80);
+}
+/* section > div.ai-collection-banner-abvcwalzkbzdnajk2taigenblock765ce08c3ee6e > div.ai-collection-banner__shape-bottom-abvcwalzkbzdnajk2taigenblock765ce08c3ee6e:nth-of-type(3)  @1024px */
+.REPLACE-ME {
+  transform: matrix(1, 0, 0, 1, 0, 80);
+}
+/* section > footer.footer.color-scheme-5 > div.footer__content-top.page-width:nth-of-type(1) > div.footer__blocks-wrapper.grid:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transform: matrix(1, 0, 0, 1, 0, 20);
+}
+/* section > footer.footer.color-scheme-5 > div.footer__content-top.page-width:nth-of-type(1) > div.footer__blocks-wrapper.grid:nth-of-type(1) > div.footer-block.grid__item:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transform: matrix(1, 0, 0, 1, 0, 20);
+}
+/* section > footer.footer.color-scheme-5 > div.footer__content-top.page-width:nth-of-type(1) > div.footer__blocks-wrapper.grid:nth-of-type(1) > div.footer-block.grid__item:nth-of-type(2)  @1024px */
+.REPLACE-ME {
+  transform: matrix(1, 0, 0, 1, 0, 20);
+}
+/* section > footer.footer.color-scheme-5 > div.footer__content-top.page-width:nth-of-type(1) > div.footer__blocks-wrapper.grid:nth-of-type(1) > div.footer-block.grid__item:nth-of-type(3)  @1024px */
+.REPLACE-ME {
+  transform: matrix(1, 0, 0, 1, 0, 20);
+}
+/* section > footer.footer.color-scheme-5 > div.footer__content-top.page-width:nth-of-type(1) > div.footer__blocks-wrapper.grid:nth-of-type(1) > div.footer-block.grid__item:nth-of-type(4)  @1024px */
+.REPLACE-ME {
+  transform: matrix(1, 0, 0, 1, 0, 20);
+}
+/* section > footer.footer.color-scheme-5 > div.footer__content-top.page-width:nth-of-type(1) > div.footer__blocks-wrapper.grid:nth-of-type(1) > div.footer-block.grid__item:nth-of-type(4) > div.footer-block__details-content.rte > p > a:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: text-decoration-thickness 0.1s ease;
+}
+/* section > footer.footer.color-scheme-5 > div.footer__content-top.page-width:nth-of-type(1) > div.footer__blocks-wrapper.grid:nth-of-type(1) > div.footer-block.grid__item:nth-of-type(4) > div.footer-block__details-content.rte > p > a:nth-of-type(2)  @1024px */
+.REPLACE-ME {
+  transition: text-decoration-thickness 0.1s ease;
+}
+/* section > footer.footer.color-scheme-5 > div.footer__content-bottom.scroll-trigger:nth-of-type(2)  @1024px */
+.REPLACE-ME {
+  transform: matrix(1, 0, 0, 1, 0, 20);
+}
+/* #av-overlay-form  @1024px */
+.REPLACE-ME {
+  transform: matrix(1, 0, 0, 1, -204.797, -153.586);
+}
+/* html.js > body.gradient > a.skip-to-content-link.button  @1440px */
+.REPLACE-ME {
+  transition: box-shadow 0.1s ease;
+}
+/* section > div.utility-bar.color-scheme-4 > div.page-width.utility-bar__grid > div.announcement-bar:nth-of-type(1) > a.announcement-bar__link.link > p.announcement-bar__message.h5 > svg.icon.icon-arrow > path  @1440px */
+.REPLACE-ME {
+  transition: transform 0.1s ease;
+  transform: matrix(1, 0, 0, 1, -2.5, 0);
+}
+/* section > sticky-header.header-wrapper.color-scheme-1 > header.header.header--middle-left > a.header__heading-link.link > div.header__heading-logo-wrapper  @1440px */
+.REPLACE-ME {
+  transition: width 0.3s cubic-bezier(0.52, 0, 0.61, 0.99);
+}
+/* #HeaderMenu-cones > span  @1440px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #HeaderMenu-MenuList-1  @1440px */
+.REPLACE-ME {
+  transition: opacity, transform 0.2s, 0.2s ease, ease 0s, 0s;
+  transform: matrix(1, 0, 0, 1, 0, -15);
+}
+/* #HeaderMenu-nicotine > span  @1440px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #HeaderMenu-MenuList-2  @1440px */
+.REPLACE-ME {
+  transition: opacity, transform 0.2s, 0.2s ease, ease 0s, 0s;
+  transform: matrix(1, 0, 0, 1, 0, -15);
+}
+/* #HeaderMenu-edibles > span  @1440px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #HeaderMenu-explore-more > span.header__active-menu-item  @1440px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #HeaderMenu-MenuList-4  @1440px */
+.REPLACE-ME {
+  transition: opacity, transform 0.2s, 0.2s ease, ease 0s, 0s;
+  transform: matrix(1, 0, 0, 1, 0, -15);
+}
+/* #HeaderMenu-explore-more-glass > span  @1440px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #HeaderMenu-SubMenuList-explore-more-glass-  @1440px */
+.REPLACE-ME {
+  transition: opacity, transform 0.2s, 0.2s ease, ease 0s, 0s;
+  transform: matrix(1, 0, 0, 1, 0, -15);
+}
+/* #HeaderMenu-explore-more-mushroom > span  @1440px */
+.REPLACE-ME {
+  transition: text-decoration 0.1s ease;
+}
+/* #HeaderMenu-SubMenuList-explore-more-mushroom-  @1440px */
+.REPLACE-ME {
+  transition: opacity, transform 0.2s, 0.2s ease, ease 0s, 0s;
+  transform: matrix(1, 0, 0, 1, 0, -15);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
