@@ -1,6 +1,6 @@
 {
   "schema": "site-reforge/seo-changes@1",
-  "generated": "2026-09-22T03:14:07.909Z",
+  "generated": "2026-09-22T03:56:25.053Z",
   "note": "Every field written into the build by sr-seo --apply. Each carries where its value came from. A field the source already filled is never rewritten here.",
   "siteUrl": "https://smokeshopgurus.com",
   "siteName": "Smoke Shop Guru",

@@ -98,6 +98,13 @@ a control that proves it can fail. Some of what they caught:
   frames compared. Its control injects a 16px seam.
 - `probe-vapor-visible` / `-speed` / `-bounds` — three different questions about the
   smoke, because "it is running" and "you can see it" are not the same claim.
+- `probe-rail` — the mobile Latest Products carousel, as four separate claims: it
+  scrolls, the last card is reachable, it snaps, and every card actually reveals.
+  Its control removes the rail class, which must turn the verdict red.
+- `lock-view` — captures the whole page at every desktop width and compares two
+  builds pixel by pixel. It found four ways its own captures were non-deterministic
+  before it was allowed to certify anything, and one "difference" that turned out to
+  be an artifact of `captureBeyondViewport` rather than the rendering.
 - `probe-hero-contrast`, `probe-overflow`, `probe-scrollperf`, `probe-drawer`,
   `probe-brand-a11y`, `probe-css-parity`, `probe-marquee-focus`, `probe-marquee-scroll`.
 

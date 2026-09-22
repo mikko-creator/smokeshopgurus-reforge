@@ -835,6 +835,121 @@ line-height and read the 44px tap-target minimum, so it called every single-line
 two lines. Counting real line boxes via a Range is what makes "wraps to a second row"
 a measurement rather than an impression.
 
+## Revision — Latest Products becomes a carousel on phones, and the desktop is locked
+
+Two halves, and the second one is the harder one: change the phone layout, and
+*prove* the desktop did not move.
+
+### What was wrong
+
+Eight product cards stacked one per column measured **4,782px — 5.67 screens** at
+390x844, on a page that is 13.4 screens end to end. The section was more than a
+third of the whole document, and it sat between the category tiles and the trust
+badges, so everything after it was behind five screens of swiping.
+
+Stacking is right for a collection page, where browsing *is* the task. It is wrong
+for a taste of what is new on the way to somewhere else.
+
+### The change
+
+Below 768px that one grid becomes a horizontal snap rail. Above it, nothing:
+
+| | before | after |
+|---|---|---|
+| section height @390 | 4,782px | **591px** |
+| screens of scrolling | 5.67 | **0.70** |
+| whole document @390 | 11,335px | **7,144px** |
+
+Verified at 360, 390, 480 and 767: it scrolls, **all 8 cards are reachable**, the
+last card's right edge comes fully inside the box, it **rests 0px from a card edge**
+when released mid-swipe, and **8 of 8 cards reveal** as they arrive from the right.
+No horizontal overflow on the document at any of them. At 768 and 1440 the class
+matches nothing and the grid is still `display: grid` with no tab stop.
+
+Four decisions worth writing down:
+
+- **flex, not a one-row grid.** `grid-auto-flow: column` sizes each track to the
+  widest card, so the rail would inherit whichever product has the longest title.
+- **`clamp(228px, 72%, 300px)`.** A bare percentage breaks at both ends — 72% of a
+  360px phone is too narrow to read a price on, 72% of a 767px tablet is a 529px
+  slab with nothing beside it. Inside the clamp, the next card always peeks, and
+  that peek is the only affordance a horizontal scroller really needs.
+- **`scroll-snap-align: start`, not `center`.** Centre snapping cannot bring the
+  first card to rest against the left edge, so the rail opens looking misaligned.
+  Start-snapping plus scroll-padding matching the shell gutter puts the first card
+  exactly where the heading above it starts.
+- **`padding-block` is for the shadow, not for looks.** `--plate-raised` ends in
+  `0 6px 16px`; without room, `overflow-y: hidden` slices every card's shadow off
+  square.
+
+`src/scripts/rail.js` adds `tabindex="0"`, `role="group"` and a label — but only
+while `scrollWidth` actually exceeds `clientWidth`, and it takes them off again
+when it does not. A focus stop on something that cannot scroll is a dead tab stop.
+Re-checked on resize and after fonts load.
+
+### Locking the desktop, and the three ways the instrument lied first
+
+`tools/lock-view.mjs` captures the whole page at 1440 / 1280 / 1024 / 768 and
+compares two runs pixel by pixel. Final result: **0 differing pixels at all four
+widths**, with a positive control (a 0.4px `letter-spacing` nudge scoped to
+`min-width: 768px`) correctly reporting 19,698.
+
+Getting there took four fixes, every one found by running the tool against an
+**unchanged** build and demanding zero:
+
+1. **322,812 pixels, from the carousel.** `marquee.js` re-applies `.is-focus` from
+   a `requestAnimationFrame` loop, so removing the class does nothing — it is back
+   next frame, on whichever card is nearest the middle. Every focus rule is scoped
+   to `html.js-marquee`; dropping that class makes the loop's writes inert.
+2. **A whole row of category tiles, present in one capture and empty in the next.**
+   They carry their photograph as a CSS `background-image`, so they are not in
+   `document.images` and "0 broken images" said nothing about them. Every `url()`
+   the page's computed styles resolve to is now fetched and decoded first.
+3. **21,158 pixels of hairline around every card.** Forcing `.is-in` *starts* a
+   transition — 0.55s plus a stagger of up to 8 x 55ms — so cards revealed by the
+   freeze itself were still moving for up to 990ms afterwards. Waiting longer is a
+   guess; the freeze now turns transitions off outright.
+4. **6,869 pixels inside one photograph.** Chrome paints a scaled background image
+   at low filtering quality and re-rasters it a moment later; on the one category
+   tile that sits alone on its row at 768px that was the whole difference between
+   two runs of the same build.
+
+### The finding that was not one
+
+With those fixed, 1440 / 1280 / 1024 read zero and **768 reported 14,290 differing
+pixels**, reproducibly, starting at exactly the top of the Latest Products grid.
+It was not a rendering difference:
+
+- the grid measured **identical to three decimal places** on both builds — same
+  `display`, same `grid-template-columns`, same card box, same section height,
+  same document height, `tabindex: null` on both
+- the CSS delta between the two builds is **four rules, all inside
+  `@media (max-width: 767px)`**, which does not match at 768
+- no image byte in `dist/assets/` changed, and every other page differed by one
+  blank line
+- screenshotted the **ordinary** way at the same scroll offset, the two builds
+  differed by **6 pixels** — photographic dither, delta 14 on a threshold of 12
+
+The difference came from `Page.captureScreenshot` with `captureBeyondViewport`,
+which rasterises the whole document onto one surface; with 17 `backdrop-filter`
+elements and 8 `mix-blend-mode` images on the page, that path reports edge
+differences the browser does not paint. `lock-view.mjs` now captures a column of
+**ordinary viewport screenshots and stitches them**, hiding the sticky masthead
+from the second slice on so it is compared where it belongs instead of being
+pasted over the content of every band beneath it.
+
+Both controls pass on the stitched instrument: three runs of the unchanged build
+are byte-identical at all four widths, and the deliberate desktop nudge is caught.
+
+### Where everything else landed
+
+Gate unchanged at **23/5/1**. Sweep **0 blockers / 0 majors** across 24 runs.
+Contrast on the rail cards 7.24 / 6.77 / 5.36 against floors of 4.5 / 4.5 / 3.
+Payload 1,053.6 KB at 390, **0 long frames**. Marquee geometry still exact with a
+0.0px drift per cycle, the manual wrap still invisible in both directions, the
+mega menu still 0 escapes with 11 links wrapping, the FAQ still slides through 23
+heights.
+
 ## A defect this project caused and repaired
 
 `sr-rebase` takes `--dir`; given `--project` it falls back to the current directory.

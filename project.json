@@ -4,7 +4,7 @@
   "targetUrl": "https://smokeshopgurus.com/",
   "origin": "https://smokeshopgurus.com",
   "createdAt": "2026-09-21T03:30:48.114Z",
-  "updatedAt": "2026-09-22T03:18:52.358Z",
+  "updatedAt": "2026-09-22T04:33:39.262Z",
   "config": {
     "maxPages": 300,
     "concurrency": 4,
@@ -93,7 +93,7 @@
     },
     "responsive": {
       "status": "done",
-      "at": "2026-09-22T03:18:16.591Z",
+      "at": "2026-09-22T04:33:25.278Z",
       "note": "24 sweeps at 1024/1440/390/768"
     },
     "seo": {
@@ -108,17 +108,17 @@
     },
     "decontaminate": {
       "status": "fail",
-      "at": "2026-09-22T03:18:47.409Z",
+      "at": "2026-09-22T04:33:32.591Z",
       "note": "CONTAMINATED (1 traces)"
     },
     "parity": {
       "status": "fail",
-      "at": "2026-09-22T03:18:23.658Z",
+      "at": "2026-09-22T04:33:31.332Z",
       "note": "DRIFT — 144 findings"
     },
     "fabrication": {
       "status": "done",
-      "at": "2026-09-22T03:18:24.266Z",
+      "at": "2026-09-22T04:33:31.976Z",
       "note": "SOURCED — 0 findings"
     },
     "pixeldiff": {
@@ -138,7 +138,7 @@
     },
     "gate": {
       "status": "fail",
-      "at": "2026-09-22T03:18:48.425Z",
+      "at": "2026-09-22T04:33:39.262Z",
       "note": "NOT-READY — 23/29 passing"
     },
     "package": {

@@ -1,6 +1,6 @@
 {
   "schema": "site-reforge/image-optimisation@1",
-  "generated": "2026-09-22T03:15:34.789Z",
+  "generated": "2026-09-22T03:57:58.221Z",
   "build": "dist",
   "mode": "apply",
   "encoder": "1.6.0\r\nlibsharpyuv: 0.4.2",

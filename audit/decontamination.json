@@ -1,9 +1,9 @@
 {
   "schema": "site-reforge/decontamination@1",
-  "generated": "2026-09-22T03:18:47.407Z",
+  "generated": "2026-09-22T04:33:32.590Z",
   "target": "C:\\Users\\Dell\\smokeshopgurus-reforge\\dist",
-  "filesFound": 154,
-  "filesScanned": 154,
+  "filesFound": 155,
+  "filesScanned": 155,
   "filesSkipped": 0,
   "counts": {
     "blocker": 1

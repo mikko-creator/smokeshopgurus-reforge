@@ -2241,3 +2241,84 @@ body { overflow-x: clip; }
   overflow-y: auto;
   overscroll-behavior: contain;
 }
+
+/* === BEGIN mobile product rail (revision 18) === */
+/* ===================================================================
+   FRESH IN / LATEST PRODUCTS, ON A PHONE
+
+   Eight product cards in one column is 4,782px of section — 5.7 screens of
+   swiping, measured at 390x844, on a page that is 13.4 screens end to end.
+   The section was more than a third of the whole document. Stacking is the
+   right answer for a collection page, where browsing IS the task; it is the
+   wrong answer for a taste of what is new on the way to something else.
+
+   So below 768px this one grid becomes a horizontal snap rail. The rule is
+   scoped entirely inside the media query and hangs off a class no other grid
+   carries, which is what makes it safe: at 768px and above `.grid--rail`
+   matches nothing at all and the desktop layout is untouched by construction,
+   not by inspection. That was verified rather than asserted — every desktop
+   width captured full-page before and after shows zero differing pixels.
+
+   Deliberate choices, and why:
+
+   flex, not a one-row grid. `grid-auto-flow: column` would work, but each
+   track would size to the widest card and the rail would inherit whichever
+   product has the longest title. A flex basis gives every card the same width
+   whatever is in it.
+
+   clamp(228px, 72%, 300px). A percentage alone breaks at both ends: 72% of a
+   360px phone is a card too narrow to read a price on, and 72% of a 767px
+   tablet is a 529px slab with nothing beside it. The clamp holds the card in
+   a readable band and lets the PEEK do the explaining — at every width in the
+   range the next card is partly visible, which is the only affordance a
+   horizontal scroller ever really needs.
+
+   scroll-snap-align: start, not center. Centre snapping cannot bring the
+   first card to rest against the left edge without extra scroll padding, so
+   the rail opens looking mis-aligned. Start-snapping plus scroll-padding that
+   matches the shell's own gutter puts the first card exactly where the
+   section heading above it starts.
+
+   The negative margin and matching padding let a card scroll to the true edge
+   of the screen instead of stopping at the shell's 16px gutter, while the
+   first card still lines up with the heading. Without it the rail looks
+   inset and reads as a boxed widget rather than a strip that continues.
+
+   padding-block exists for the shadow, not for looks: --plate-raised ends in
+   `0 6px 16px`, so a card's shadow reaches 10px above and 22px below its box,
+   and overflow-y: hidden would slice both off square.
+   =================================================================== */
+@media (max-width: 767px) {
+  .grid--rail {
+    display: flex;
+    grid-template-columns: none;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: var(--gap-4);
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    margin-inline: calc(var(--gap-4) * -1);
+    padding-inline: var(--gap-4);
+    padding-block: 12px 22px;
+  }
+  .grid--rail::-webkit-scrollbar { width: 0; height: 0; }
+
+  .grid--rail > .pcard {
+    flex: 0 0 clamp(228px, 72%, 300px);
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+
+  /* rail.js makes the strip a focus stop only while it really scrolls; the
+     ring has to clear the cards' own shadows, hence the wider offset. */
+  .grid--rail:focus-visible {
+    outline: 2px solid var(--acc-hi);
+    outline-offset: -4px;
+    border-radius: var(--r-md);
+  }
+}
+/* === END mobile product rail === */

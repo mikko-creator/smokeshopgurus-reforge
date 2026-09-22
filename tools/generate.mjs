@@ -395,6 +395,7 @@ ${body}
   <script src="/scripts/reveal.js" defer></script>
   <script src="/scripts/accordion.js" defer></script>
   ${body.includes('marquee__track') ? '<script src="/scripts/marquee.js" defer></script>' : ''}
+  ${body.includes('grid--rail') ? '<script src="/scripts/rail.js" defer></script>' : ''}
 </body>
 </html>
 `;
@@ -510,8 +511,12 @@ function marquee(list) {
         </div>`;
 }
 
-function productGrid(list) {
-  return `<div class="grid grid--4">
+function productGrid(list, mod, railLabel) {
+  // `mod` is an extra class on the grid itself. The only one in use is
+  // grid--rail, which at phone widths turns this grid into a horizontal
+  // snap carousel; at 768px and above the class does nothing at all, so a
+  // grid that carries it renders exactly as one that does not.
+  return `<div class="grid grid--4${mod ? ' ' + mod : ''}"${railLabel ? ` data-rail-label="${attr(railLabel)}"` : ''}>
         ${list.map((p, i) => productCard(p, i)).join('\n        ')}
       </div>`;
 }
@@ -593,7 +598,7 @@ function renderHome() {
       <div class="sec__head" data-reveal>
         <div><span class="sec__kicker">Fresh in</span><h2 class="sec__title">Latest Products</h2></div>
       </div>
-      ${productGrid(latest)}
+      ${productGrid(latest, 'grid--rail', 'Latest Products')}
     </section>
 
     <section class="shell sec">
