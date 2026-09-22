@@ -1,6 +1,6 @@
 {
  "schema": "smokeshopgurus/cutouts@1",
- "generated": "2026-09-21T16:11:10.504Z",
+ "generated": "2026-09-22T03:14:07.466Z",
  "note": "Client product photographs with the studio background flood-filled away by tools/cutout.mjs, for the Best Seller marquee only. The originals are untouched and are still what every product page and grid shows.",
  "tool": "tools/cutout.mjs",
  "count": 7,

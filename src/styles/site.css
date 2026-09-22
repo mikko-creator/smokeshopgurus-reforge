@@ -2196,3 +2196,48 @@ body { overflow-x: clip; }
 /* Held while a hand is on the strip: the auto-travel stops so the transform is
    not sliding products out from under the gesture trying to move them. */
 .marquee__track.is-dragging { animation-play-state: paused; }
+
+/* === BEGIN mega-menu wrapping (revision 17) === */
+/*
+   Long category names were painting over the next column and, for two of them,
+   straight off the panel: "Functional Mushroom Products" rendered 230px wide in
+   a 150px column — 80px of text on top of its neighbour.
+
+   TWO causes, and fixing only the obvious one does nothing.
+
+   white-space: nowrap forbade the wrap outright. But removing it alone is not
+   enough, because the link was display: inline-flex — an inline-level box is
+   shrink-to-fit, so it sizes itself to the text's max-content width and
+   overflows the column whatever the wrapping rules say. It has to be a
+   BLOCK-level flex container to take the column's width and let the text wrap
+   inside it.
+
+   overflow-wrap: anywhere is the backstop for the case wrapping cannot help
+   with: a single word longer than the column has nowhere to break, and would
+   escape exactly as before.
+*/
+.nav__panel a {
+  display: flex;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  min-width: 0;
+  line-height: 1.3;
+  align-items: center;
+}
+/* === END mega-menu wrapping === */
+
+/* The wide panel is taller than a short window. Measured at 1563x653 — a real
+   window size, not a contrived one — it ran 117px past the bottom BEFORE the
+   wrapping fix and 134px after, so the last categories were unreachable either
+   way. Wrapping made a pre-existing defect 17px worse; this fixes both.
+
+   The panel opens 104px down (sticky masthead plus the gap), so the room left
+   is the viewport minus that, minus a margin so it does not sit flush against
+   the bottom edge. Past that it scrolls, and the scrollbar is left visible
+   deliberately: it is the only thing telling a visitor there are more
+   categories below. */
+.nav__panel {
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}

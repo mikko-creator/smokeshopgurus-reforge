@@ -797,6 +797,44 @@ else re-verified: loop geometry exact, seam invisible, centre highlight still ha
 off one card at a time, hover pause, reduced motion, contrast 18.7:1 / 7.6:1, 0 long
 frames, sweep 0 blockers / 0 majors, gate 23/5/1.
 
+## Revision — mega-menu links painting over the next column
+
+Long category names ran out of their column and over their neighbour.
+"Functional Mushroom Products" rendered **230px wide in a 150px column** — 80px of
+text on top of the next column's links — and two names ran off the panel entirely.
+Measured by `tools/probe-megamenu.mjs`, which forces every panel open (they exist
+only on hover, so nothing that measures the page at rest can see them) and compares
+each link against its column and its panel: **11 links wider than their column, 2 past
+the panel, 0 wrapping**.
+
+**Two causes, and fixing only the obvious one changes nothing.** `white-space: nowrap`
+forbade the wrap. But the links were also `display: inline-flex`, and an inline-level
+box is shrink-to-fit — it sizes itself to the text's max-content width and overflows
+the column whatever the wrapping rules say. It has to be a **block-level** flex
+container to take the column's width and let the text wrap inside it.
+`overflow-wrap: anywhere` is the backstop for a single word longer than the column,
+which wrapping alone cannot help with.
+
+After: **0 escaping, 11 links wrapping to a second row**, at 1024 / 1280 / 1440 /
+1563 / 1920.
+
+### The fix exposed a defect that was already there
+
+Wrapping makes a panel taller. At **1563x653** — the window this was reported from —
+the wide panel ran **134px past the bottom of the screen**, so the last categories
+could not be reached. Checking the previous CSS at the same size: it ran **117px**
+past. The overflow was pre-existing; wrapping added 17px to it.
+
+Both are fixed. The panel now caps at the room below its own top edge and scrolls
+past that, with the scrollbar left visible on purpose — it is the only thing telling
+a visitor there are more categories below. Verified at window heights 653, 700, 800,
+900 and 1080: it fits at every one.
+
+The probe's own line counter was wrong first time round: it divided height by
+line-height and read the 44px tap-target minimum, so it called every single-line link
+two lines. Counting real line boxes via a Range is what makes "wraps to a second row"
+a measurement rather than an impression.
+
 ## A defect this project caused and repaired
 
 `sr-rebase` takes `--dir`; given `--project` it falls back to the current directory.

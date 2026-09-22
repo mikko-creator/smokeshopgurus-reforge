@@ -2,14 +2,14 @@
   "schema": "site-reforge/handoff-manifest@1",
   "project": "smokeshopgurus-com",
   "target": "https://smokeshopgurus.com/",
-  "version": "v20260921",
-  "builtAt": "2026-09-21T16:16:53.288Z",
+  "version": "v20260922",
+  "builtAt": "2026-09-22T03:18:49.141Z",
   "gateVerdict": "NOT-READY",
   "decontamination": "CONTAMINATED",
   "forced": {
-    "why": "Gate is NOT-READY on six checks, all analysed in docs/CHANGE-LOG.md and none of them unexplained. C03 and C06 grade the SOURCE crawl, not the rebuild: the live site fails one Shopify OAuth endpoint and ships no <title> on 150 of 150 pages (the rebuild fixes the titles). C22 asks for pixel-identity with the source, which a commissioned redesign deliberately does not have - 98-99.5% drift measured across 24 pairs rather than skipped. C21 is one sentence of the CLIENT'S OWN Terms of Service saying the store is powered by Shopify; rewriting a customer's legal text is not a developer's decision, and DEPLOY.md hands it to their counsel. C17 is 95.4% mean content recall with 0 blockers and 0 missing pages; the residual is Shopify rendering its product form four times per page, not lost copy. C12 had no preset library supplied. This revision makes the Best Seller strip endless to MANUAL scrolling as well as to the auto-travel: the scrollbar under the transform had an ordinary finite range and dead-ended at the last product. The scroll position now wraps by exactly one copy width, verified pixel-identical either side of the join at 1440, 768 and 390, against a control that pins at the maximum with 231281 differing pixels when the handler is removed."
+    "why": "Gate is NOT-READY on six checks, all analysed in docs/CHANGE-LOG.md and none of them unexplained. C03 and C06 grade the SOURCE crawl, not the rebuild. C22 asks for pixel-identity with the source, which a commissioned redesign deliberately does not have. C21 is one sentence of the CLIENT'S OWN Terms of Service. C17 is 95.4% mean content recall with 0 blockers and 0 missing pages. C12 had no preset library supplied. This revision fixes mega-menu links painting over the next column: they were nowrap AND inline-flex, so they shrink-to-fit to max-content and overflow whatever the wrapping rules say. Now block-level and wrapping, 0 escaping across five desktop widths, and the panel caps its height so its lower categories are reachable on a short window - an overflow that predated this fix by 117px."
   },
-  "entryCount": 4265,
+  "entryCount": 4267,
   "checks": [
     {
       "id": "C01",
@@ -217,6 +217,7 @@
   ],
   "contents": [
     ".gitignore",
+    "README.md",
     "assets/fonts/playfairdisplay_n4.9980f3e16959dc89137cc1369bfc3ae98af1deb9.woff2",
     "assets/fonts/playfairdisplay_n4.c562b7c8e5637886a811d2a017f9e023166064ee.woff",
     "assets/js/04ba3ff0-global.js",
@@ -3943,6 +3944,7 @@
     "audit/perf/hoverfix.json",
     "audit/perf/marq-desk.json",
     "audit/perf/marq-mob.json",
+    "audit/perf/mega.json",
     "audit/perf/noemit-desk.json",
     "audit/perf/noemit-mob.json",
     "audit/perf/postimg.json",
