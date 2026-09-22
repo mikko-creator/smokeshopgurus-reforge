@@ -1,0 +1,4 @@
+# PREVIEW ONLY — staging copy of a live store; an indexable duplicate would
+# compete with the real site in search.
+User-agent: *
+Disallow: /
