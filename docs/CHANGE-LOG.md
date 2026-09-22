@@ -941,6 +941,14 @@ pasted over the content of every band beneath it.
 Both controls pass on the stitched instrument: three runs of the unchanged build
 are byte-identical at all four widths, and the deliberate desktop nudge is caught.
 
+### A defect found while publishing this one
+
+`smokeshopgurus-preview` has been serving the **production** `robots.txt` since it
+was created — the crawlable one — on a public, indexable duplicate of a live store.
+The sibling preview on `gh-pages` carried the disallow-all file as intended, and the
+README claimed both did. Caught by comparing what each URL actually serves rather
+than by trusting the sentence. Replaced; both now answer `Disallow: /`.
+
 ### Where everything else landed
 
 Gate unchanged at **23/5/1**. Sweep **0 blockers / 0 majors** across 24 runs.
